@@ -1,0 +1,49 @@
+<template>
+  <v-card
+      :height="height"
+      :width="width"
+      flat
+      tile
+      dark
+      v-bind="$attrs"
+      v-on="$listeners"
+
+  ><!--      @click="$emit('click')"-->
+    <v-img
+        :src="require(`@/assets/${value.img.preview}`)"
+        height="100%"
+        gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
+        class="align-end"
+    >
+      <v-card-title class="text-right">{{ value.title }}</v-card-title>
+    </v-img>
+  </v-card>
+</template>
+
+<script>
+  export default {
+    name: "GalleryCard",
+
+    props: {
+      height: {
+        type: Number,
+        // required: true,
+        // default: 270
+      },
+      width: {
+        type: Number,
+        default: 270
+      },
+      value: {
+        type: Object,
+        default: () => ({}),
+      },
+    },
+
+
+  }
+</script>
+
+<style scoped>
+
+</style>
