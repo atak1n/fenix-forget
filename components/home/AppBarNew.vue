@@ -4,57 +4,48 @@
         id="home-app-bar"
         app
         color="white"
-        elevation="1"
+        shrink-on-scroll
+        fade-img-on-scroll
+        prominent
+        :src="require('@/assets/home_hero_2.jpg')"
     >
-      <!--      <base-img-->
-      <!--        :src="require('@/assets/logo.svg')"-->
-      <!--        class="mr-3 hidden-xs-only"-->
-      <!--        contain-->
-      <!--        max-width="52"-->
-      <!--        width="100%"-->
-      <!--      />-->
-
-      <!--      <base-img-->
-      <!--        :src="require('@/assets/zero-logo-light.svg')"-->
-      <!--        contain-->
-      <!--        max-width="128"-->
-      <!--        width="100%"-->
-      <!--      />-->
+      <template v-slot:img="{ props}">
+        <v-img
+          v-bind="props"
+          gradient="180deg, rgba(2,0,36,1) 0%, rgba(255,192,0,0.6334733722590599) 0%, rgba(244,81,30,1) 100%, rgba(55,55,145,1) 100%"
+        />
+      </template>
 
 <!--      <base-img-->
-<!--          :src="require('@/assets/phoenix-logo.svg')"-->
-<!--          class="mr-3 hidden-xs-only"-->
+<!--          :src="require('@/assets/egg-logo.png')"-->
 <!--          contain-->
-<!--          max-width="40"-->
+<!--          max-width="60"-->
 <!--          width="100%"-->
+<!--          class="mr-3 v-card&#45;&#45;link"-->
+<!--          @click="$vuetify.goTo(0)"-->
+<!--          alt="вверх страницы"-->
 <!--      />-->
-      <base-img
-          :src="require('@/assets/egg-logo.png')"
-          contain
-          max-width="60"
-          class="mr-3 v-card--link"
-          @click="$vuetify.goTo(0)"
-          alt="вверх страницы"
-      />
 <!--      <v-app-bar-nav-icon class="ml-3">-->
 <!--        <v-icon color="primary" x-large>mdi-shield-half-full</v-icon>-->
 <!--      </v-app-bar-nav-icon>-->
 
-      <v-toolbar-title class=" v-card--link" @click="$router.push({path: '/'})">
+      <v-app-bar-title-title class=" v-card--link" @click="$router.push({path: '/'})">
           {{ companyName }}
-      </v-toolbar-title>
+      </v-app-bar-title-title>
+
       <v-spacer />
-      <v-btn class="hidden-sm-and-down text-h5"
+
+      <v-btn class="hidden-sm-and-down "
              :href="'tel:'+ phone"
              text
-             x-large
+
       >
         {{ phone }}
       </v-btn>
 
       <v-spacer />
 
-      <div>
+
 
         <v-tabs
             class="hidden-sm-and-down"
@@ -74,12 +65,12 @@
               v-html="item.alias"
           />
         </v-tabs>
-      </div>
 
-      <v-app-bar-nav-icon
-          class="hidden-md-and-up"
-          @click="drawer = !drawer"
-      />
+
+<!--      <v-app-bar-nav-icon-->
+<!--          class="hidden-md-and-up"-->
+<!--          @click="drawer = !drawer"-->
+<!--      />-->
     </v-app-bar>
 
     <home-drawer
