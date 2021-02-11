@@ -4,6 +4,11 @@
       <v-col cols="12">
         <hero />
       </v-col>
+
+      <v-col cols="12">
+        <Products/>
+      </v-col>
+
       <v-col cols="12">
         <projects />
       </v-col>
@@ -31,6 +36,8 @@
       Services: () => import('~/components/sections/Services.vue'),
       ContactUs: () => import('~/components/sections/ContactUs.vue'),
       Info: () => import('~/components/sections/Info.vue'),
+
+      Products: () => import('~/components/sections/Products')
     },
 
     scrollToTop: true,
