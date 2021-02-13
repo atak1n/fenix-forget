@@ -3,24 +3,26 @@
   <v-navigation-drawer
     v-model="drawer"
     app
-    permanent
-    :mini-variant.sync="mini"
     clipped
+    floating
+    color="#212121"
+    dark
+    style="max-height: 100%"
   >
 <!--<div :style="topOffset">-->
 
 
-    <v-list-item >
+    <v-list-item nav>
       <v-list-item-icon>
         <v-icon>mdi-check-decagram</v-icon>
       </v-list-item-icon>
       <v-list-item-title>Товары</v-list-item-title>
-      <v-btn
-        icon
-        @click.stop="mini = !mini"
-      >
-        <v-icon>mdi-chevron-left</v-icon>
-      </v-btn>
+<!--      <v-btn-->
+<!--        icon-->
+<!--        @click.stop="mini = !mini"-->
+<!--      >-->
+<!--        <v-icon>mdi-chevron-left</v-icon>-->
+<!--      </v-btn>-->
     </v-list-item>
 
     <v-divider/>
@@ -40,6 +42,8 @@
       </v-list-item>
 
     </v-list>
+    <v-list-item style="height: 124px" />
+
 <!--</div>-->
 
   </v-navigation-drawer>
@@ -61,8 +65,8 @@ export default {
 
   }),
   computed: {
-    topOffset() {
-       return `top: ${this.$vuetify.application.top}px; position: fixed`
+    bottomOffset() {
+       return `height: ${this.$vuetify.application.bottom}px; position: fixed`
     }
   }
 }

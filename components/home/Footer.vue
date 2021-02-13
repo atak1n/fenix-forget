@@ -4,7 +4,6 @@
       id="home-footer"
       color="grey darken-4"
       dark
-      min-height="72"
       absolute
   >
     <v-container>
