@@ -1,5 +1,18 @@
 <template>
-
+<div>
+  <v-btn
+    fixed
+    dark
+    left
+    v-if="!drawer"
+    :style="btnFixedStyle"
+    color="primary"
+  >
+    <v-icon left>
+    mdi-cart
+  </v-icon>
+    каталог
+  </v-btn>
   <v-navigation-drawer
     v-model="drawer"
     app
@@ -48,6 +61,7 @@
 
   </v-navigation-drawer>
 
+</div>
 </template>
 
 <script>
@@ -67,6 +81,9 @@ export default {
   computed: {
     bottomOffset() {
        return `height: ${this.$vuetify.application.bottom}px; position: fixed`
+    },
+    btnFixedStyle() {
+      return `z-index: 4; bottom: ${this.$vuetify.application.footer}px`
     }
   }
 }
