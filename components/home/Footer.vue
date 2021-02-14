@@ -52,7 +52,7 @@
             cols="12"
             md="6"
         >
-          Copyright &copy; {{ date }} Studio Ataka
+          Studio Ataka {{ date }}
         </v-col>
       </v-row>
     </v-container>
