@@ -2,23 +2,23 @@
   <base-section id="projects">
     <base-section-heading :title="title">{{ annotate }}</base-section-heading>
     <v-responsive
-        class="mx-auto"
-        max-width="1350"
+      class="mx-auto"
+      max-width="1350"
     >
       <v-container fluid>
         <v-row justify="center">
           <v-col
-              cols="12"
-              md="3"
-              sm="6"
-              v-for="(project, i) in projects"
-              :key="i"
+            cols="12"
+            md="3"
+            sm="6"
+            v-for="(project, i) in projects"
+            :key="i"
 
           >
             <base-gallery-card
-                :value="project"
-                :width="mobile ? 400 : 300"
-                @click="openCard(project)"
+              :value="project"
+              :width="mobile ? 400 : 300"
+              @click="openCard(project)"
             />
           </v-col>
 
@@ -27,33 +27,33 @@
                     max-height="750"
                     :fullscreen="mobile"
           >
-<!--            v-model="activeCard"-->
-              <v-carousel
-                  :class="mobile ? 'mt-16' : ''"
-                  hide-delimiters
-              >
-                <v-carousel-item
-                    v-for="(project, i) in imgsGroup"
-                    :key="i"
-                    :src="require(`@/assets/${project.img.original}`)"
-                    contain
+            <!--            v-model="activeCard"-->
+            <v-carousel
+              :class="mobile ? 'mt-16' : ''"
+              hide-delimiters
+            >
+              <v-carousel-item
+                v-for="(project, i) in imgsGroup"
+                :key="i"
+                :src="require(`@/assets/${project.img.original}`)"
+                contain
 
+              >
+                <v-btn
+
+                  fab
+                  absolute
+                  text
+                  right
+                  small
+                  class="primary--text"
+                  @click="dialog = false"
                 >
-                  <v-btn
-                      color="transparent"
-                      fab
-                      absolute
-                      text
-                      right
-                      small
-                      class="primary--text"
-                      @click="dialog = false"
-                  >
-                    <v-icon large>mdi-close-circle-outline</v-icon>
-                  </v-btn>
-                </v-carousel-item>
-              </v-carousel>
-            </v-dialog>
+                  <v-icon large>mdi-close-circle-outline</v-icon>
+                </v-btn>
+              </v-carousel-item>
+            </v-carousel>
+          </v-dialog>
         </v-row>
         <v-row justify="center" >
           <v-col class="flex-grow-0">
@@ -67,37 +67,37 @@
 </template>
 
 <script>
-  import store from "~/myStore"
+import store from "~/myStore"
 
-  export default {
-    name: "SectionProjects",
-    data: () => ({
-      dialog: false,
-      annotate: store.projects.annotate,
-      title: store.projects.title,
-      projects: store.projects.types,
-      gallery: store.gallery.images,
-      activeGroup: '',
+export default {
+  name: "SectionProjects",
+  data: () => ({
+    dialog: false,
+    annotate: store.projects.annotate,
+    title: store.projects.title,
+    projects: store.projects.types,
+    gallery: store.gallery.images,
+    activeGroup: '',
 
-    }),
-    methods: {
-      openCard(project) {
-        this.activeGroup = project
-        this.dialog = true
-      },
+  }),
+  methods: {
+    openCard(project) {
+      this.activeGroup = project
+      this.dialog = true
     },
-    computed: {
-      mobile() {
-        return this.$vuetify.breakpoint.mobile
-      },
-      imgsGroup() {
-        const imgs = this.gallery.filter(
-          img => img.title === this.activeGroup.title
-        )
-        return imgs
-      }
+  },
+  computed: {
+    mobile() {
+      return this.$vuetify.breakpoint.mobile
     },
-  }
+    imgsGroup() {
+      const imgs = this.gallery.filter(
+        img => img.title === this.activeGroup.title
+      )
+      return imgs
+    }
+  },
+}
 </script>
 
 <style scoped>

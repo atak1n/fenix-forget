@@ -10,7 +10,7 @@
       @click="showDrawer"
     >
       <v-icon left>
-        mdi-cart
+        mdi-store
       </v-icon>
       каталог
     </v-btn>
@@ -22,7 +22,8 @@
       color="#212121"
       dark
       style="max-height: 100%"
-      :temporary="showMobileDrawer"
+      :temporary="isTemporary"
+      @input="showMobileDrawer = false"
     >
       <!--<div :style="topOffset">-->
 
@@ -88,8 +89,8 @@ export default {
     btnFixedStyle() {
       return `z-index: 4; bottom: ${this.$vuetify.application.footer}px`
     },
-    isMobile() {
-      return this.$vuetify.breakpoint.mobile
+    isTemporary() {
+      return this.$vuetify.breakpoint.mobile && this.showMobileDrawer
     },
   },
   methods: {
