@@ -10,7 +10,8 @@
 <!--          gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)"-->
 
     <v-img
-      :min-height="minHeight"
+
+      :height="testHeight"
       :src="require('@/assets/home_hero_2.jpg')"
       class="white--text"
       gradient="180deg, rgba(2,0,36,1) 0%, rgba(255,192,0,0.6334733722590599) 0%, rgba(244,81,30,1) 100%, rgba(55,55,145,1) 100%"
@@ -32,61 +33,7 @@
             <p class="base-body body-1 light--text  text-left mb-10">{{ company.about }}</p>
           </base-heading>
 
-<!--          <div-->
-<!--            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"-->
-<!--            class="d-flex flex-wrap"-->
-<!--          >-->
-<!--            <base-btn-->
-<!--                :href="'tel:' + contacts.phoneNumbers.main"-->
-<!--                :tile="false"-->
-<!--                class="ma-2"-->
-<!--            >-->
-<!--              <v-icon large left v-text="contacts.phoneNumbers.icon"/>-->
-<!--              {{ contacts.phoneNumbers.main }}-->
-<!--            </base-btn>-->
 
-<!--            <base-btn-->
-<!--                :href="getHref(contacts.whatsapp)"-->
-<!--                color="green"-->
-<!--                :tile="false"-->
-<!--                class="ma-2"-->
-<!--            >-->
-<!--              <v-icon large left v-text="contacts.whatsapp.icon"/>-->
-<!--              {{ contacts.whatsapp.title }}-->
-<!--            </base-btn>-->
-
-<!--            <span class="font-weight-bold ml-6 mr-4 my-4">&nbsp;&nbsp;&nbsp;</span>-->
-
-<!--            <base-btn-->
-<!--                :href="getHref(contacts.telegram)"-->
-<!--                color="blue"-->
-<!--                :tile="false"-->
-<!--                class="ma-2"-->
-<!--            >-->
-<!--              <v-icon large left v-text="contacts.telegram.icon"/>-->
-<!--              {{ contacts.telegram.title }}-->
-<!--            </base-btn>-->
-
-<!--            <base-btn-->
-<!--                :href="getHref(contacts.viber)"-->
-<!--                color="purple"-->
-<!--                :tile="false"-->
-<!--                class="ma-2"-->
-<!--            >-->
-<!--              &lt;!&ndash;              <v-icon large left v-text="contacts.whatsapp.icon"/>&ndash;&gt;-->
-<!--              <v-img-->
-<!--                  :src="require('@/assets/viber-light.svg')"-->
-<!--                  contain-->
-<!--                  height="32"-->
-<!--                  max-width="32"-->
-<!--                  class="mr-1"-->
-
-<!--              />-->
-<!--              {{ contacts.viber.title }}-->
-<!--            </base-btn>-->
-
-
-<!--          </div>-->
         </v-responsive>
       </v-container>
     </v-img>
@@ -121,6 +68,11 @@
 
         return `calc(${height} - ${this.$vuetify.application.top}px)`
       },
+
+      testHeight() {
+        // console.log('innerHeight', window.innerHeight)
+        return window.innerHeight / 2 + this.$vuetify.application.top
+      }
     },
   }
 </script>
