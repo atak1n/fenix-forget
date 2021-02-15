@@ -63,7 +63,6 @@
 
       <template v-slot:extension>
 
-<v-row class="">
         <v-btn class="body-1 ml-10"
                :href="'tel:'+ phone"
                text
@@ -104,7 +103,7 @@
             max-width="24"
             color="red"
           />
-        </v-btn></v-row>
+        </v-btn>
 
       </template>
 
