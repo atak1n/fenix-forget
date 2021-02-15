@@ -63,7 +63,7 @@
 
       <template v-slot:extension>
 
-
+<v-row class="">
         <v-btn class="body-1 ml-10"
                :href="'tel:'+ phone"
                text
@@ -77,6 +77,7 @@
           :href="getHref(contacts.whatsapp)"
           small
           icon
+          class="mr-1"
         >
           <v-icon color="green" v-text="contacts.whatsapp.icon"/>
         </v-btn>
@@ -85,6 +86,7 @@
           :href="getHref(contacts.telegram)"
           small
           icon
+          class="mr-2"
         >
           <v-icon color="blue darken-2" v-text="contacts.telegram.icon"/>
         </v-btn>
@@ -93,7 +95,7 @@
           :href="getHref(contacts.viber)"
           small
           icon
-          color="primary"
+
         >
           <v-img
             :src="require('@/assets/viber-purple.svg')"
@@ -102,7 +104,7 @@
             max-width="24"
             color="red"
           />
-        </v-btn>
+        </v-btn></v-row>
 
       </template>
 
