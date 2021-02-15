@@ -1,78 +1,69 @@
 <template>
   <v-theme-provider dark>
     <section id="hero">
-<!--    <v-img-->
-<!--      :min-height="minHeight"-->
-<!--      :src="require('@/assets/promo-1.jpg')"-->
-<!--      class="white&#45;&#45;text"-->
-<!--      gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)"-->
-<!--    >-->
-<!--          gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)"-->
+      <v-img
+        :height="heroHeight"
+        :src="require('@/assets/home_hero_2.jpg')"
+        class="white--text"
+        gradient="180deg, rgba(2,0,36,1) 0%, rgba(255,192,0,0.6334733722590599) 0%, rgba(244,81,30,1) 100%, rgba(55,55,145,1) 100%"
+      >
+        <v-container class="fill-height px-4 py-12">
+          <v-responsive
+            class="d-flex align-center"
+            height="100%"
+            max-width="800"
+            width="100%"
+          >
+            <!--          <base-heading title="ФЕНИКС СТАЛЬНЫЕ РЕШЕНИЯ" />-->
+            <base-heading><span>{{ company.name }}</span></base-heading>
+            <base-heading>
+              <p class="font-weight-light text-h5">{{ company.slogan }}</p>
+            </base-heading>
 
-    <v-img
-
-      :height="testHeight"
-      :src="require('@/assets/home_hero_2.jpg')"
-      class="white--text"
-      gradient="180deg, rgba(2,0,36,1) 0%, rgba(255,192,0,0.6334733722590599) 0%, rgba(244,81,30,1) 100%, rgba(55,55,145,1) 100%"
-    >
-      <v-container class="fill-height px-4 py-12">
-        <v-responsive
-          class="d-flex align-center"
-          height="100%"
-          max-width="800"
-          width="100%"
-        >
-<!--          <base-heading title="ФЕНИКС СТАЛЬНЫЕ РЕШЕНИЯ" />-->
-          <base-heading><span>{{ company.name }}</span></base-heading>
-          <base-heading>
-            <p class="font-weight-light text-h5">{{ company.slogan }}</p>
-          </base-heading>
-
-          <base-heading>
-            <p class="base-body body-1 light--text  text-left mb-10">{{ company.about }}</p>
-          </base-heading>
+            <base-heading>
+              <p class="base-body body-1 light--text  text-left mb-10">{{ company.about }}</p>
+            </base-heading>
 
 
-        </v-responsive>
-      </v-container>
-    </v-img>
-  </section>
+          </v-responsive>
+        </v-container>
+      </v-img>
+    </section>
   </v-theme-provider>
 
 </template>
 
 <script>
-  import store from "~/myStore"
-  import BaseHeading from "~/components/base/Heading";
+import store from "~/myStore"
+import BaseHeading from "~/components/base/Heading";
 
-  export default {
-    name: 'SectionHero',
-    components: {BaseHeading},
-    provide: {
-      theme: { isDark: true },
+export default {
+  name: 'SectionHero',
+  components: {BaseHeading},
+  provide: {
+    theme: { isDark: true },
+  },
+
+  data: () => ({
+    contacts: {...store.contacts},
+    company: {...store.company},
+  }),
+  methods: {
+    getHref(contact) {
+      return `${contact.href}${contact.link}`
+    }
+  },
+  computed: {
+    minHeight () {
+      const height = this.$vuetify.breakpoint.mdAndUp ? '100vh' : '50vh'
+
+      return `calc(${height} - ${this.$vuetify.application.top}px)`
     },
 
-    data: () => ({
-      contacts: {...store.contacts},
-      company: {...store.company},
-    }),
-    methods: {
-      getHref(contact) {
-        return `${contact.href}${contact.link}`
-      }
-    },
-    computed: {
-      minHeight () {
-        const height = this.$vuetify.breakpoint.mdAndUp ? '100vh' : '50vh'
-
-        return `calc(${height} - ${this.$vuetify.application.top}px)`
-      },
-
-      testHeight() {
-        // console.log('innerHeight', window.innerHeight)
-        return window.innerHeight / 2 + this.$vuetify.application.top
-      }
-    },
-  }
+    heroHeight() {
+      // console.log('innerHeight', window.innerHeight)
+      return window.innerHeight / 2 + this.$vuetify.application.top
+    }
+  },
+}
 </script>
