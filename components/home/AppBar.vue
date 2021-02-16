@@ -22,7 +22,7 @@
       </v-toolbar-title>
       <v-spacer />
 
-      <base-btn-social-list v-if="!$vuetify.breakpoint.mobile"/>
+      <BtnSocialList v-if="!$vuetify.breakpoint.mobile"/>
 
       <v-spacer />
 
@@ -55,7 +55,7 @@
 
       <template v-if="$vuetify.breakpoint.mobile" v-slot:extension>
 
-        <base-btn-social-list/>
+        <BtnSocialList/>
 
       </template>
 
@@ -70,14 +70,15 @@
 
 <script>
 import store from "@/myStore"
-import BaseBtnSocial from "@/components/base/BtnSocial";
+import BtnSocialList from "@/components/BtnSocialList"
+
 
 
 export default {
   name: 'HomeAppBar',
 
   components: {
-    BaseBtnSocial,
+    BtnSocialList,
     HomeDrawer: () => import('./Drawer'),
 
   },

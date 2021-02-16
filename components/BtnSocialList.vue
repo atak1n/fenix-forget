@@ -42,7 +42,7 @@
       icon
     >
       <v-img
-        :src="require('@/assets/viber-purple.svg')"
+        :src="require('assets/viber-purple.svg')"
         contain
         :height="isMobile ? 24 : 30"
         :width="isMobile ? 24 : 30"
