@@ -19,9 +19,9 @@
 
 export default {
   components: {
-    HomeAppBar: () => import('~/components/home/AppBar.vue'),
-    HomeFooter: () => import('~/components/home/Footer'),
-    ProductsBar: () => import('~/components/home/AppProductsBar'),
+    HomeAppBar: () => import('~/components/core/AppBar.vue'),
+    HomeFooter: () => import('~/components/core/Footer'),
+    ProductsBar: () => import('~/components/core/AppProductsBar'),
   }
 }
 </script>
