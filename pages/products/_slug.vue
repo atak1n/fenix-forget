@@ -1,9 +1,9 @@
 <template>
-  <section>
+<section>
     <v-row no-gutters>
       <v-col cols="12">
 
-        <Products/>
+        <Product/>
 
       </v-col>
     </v-row>
@@ -11,11 +11,11 @@
 </template>
 
 <script>
-
 export default {
-  name: "ProductsPage",
+
+  name: "ProductDetail",
   components: {
-    Products: () => import('@/components/sections/ProductsAll')
+    Product: () => import('~/components/sections/Product')
   }
 }
 </script>

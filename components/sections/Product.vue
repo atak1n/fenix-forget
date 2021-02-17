@@ -12,21 +12,16 @@
         <transition name="fade" mode="out-in">
           <v-row>
 
-            <template v-for="(product, n) in products">
-
               <v-col
-                :key="n"
                 class="mt-2"
                 cols="12"
               >
-                <NuxtLink :to="`${$route.path}/${product.slug}/`">
-                  <strong> {{ product.title }}</strong>
-                </NuxtLink>
+                <strong> {{ product.title }}</strong>
               </v-col>
 
               <v-col
                 v-for="type in product.types"
-                :key="`${n}${type.slug}`"
+                :key="type.slug"
                 cols="6"
                 md="2"
               >
@@ -36,8 +31,6 @@
                 />
               </v-col>
 
-            </template>
-
           </v-row>
         </transition>
       </v-container>
@@ -46,23 +39,25 @@
 </template>
 
 <script>
-
 import products from "@/myStore/products";
 
 
 export default {
-  name: "Products",
+  name: "Product",
+  props: {
+    productSlug: {
+      type: String,
+    }
+  },
   data: () => ({
-    title: products.title,
-    annotate: products.annotate,
+
     products: products.products,
   }),
-  // computed: {
-  //   goToProduct(slug) {
-  //     return `${this.$route.path}/${slug}`
-  //   }
-  // },
-
+  computed: {
+    product() {
+      return this.products.find( product => product.slug === this.productSlug)
+    },
+  }
 }
 </script>
 

@@ -86,8 +86,8 @@ const products = {
     {
       title: 'Кованые ворота',
       // поле slug будет в URL адресе прим.
-      // https://fenix-sr.ru/product_category/product_type/product_id/ или
-      // https://fenix-sr.ru/products/vorota/vorota_prostie/1/
+      // https://fenix-sr.ru/products/product_category/type/product_type/product_id/ или
+      // https://fenix-sr.ru/products/vorota/type/vorota_prostie/1/
       slug: 'vorota',
       img: {
         preview: 'gallery/vorota/02_railing_400x300.jpg',
