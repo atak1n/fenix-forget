@@ -81,16 +81,16 @@ const productsOld = {
 
 const products = {
   title: 'Каталог',
-  annotate: '',
+  annotate: 'Полный каталог продукции',
   products: [
     {
-      title: 'Кованые Ворота',
+      title: 'Кованые ворота',
       // поле slug будет в URL адресе прим.
       // https://fenix-sr.ru/product_category/product_type/product_id/ или
-      // https://fenix-sr.ru/vorota/type1/1/
+      // https://fenix-sr.ru/products/vorota/vorota_prostie/1/
       slug: 'vorota',
       img: {
-        preview: 'gallery/railing/02_railing_400x300.jpg',
+        preview: 'gallery/vorota/02_railing_400x300.jpg',
         original:'gallery/railing/02_railing_1000x750.jpg',
       },
       types: {
@@ -177,7 +177,7 @@ const products = {
     },
 
     {
-      title: 'Кованые Калитки',
+      title: 'Кованые калитки',
       slug: 'kalitki',
       img: {
         preview: 'gallery/railing/02_railing_400x300.jpg',

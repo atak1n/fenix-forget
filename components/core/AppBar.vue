@@ -92,6 +92,11 @@ export default {
         alias: 'главная'
       },
       {
+        path: '/products',
+        name: 'products',
+        alias: 'продукция'
+      },
+      {
         path: '/gallery',
         name: 'gallery',
         alias: 'наши работы'

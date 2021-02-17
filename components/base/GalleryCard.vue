@@ -26,12 +26,12 @@
 
     props: {
       height: {
-        type: Number,
+        type: [Number, String],
         // required: true,
         // default: 270
       },
       width: {
-        type: Number,
+        type: [Number, String],
         default: 270
       },
       value: {
