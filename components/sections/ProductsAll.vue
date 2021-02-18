@@ -19,7 +19,8 @@
                 class="mt-2"
                 cols="12"
               >
-                <NuxtLink :to="`${$route.path}/${product.slug}/`">
+<!--                <NuxtLink :to="`${$route.path}/${product.slug}/`">-->
+                <NuxtLink :to="{ name: 'products-slug', params: { slug: product.slug } }">
                   <strong> {{ product.title }}</strong>
                 </NuxtLink>
               </v-col>

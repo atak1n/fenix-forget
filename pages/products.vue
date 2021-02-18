@@ -3,7 +3,9 @@
     <v-row no-gutters>
       <v-col cols="12">
 
-        <Products/>
+<!--        <Products/>-->
+
+        <NuxtChild/>
 
       </v-col>
     </v-row>
@@ -14,9 +16,9 @@
 
 export default {
   name: "ProductsPage",
-  components: {
-    Products: () => import('@/components/sections/ProductsAll')
-  }
+  // components: {
+  //   Products: () => import('@/components/sections/ProductsAll')
+  // }
 }
 </script>
 

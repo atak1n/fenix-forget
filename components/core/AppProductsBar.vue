@@ -46,7 +46,8 @@
       <v-list dense nav>
         <v-list-item
           v-for="product in products" :key="product.title"
-          link
+          nuxt
+          :to="{ name: 'products-slug', params: { slug: product.slug } }"
         >
           <v-list-item-icon>
             <v-icon>mdi-anvil</v-icon>
@@ -58,6 +59,7 @@
         </v-list-item>
 
       </v-list>
+
       <v-list-item style="height: 124px" />
 
       <!--</div>-->
