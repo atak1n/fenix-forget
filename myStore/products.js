@@ -14,7 +14,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованные ворота распашные',
+          title: 'Кованные ворота распашные',
           slug: 'vorota_prostie',
           img: {
             preview: 'gallery/vorota/02_vorota_400x300.jpg',
@@ -129,7 +129,7 @@ const products = {
           ],
         },
         {
-          name: 'Откатные кованные ворота',
+          title: 'Откатные кованные ворота',
           slug: 'vorota_otkatnye',
           img: {
             preview: 'gallery/vorota/otkatnye/01_otkatnye_400x300.jpg',
@@ -253,7 +253,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые калитки',
+          title: 'Кованые калитки',
           slug: 'kalitki_prostie',
           img: {
             preview: 'gallery/kalitki/01_kalitki_400x300.jpg',
@@ -362,7 +362,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые калитки в доме',
+          title: 'Кованые калитки в доме',
           slug: 'kalitki_dom',
           img: {
             preview: 'gallery/kalitki/kalitkivdome/01_kalitkivdome_400x300.jpg',
@@ -392,7 +392,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые перила в стиле Барокко',
+          title: 'Кованые перила в стиле Барокко',
           slug: 'perila_barokko',
           img: {
             preview: 'gallery/perila/baroko/01_perila_barokko_400x300.jpg',
@@ -461,7 +461,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые перила в стиле Рококо',
+          title: 'Кованые перила в стиле Рококо',
           slug: 'perila_rokoko',
           img: {
             preview: 'gallery/perila/rokoko/01_perila_rokoko_400x300.jpg',
@@ -517,7 +517,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые перила в классическом стиле',
+          title: 'Кованые перила в классическом стиле',
           slug: 'perila_klasik',
           img: {
             preview: 'gallery/perila/klasik/01_perila_klasik_400x300.jpg',
@@ -597,7 +597,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые перила в современном стиле',
+          title: 'Кованые перила в современном стиле',
           slug: 'perila_sovremen',
           img: {
             preview: 'gallery/perila/sovremen/01_perila_sovremen_400x300.jpg',
@@ -684,7 +684,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые балконы с прямыеми перилами',
+          title: 'Кованые балконы с прямыеми перилами',
           slug: 'balkoni_prymper',
           img: {
             preview: 'gallery/balkoni/prymper/01_prymper_400x300.jpg',
@@ -743,7 +743,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые балконы радиусные',
+          title: 'Кованые балконы радиусные',
           slug: 'balkoni_radius',
           img: {
             preview: 'gallery/balkoni/radius/01_radius_400x300.jpg',
@@ -800,7 +800,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые балконы комбинированные',
+          title: 'Кованые балконы комбинированные',
           slug: 'balkoni_combo',
           img: {
             preview: 'gallery/balkoni/combo/01_combo_400x300.jpg',
@@ -876,7 +876,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые козырьки',
+          title: 'Кованые козырьки',
           slug: 'kozirky_1',
           img: {
             preview: 'gallery/kozirky/01_kozirky_400x300.jpg',
@@ -980,7 +980,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые заборы с поликарбонатом',
+          title: 'Кованые заборы с поликарбонатом',
           slug: 'zabory_pk',
           img: {
             preview: 'gallery/zabor/zaborpk/1_zaborpk_400x300.jpg',
@@ -1055,7 +1055,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые заборы с железным листом',
+          title: 'Кованые заборы с железным листом',
           slug: 'zabory_stal',
           img: {
             preview: 'gallery/zabor/zaborstal/1_zaborstal_400x300.jpg',
@@ -1111,7 +1111,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые заборы с профлистом',
+          title: 'Кованые заборы с профлистом',
           slug: 'zabory_stal',
           img: {
             preview: 'gallery/zabor/zaborstalprof/1_zaborstalprof_400x300.jpg',
@@ -1167,7 +1167,7 @@ const products = {
           ],
         },
         {
-          name: 'Кованые заборы с кирпичом',
+          title: 'Кованые заборы с кирпичом',
           slug: 'zabory_stal',
           img: {
             preview: 'gallery/zabor/zaborkirp/1_zaborkirp_400x300.jpg',
@@ -1225,7 +1225,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые навесы',
+          title: 'Кованые навесы',
           slug: 'navesi_1',
           img: {
             preview: 'gallery/naves/1_naves_400x300.jpg',
@@ -1294,7 +1294,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые беседки',
+          title: 'Кованые беседки',
           slug: 'besedki_1',
           img: {
             preview: 'gallery/besedki/1_besedki_400x300.jpg',
@@ -1399,7 +1399,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые ограды',
+          title: 'Кованые ограды',
           slug: 'ograda_1',
           img: {
             preview: 'gallery/ograda/1_ograda_400x300.jpg',
@@ -1496,7 +1496,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые решетки',
+          title: 'Кованые решетки',
           slug: 'reshetki_1',
           img: {
             preview: 'gallery/reshetki/1_reshetki_400x300.jpg',
@@ -1609,7 +1609,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые вывески',
+          title: 'Кованые вывески',
           slug: 'viveski_1',
           img: {
             preview: 'gallery/viveski/1_viveski_400x300.jpg',
@@ -1668,7 +1668,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые мангалы',
+          title: 'Кованые мангалы',
           slug: 'mangal_1',
           img: {
             preview: 'gallery/mangal/1_mangal_400x300.jpg',
@@ -1807,7 +1807,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые люстры',
+          title: 'Кованые люстры',
           slug: 'lustra_1',
           img: {
             preview: 'gallery/lustra/1_lustra_400x300.jpg',
@@ -1946,7 +1946,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые бра',
+          title: 'Кованые бра',
           slug: 'bra_1',
           img: {
             preview: 'gallery/bra/1_bra_400x300.jpg',
@@ -2050,7 +2050,7 @@ const products = {
       },
       types: [
         {
-          name: 'Кованые торшеры',
+          title: 'Кованые торшеры',
           slug: 'torsher_1',
           img: {
             preview: 'gallery/torsher/1_torsher_400x300.jpg',
@@ -2146,7 +2146,7 @@ const products = {
       },
       types: [
         {
-          name: 'Ковка в стиле лофт',
+          title: 'Ковка в стиле лофт',
           slug: 'loft_1',
           img: {
             preview: 'gallery/loft/1_loft_400x300.jpg',

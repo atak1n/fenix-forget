@@ -17,6 +17,9 @@
     >
       <v-card-title class="text-right" v-if="title">{{ value.title }}</v-card-title>
     </v-img>
+    <v-card-subtitle class="white--text" v-if="subtitle">
+      {{ value.title }}
+    </v-card-subtitle>
   </v-card>
 </template>
 
@@ -40,7 +43,11 @@
       },
       title: {
         type: Boolean,
-        default: true
+        default: false
+      },
+      subtitle: {
+        type: Boolean,
+        default: false
       }
     },
 

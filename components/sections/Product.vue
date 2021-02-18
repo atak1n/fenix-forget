@@ -9,8 +9,6 @@
       max-width="1350"
     >
 
-
-
       <v-container fluid>
         <!--        <transition name="fade" mode="out-in">-->
         <v-item-group mandatory v-model="selectedGroup">
@@ -26,29 +24,29 @@
               cols="6" md="2"
               v-for="type in product.types"
               :key="type.name">
-
               <v-item v-slot="{ toggle }">
 
-                <base-gallery-card
+                <base-product-img-card
+
                   :value="type"
                   :width=400
                   :height="150"
                   @click="toggle"
+                  subtitle
                 />
-                <!--                <span>{{type.name}}</span>-->
-
+<!--                                <span>{{type.name}}</span>-->
               </v-item>
-
             </v-col>
+
           </v-row>
           <transition name="fade" mode="out-in">
             <v-row v-if="activeType !== undefined">
 
               <v-col
-                class="mt-2"
                 cols="12"
               >
-                <strong> {{ activeType.name }}</strong>
+<!--                <strong> {{ activeType.title }}</strong>-->
+                <base-title> {{ activeType.title }}</base-title>
               </v-col>
 
               <v-col
@@ -60,7 +58,7 @@
                   :width=400
                   :height="150"
                   :value="product"
-                  :title='false'
+                  subtitle
                 />
               </v-col>
             </v-row>
