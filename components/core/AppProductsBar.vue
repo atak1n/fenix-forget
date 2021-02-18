@@ -45,7 +45,7 @@
 
       <v-list dense nav>
         <v-list-item
-          v-for="product in products" :key="product.title"
+          v-for="(product,i) in products" :key="i"
           nuxt
           :to="{ name: 'products-slug', params: { slug: product.slug } }"
         >

@@ -25,47 +25,43 @@
             <v-col
               cols="6" md="2"
               v-for="type in product.types"
-              :key="type.slug">
+              :key="type.name">
 
-              <v-item
-                v-slot="{ active, toggle }"
-                :value="type"
-              >
+              <v-item v-slot="{ toggle }">
 
                 <base-gallery-card
                   :value="type"
                   :width=400
                   @click="toggle"
-
-
                 />
-<!--                <span>{{type.name}}</span>-->
+                <!--                <span>{{type.name}}</span>-->
 
               </v-item>
 
             </v-col>
           </v-row>
+          <transition name="fade" mode="out-in">
+            <v-row v-if="activeType !== undefined">
 
-          <v-row>
+              <v-col
+                class="mt-2"
+                cols="12"
+              >
+                <strong> {{ activeType.name }}</strong>
+              </v-col>
 
-            <v-col
-              class="mt-2"
-              cols="12"
-            >
-              <strong> {{ selectedGroup.name }}</strong>
-            </v-col>
-
-            <v-col
-              cols="6" md="2"
-              v-for="product in selectedGroup.products"
-              :key="product.id"
-            >
-              <base-gallery-card
-                :value="product"
-                :width=400
-              />
-            </v-col>
-          </v-row>
+              <v-col
+                cols="6" md="2"
+                v-for="product in activeType.products"
+                :key="product.id"
+              >
+                <base-gallery-card
+                  :width=400
+                  :value="product"
+                />
+              </v-col>
+            </v-row>
+          </transition>
         </v-item-group>
         <!--        </transition>-->
       </v-container>
@@ -97,10 +93,18 @@ export default {
       // console.log(this.$route)
       // console.log(this.slug)
       const product = this.products.find( product => product.slug === this.$route.params.slug)
-      console.log(product)
+      // console.log(product)
+      this.selectedGroup = ''
       return product
     },
-  }
+    activeType() {
+      if (this.selectedGroup !== '') {
+        return this.product.types[this.selectedGroup]
+      }
+      return undefined
+    }
+  },
+
 }
 </script>
 
