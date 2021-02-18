@@ -1,5 +1,5 @@
 <template>
-  <base-section id="products">
+  <base-section space="44" id="products-all">
     <base-section-heading
       :title="title"
       :text="annotate"
@@ -26,8 +26,8 @@
               </v-col>
 
               <v-col
-                v-for="type in product.types"
-                :key="`${n}${type.slug}`"
+                v-for="(type,j) in product.types"
+                :key="`${n}${j}`"
                 cols="6"
                 md="2"
               >

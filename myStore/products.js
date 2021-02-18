@@ -1,6 +1,3 @@
-
-
-
 const products = {
   title: 'Каталог',
   annotate: '',

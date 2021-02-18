@@ -1,5 +1,5 @@
 <template>
-  <base-section id="products">
+  <base-section space="44" id="product">
     <base-section-heading
       :title="product.title"
       :text="annotate"
@@ -93,10 +93,7 @@ export default {
   }),
   computed: {
     product() {
-      // console.log(this.$route)
-      // console.log(this.slug)
       const product = this.products.find( product => product.slug === this.$route.params.slug)
-      // console.log(product)
       this.selectedGroup = ''
       return product
     },
