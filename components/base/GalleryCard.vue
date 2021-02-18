@@ -15,7 +15,7 @@
         gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
         class="align-end"
     >
-      <v-card-title class="text-right">{{ value.title }}</v-card-title>
+      <v-card-title class="text-right" v-if="title">{{ value.title }}</v-card-title>
     </v-img>
   </v-card>
 </template>
@@ -38,6 +38,10 @@
         type: Object,
         default: () => ({}),
       },
+      title: {
+        type: Boolean,
+        default: true
+      }
     },
 
 

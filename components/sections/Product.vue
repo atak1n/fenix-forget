@@ -1,7 +1,7 @@
 <template>
   <base-section id="products">
     <base-section-heading
-      :title="title"
+      :title="product.title"
       :text="annotate"
     />
     <v-responsive
@@ -15,12 +15,12 @@
         <!--        <transition name="fade" mode="out-in">-->
         <v-item-group mandatory v-model="selectedGroup">
           <v-row>
-            <v-col
-              class="mt-2"
-              cols="12"
-            >
-              <strong> {{ product.title }}</strong>
-            </v-col>
+<!--            <v-col-->
+<!--              class="mt-2"-->
+<!--              cols="12"-->
+<!--            >-->
+<!--              <strong> {{ product.title }}</strong>-->
+<!--            </v-col>-->
 
             <v-col
               cols="6" md="2"
@@ -32,6 +32,7 @@
                 <base-gallery-card
                   :value="type"
                   :width=400
+                  :height="150"
                   @click="toggle"
                 />
                 <!--                <span>{{type.name}}</span>-->
@@ -57,7 +58,9 @@
               >
                 <base-gallery-card
                   :width=400
+                  :height="150"
                   :value="product"
+                  :title='false'
                 />
               </v-col>
             </v-row>
