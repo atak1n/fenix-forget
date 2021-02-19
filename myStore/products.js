@@ -12,6 +12,7 @@ const products = {
         preview: 'gallery/vorota/01_vorota_400x300.jpg',
         original:'gallery/vorota/01_vorota_1000x750.jpg',
       },
+      text: '',
       types: [
         {
           title: 'Кованные ворота распашные',

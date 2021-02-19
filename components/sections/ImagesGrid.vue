@@ -32,7 +32,7 @@
             >
 
               <base-gallery-card
-                  :value="project"
+                  :img="project.img"
                   :width=400
                   @click="openCard(i)"
                   :key="project.img.preview"
@@ -58,7 +58,6 @@
                 contain
             >
               <v-btn
-                  color="transparent"
                   fab
                   absolute
                   text

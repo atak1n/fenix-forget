@@ -16,7 +16,7 @@
 
           >
             <base-gallery-card
-              :value="project"
+              v-bind="project"
               :width="mobile ? 400 : 300"
               @click="openCard(project)"
             />

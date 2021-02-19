@@ -12,10 +12,10 @@
         <transition name="fade" mode="out-in">
           <v-row>
 
-            <template v-for="(product, n) in products">
+            <template v-for="product in products">
 
               <v-col
-                :key="n"
+                :key="product.title"
                 class="mt-2"
                 cols="12"
               >
@@ -27,13 +27,15 @@
 
               <v-col
                 v-for="(type,j) in product.types"
-                :key="`${n}${j}`"
+                :key="`${product.title}${j}`"
                 cols="6"
-                md="2"
+                md="3"
+                sm="2"
               >
                 <base-gallery-card
-                  :value="type"
-                  :width=400
+                  v-bind="type"
+                  :title="false"
+                  :width="mobile ? 400 : 300"
                 />
               </v-col>
 
@@ -58,11 +60,14 @@ export default {
     annotate: products.annotate,
     products: products.products,
   }),
-  // computed: {
-  //   goToProduct(slug) {
-  //     return `${this.$route.path}/${slug}`
-  //   }
-  // },
+  computed: {
+    goToProduct(slug) {
+      return `${this.$route.path}/${slug}`
+    },
+    mobile() {
+      return this.$vuetify.breakpoint.mobile
+    },
+  },
 
 }
 </script>
