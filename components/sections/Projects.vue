@@ -22,10 +22,11 @@
             />
           </v-col>
 
-          <v-dialog v-model="dialog"
-                    max-width="1000"
-                    max-height="750"
-                    :fullscreen="mobile"
+          <v-dialog
+            v-model="dialog"
+            max-width="1000"
+            max-height="750"
+            :fullscreen="mobile"
           >
             <!--            v-model="activeCard"-->
             <v-carousel

@@ -16,13 +16,10 @@
 
               <v-col
                 :key="product.title"
-                class="mt-2"
+                class="pb-0"
                 cols="12"
               >
-<!--                <NuxtLink :to="`${$route.path}/${product.slug}/`">-->
-                <NuxtLink :to="{ name: 'products-slug', params: { slug: product.slug } }">
-                  <strong> {{ product.title }}</strong>
-                </NuxtLink>
+                <base-title> {{ product.title }}</base-title>
               </v-col>
 
               <v-col
@@ -33,9 +30,12 @@
                 sm="2"
               >
                 <base-gallery-card
-                  v-bind="type"
-                  :title="false"
+                  rounded
+                  :img="type.img"
+                  :subtitle="type.title"
                   :width="mobile ? 400 : 300"
+                  nuxt
+                  :to="{ name: 'products-slug', params: { slug: product.slug } }"
                 />
               </v-col>
 

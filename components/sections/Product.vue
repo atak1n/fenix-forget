@@ -18,7 +18,7 @@
               cols="6" md="2"
               v-for="type in product.types"
               :key="type.name">
-              <v-item v-slot="{ toggle }">
+              <v-item v-slot="{ active ,toggle }">
 
                 <base-product-img-card
                   :value="type"
@@ -26,6 +26,7 @@
                   :height="150"
                   @click="toggle"
                   subtitle
+                  :dark="active"
                 />
 
               </v-item>
@@ -38,8 +39,7 @@
               <v-col
                 cols="12"
               >
-<!--                <strong> {{ activeType.title }}</strong>-->
-                <base-title> {{ activeType.title }}</base-title>
+                <base-title > {{ activeType.title }}</base-title>
               </v-col>
 
               <v-col

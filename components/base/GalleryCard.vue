@@ -3,7 +3,6 @@
     :height="height"
     :width="width"
     flat
-    tile
     dark
     v-bind="$attrs"
     v-on="$listeners"
@@ -19,8 +18,8 @@
         </v-card-title>
     </v-img>
 
-    <v-card-subtitle class="white--text" v-if="subtitle">
-      {{ title }}
+    <v-card-subtitle class="" v-if="subtitle">
+      {{ subtitle }}
     </v-card-subtitle>
   </v-card>
 </template>
@@ -39,10 +38,6 @@ export default {
       type: [Number, String],
       default: 270
     },
-    // value: {
-    //   type: Object,
-    //   default: () => ({}),
-    // },
     img: {
       type: Object,
     },
