@@ -41,7 +41,6 @@
 
               >
                 <v-btn
-
                   fab
                   absolute
                   text

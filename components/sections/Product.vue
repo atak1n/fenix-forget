@@ -2,7 +2,7 @@
   <base-section space="44" id="product">
     <base-section-heading
       :title="product.title"
-      :text="annotate"
+      :text="product.text"
     />
     <v-responsive
       class="mx-auto"
@@ -11,7 +11,7 @@
 
       <v-container fluid>
         <!--        <transition name="fade" mode="out-in">-->
-        <v-item-group mandatory v-model="selectedGroup">
+        <v-item-group mandatory v-model="selectedGroup" v-if="product.types.length > 1">
           <v-row dense>
 
             <v-col
@@ -33,32 +33,68 @@
             </v-col>
 
           </v-row>
-          <transition name="fade" mode="out-in">
-            <v-row v-if="activeType !== undefined" :dense="mobile">
-
-              <v-col
-                cols="12"
-              >
-                <base-title > {{ activeType.title }}</base-title>
-              </v-col>
-
-              <v-col
-                cols="12" md="3"
-                v-for="(product,n) in activeType.products"
-                :key="n"
-              >
-                <base-gallery-card
-                  :width="mobile ? 400 : 300"
-                  v-bind="product"
-                  :title="(n+1).toString()"
-                >
-                  <template v-slot:imgText>{{ n }}</template>
-                </base-gallery-card>
-              </v-col>
-            </v-row>
-          </transition>
         </v-item-group>
+
+
+        <transition name="fade" mode="out-in">
+          <v-row v-if="activeType !== undefined" :dense="mobile">
+
+            <v-col
+              cols="12"
+              v-if="product.types.length > 1"
+            >
+              <base-title > {{ activeType.title }}</base-title>
+            </v-col>
+
+            <v-col
+              cols="12" md="3"
+              v-for="(product,n) in activeType.products"
+              :key="n"
+            >
+              <base-gallery-card
+                :width="mobile ? 400 : 300"
+                v-bind="product"
+                :title="(n+1).toString()"
+                @click="openCard(n)"
+              >
+                <template v-slot:imgText>{{ n }}</template>
+              </base-gallery-card>
+            </v-col>
+          </v-row>
+        </transition>
         <!--        </transition>-->
+        <v-dialog
+          v-model="dialog"
+          max-width="1000"
+          max-height="750"
+          :fullscreen="mobile"
+        >
+          <v-carousel
+            v-show="activeType"
+            v-model="activeCard"
+            hide-delimiters
+            :class="mobile ? 'mt-16' : ''"
+          >
+            <v-carousel-item
+              v-for="(product,i) in activeType.products"
+              :key="i"
+              :src="require(`@/assets/${product.img.original}`)"
+              contain
+            >
+              <v-btn
+                fab
+                absolute
+                text
+                right
+                small
+                class="primary--text"
+                @click="dialog = false"
+              >
+                <v-icon large>mdi-close-circle-outline</v-icon>
+              </v-btn>
+            </v-carousel-item>
+          </v-carousel>
+        </v-dialog>
       </v-container>
 
     </v-responsive>
@@ -81,19 +117,24 @@ export default {
     annotate: products.annotate,
     products: products.products,
 
-    selectedGroup: '',
+    selectedGroup: 0,
+    dialog: false,
+    activeCard: '',
   }),
+  methods: {
+    openCard(i) {
+      this.activeCard = i
+      this.dialog = true
+    },
+  },
   computed: {
     product() {
-      const product = this.products.find( product => product.slug === this.$route.params.slug)
-      this.selectedGroup = ''
-      return product
+      this.selectedGroup = 0
+      return this.products.find(product => product.slug === this.$route.params.slug)
     },
+
     activeType() {
-      if (this.selectedGroup !== '') {
-        return this.product.types[this.selectedGroup]
-      }
-      return undefined
+      return this.product.types[this.selectedGroup]
     },
     mobile() {
       return this.$vuetify.breakpoint.mobile
