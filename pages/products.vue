@@ -30,16 +30,18 @@
 
 <script>
 import products from "@/myStore/products";
+import pages from "@/myStore/pages";
 
 export default {
   name: "ProductsPage",
   data: () => ({
     products: products.products,
-    items: [
-
-    ],
+    items: [],
   }),
   computed: {
+    product() {
+      return this.products.find( product => product.slug === this.$route.params.slug)
+    },
     getRoutes() {
       let routes = [{
         to: '/products',
@@ -48,18 +50,22 @@ export default {
         text: 'Продукция',
       }]
 
-      const currentProduct = this.products.find( product => product.slug === this.$route.params.slug)
-      if (currentProduct) {
+      if (this.product) {
         const currentRoute = {
           to: this.$route.path,
           link: true,
-          text: currentProduct.title,
+          text: this.product.title,
         }
         routes.push(currentRoute)
       }
       return routes
-    }
-  }
+    },
+  },
+
+  head() {
+     return this.$route.params.slug ? {...this.product.metaData} : {...pages.products}
+  },
+
 }
 </script>
 
