@@ -34,7 +34,7 @@
               hide-delimiters
             >
               <v-carousel-item
-                v-for="(project, i) in imgsGroup"
+                v-for="(project, i) in activeGroup"
                 :key="i"
                 :src="require(`@/assets/${project.img.original}`)"
                 contain
@@ -75,28 +75,43 @@ export default {
     dialog: false,
     annotate: store.projects.annotate,
     title: store.projects.title,
-    projects: store.projects.types,
+    projects: [],
+    products: store.products.products,
     gallery: store.gallery.images,
-    activeGroup: '',
+
+    activeGroup: [],
 
   }),
   methods: {
     openCard(project) {
-      this.activeGroup = project
+      this.setActiveGroupItems(project)
       this.dialog = true
     },
+    setActiveGroupItems(project) {
+      const products = []
+      project.types.forEach( product => products.push(...product.products) )
+      this.activeGroup = products
+    },
   },
+
   computed: {
     mobile() {
       return this.$vuetify.breakpoint.mobile
     },
-    imgsGroup() {
-      const imgs = this.gallery.filter(
-        img => img.title === this.activeGroup.title
-      )
-      return imgs
-    }
+    // imgsGroup() {
+    //   return this.gallery.filter(
+    //     img => img.title === this.activeGroup.title
+    //   )
+    // },
+
   },
+  created() {
+    this.projects = this.products.filter(
+      product => store.projects.products.find(
+        projectsProduct => projectsProduct === product.slug
+      )
+    )
+  }
 }
 </script>
 

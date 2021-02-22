@@ -87,8 +87,7 @@ export default {
     gallery: store.gallery,
     projects: store.projects.types,
     groups: ['Все варианты'],
-    title: 'Title',
-    author: 'author',
+    // title: 'Title',
     activeCard: '',
 
     activeGroup: 'Все варианты',
@@ -111,7 +110,9 @@ export default {
       return this.$vuetify.breakpoint.mobile
     },
     imgsGroup() {
-      if (this.activeGroup === 'Все варианты') return this.gallery.images
+      if (this.activeGroup === 'Все варианты') {
+        return this.gallery.images
+      }
 
       const imgs = this.gallery.images.filter(
         img => img.title === this.activeGroup
