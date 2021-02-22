@@ -1,4 +1,4 @@
-const pages = {
+const pagesMeta = {
   // ГЛАВНАЯ
   home: {
     meta: [
@@ -40,4 +40,4 @@ const pages = {
   },
 }
 
-export default pages
+export default pagesMeta

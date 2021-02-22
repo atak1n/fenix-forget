@@ -1,6 +1,6 @@
 const products = {
   title: 'Каталог',
-  annotate: '',
+  annotate: 'Основной каталог изделий нашей компании',
   products: [
     {
       title: 'Кованные ворота',

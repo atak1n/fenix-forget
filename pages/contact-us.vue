@@ -15,7 +15,7 @@
 </template>
 
 <script>
-  import pages from "~/myStore/pages"
+  import pagesMeta from "@/myStore/pagesMeta"
 
   export default {
     name: "ContactUs",
@@ -26,7 +26,7 @@
     },
 
 
-    head: { ...pages.contacts }
+    head: { ...pagesMeta.contacts }
   }
 </script>
 

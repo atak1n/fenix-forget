@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import pages from "~/myStore/pages"
+  import pagesMeta from "@/myStore/pagesMeta"
 
   export default {
     name: "galley",
@@ -19,7 +19,7 @@
 
     scrollToTop: true,
 
-    head: { ...pages.gallery }
+    head: { ...pagesMeta.gallery }
   }
 </script>
 

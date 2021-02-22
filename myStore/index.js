@@ -6,6 +6,8 @@ import services from "./services"
 import features from "./features"
 import projects from "./projects"
 import gallery from "./gallery"
+import pagesMeta from "@/myStore/pagesMeta"
+import products from "@/myStore/products";
 
 
 
@@ -32,6 +34,11 @@ const store = new Vue({
     projects: projects,
 
     gallery: gallery,
+
+    products: products,
+
+    pagesMeta: pagesMeta,
+
   },
 })
 

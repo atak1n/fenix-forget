@@ -30,7 +30,7 @@
 
 <script>
 import products from "@/myStore/products";
-import pages from "@/myStore/pages";
+import pagesMeta from "@/myStore/pagesMeta";
 
 export default {
   name: "ProductsPage",
@@ -63,7 +63,7 @@ export default {
   },
 
   head() {
-     return this.$route.params.slug ? {...this.product.metaData} : {...pages.products}
+     return this.$route.params.slug ? {...this.product.metaData} : {...pagesMeta.products}
   },
 
 }

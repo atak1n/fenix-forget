@@ -26,7 +26,7 @@
 </template>
 
 <script>
-  import pages from "~/myStore/pages"
+  import pagesMeta from "@/myStore/pagesMeta"
 
   export default {
     name: "index",
@@ -42,7 +42,7 @@
 
     scrollToTop: true,
 
-    head: { ...pages.home }
+    head: { ...pagesMeta.home }
   }
 </script>
 

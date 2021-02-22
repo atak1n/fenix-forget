@@ -61,9 +61,6 @@ export default {
     products: products.products,
   }),
   computed: {
-    goToProduct(slug) {
-      return `${this.$route.path}/${slug}`
-    },
     mobile() {
       return this.$vuetify.breakpoint.mobile
     },

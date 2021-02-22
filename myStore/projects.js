@@ -35,6 +35,29 @@ const projects = {
       }
     },
 
+
+
+    /////////////
+    {
+      title: 'Кованные ворота',
+      // поле slug будет в URL адресе прим.
+      // https://fenix-sr.ru/product_category/product_type/product_id/ или
+      // https://fenix-sr.ru/vorota/vorota_prostie/1/
+      slug: 'vorota',
+      img: {
+        preview: 'gallery/vorota/01_vorota_400x300.jpg',
+        original:'gallery/vorota/01_vorota_1000x750.jpg',
+      }
+    }
+
+    // Перила
+    // мангал
+    // Навесы
+    // И ограды
+    //
+    // ворота -
+    // И ещё люстры
+
   ],
 }
 export default projects
