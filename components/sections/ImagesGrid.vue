@@ -15,18 +15,23 @@
             <v-select
               v-model="activeGroup"
               :items="groups"
+              item-text="title"
+              item-value="slug"
               label="Типы навесов:"
               solo
+              @input="setActiveGroupItems"
             />
 
 
           </v-col>
         </v-row>
+
         <transition name="fade" mode="out-in">
           <v-row justify="center" class="align-content-sm-center" :key="activeGroup">
+
             <v-col
               md="4"
-              v-for="(project, i) in imgsGroup"
+              v-for="(project, i) in paginatedData"
               :key="project.img.preview"
               class="flex-grow-0"
             >
@@ -38,6 +43,14 @@
                 :key="project.img.preview"
               />
 
+            </v-col>
+
+            <v-col cols="12">
+              <v-pagination
+                v-model="pageNumber"
+                :length="pageCount"
+                :total-visible="7"
+              />
             </v-col>
           </v-row>
         </transition>
@@ -53,7 +66,7 @@
             :class="mobile ? 'mt-16' : ''"
           >
             <v-carousel-item
-              v-for="(project, i) in imgsGroup"
+              v-for="(project, i) in activeGroupItems"
               :key="i"
               :src="require(`@/assets/${project.img.original}`)"
               contain
@@ -85,12 +98,18 @@ export default {
   data: () => ({
     dialog: false,
     gallery: store.gallery,
-    projects: store.projects.types,
-    groups: ['Все варианты'],
+    projects: store.products.products,
+    groups: [
+      {title:'Все работы', slug: 'all'},
+    ],
     // title: 'Title',
     activeCard: '',
 
-    activeGroup: 'Все варианты',
+    activeGroup: 'all',
+    activeGroupItems: [],
+
+    pageNumber: 1,
+    size: 8,
 
   }),
   methods: {
@@ -99,29 +118,55 @@ export default {
       this.dialog = true
     },
     setProjectsGroups() {
-      this.projects.forEach(
-        project => this.groups.push(project.title)
-      )
+      // this.projects.forEach(
+      //   project => this.groups.push(project.title)
+      // )
+      this.groups = [...this.groups,...this.projects]
+
     },
+
+    setActiveGroupItems() {
+      const products = []
+      if (this.activeGroup === 'all') {
+        this.projects.forEach(product => product.types.forEach(
+          type => products.push(...type.products)
+        ))
+      } else {
+        const items = this.projects.find(project => project.slug === this.activeGroup)
+        items.types.forEach( product => products.push(...product.products) )
+      }
+
+      this.activeGroupItems = products
+    },
+
   },
 
   computed: {
     mobile() {
       return this.$vuetify.breakpoint.mobile
     },
-    imgsGroup() {
-      if (this.activeGroup === 'Все варианты') {
-        return this.gallery.images
-      }
-
-      const imgs = this.gallery.images.filter(
-        img => img.title === this.activeGroup
-      )
-      return imgs
-    }
+    pageCount() {
+      return Math.ceil( this.activeGroupItems.length / this.size)
+    },
+    paginatedData() {
+      const start = (this.pageNumber -1 ) * this.size
+      const end = start + this.size
+      return this.activeGroupItems.slice(start, end)
+    },
+    // imgsGroup() {
+    //   if (this.activeGroup === 'Все варианты') {
+    //     return this.gallery.images
+    //   }
+    //
+    //   const imgs = this.gallery.images.filter(
+    //     img => img.title === this.activeGroup
+    //   )
+    //   return imgs
+    // }
   },
   created() {
     this.setProjectsGroups()
+    this.setActiveGroupItems()
   }
 }
 
@@ -134,17 +179,5 @@ export default {
 .fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
   opacity: 0;
 }
-
-/*  .slide-fade-enter-active {*/
-/*  transition: all 2.5s ease;*/
-/*}*/
-/*.slide-fade-leave-active {*/
-/*  transition: all .5s ease;*/
-/*}*/
-/*.slide-fade-enter, .slide-fade-leave-to*/
-/*!* .slide-fade-leave-active below version 2.1.8 *! {*/
-/*  transform: translateX(30px);*/
-/*  opacity: 0;*/
-/*}*/
 
 </style>
