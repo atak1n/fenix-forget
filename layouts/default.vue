@@ -5,6 +5,8 @@
 
     <ProductsBar />
 
+    <GoToTopBtn/>
+
     <v-main>
       <v-fade-transition mode="out-in">
         <nuxt />
@@ -22,6 +24,7 @@ export default {
     HomeAppBar: () => import('~/components/core/AppBar.vue'),
     HomeFooter: () => import('~/components/core/Footer'),
     ProductsBar: () => import('~/components/core/AppProductsBar'),
+    GoToTopBtn: () => import('~/components/core/GoToTopBtn')
   }
 }
 </script>

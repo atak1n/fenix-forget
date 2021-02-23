@@ -109,7 +109,7 @@ export default {
     activeGroupItems: [],
 
     pageNumber: 1,
-    size: 8,
+    // size: 8,
 
   }),
   methods: {
@@ -153,6 +153,9 @@ export default {
       const end = start + this.size
       return this.activeGroupItems.slice(start, end)
     },
+    size() {
+      return this.mobile ? 6 : 9
+    }
     // imgsGroup() {
     //   if (this.activeGroup === 'Все варианты') {
     //     return this.gallery.images
