@@ -102,14 +102,12 @@ export default {
     groups: [
       {title:'Все работы', slug: 'all'},
     ],
-    // title: 'Title',
     activeCard: '',
 
     activeGroup: 'all',
     activeGroupItems: [],
 
     pageNumber: 1,
-    // size: 8,
 
   }),
   methods: {
@@ -118,11 +116,7 @@ export default {
       this.dialog = true
     },
     setProjectsGroups() {
-      // this.projects.forEach(
-      //   project => this.groups.push(project.title)
-      // )
       this.groups = [...this.groups,...this.projects]
-
     },
 
     setActiveGroupItems() {
@@ -156,16 +150,6 @@ export default {
     size() {
       return this.mobile ? 6 : 9
     }
-    // imgsGroup() {
-    //   if (this.activeGroup === 'Все варианты') {
-    //     return this.gallery.images
-    //   }
-    //
-    //   const imgs = this.gallery.images.filter(
-    //     img => img.title === this.activeGroup
-    //   )
-    //   return imgs
-    // }
   },
   created() {
     this.setProjectsGroups()
