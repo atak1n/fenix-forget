@@ -1,4 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
+import getRoutes from "./utils/getRoutes";
+
 
 export default {
   /*
@@ -58,8 +60,9 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    // "@nuxt/content",
     '@nuxtjs/vuetify',
-    "@nuxtjs/sitemap",
+    // "@nuxtjs/sitemap",
   ],
   /*
   ** Nuxt.js modules
@@ -107,8 +110,12 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {},
-  sitemap: {
-    hostname: 'http://kovka-mo.ru/',
-  },
+  // sitemap: {
+  //   hostname: 'http://kovka-mo.ru/',
+  //   routes() {
+  //     return getRoutes();
+  //   },
+  // },
+
 
 }
