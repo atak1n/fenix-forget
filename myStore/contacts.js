@@ -85,7 +85,7 @@ const contacts = {
     chId: '-1001228590282'
   },
   yaMetrika: {
-    token: '66031459',
+    token: '68280775',
   }
 }
 
