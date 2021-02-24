@@ -62,7 +62,9 @@ export default {
 
     heroHeight() {
       // console.log('innerHeight', window.innerHeight)
-      return window.innerHeight / 2 + this.$vuetify.application.top
+      // console.log('window: ',window.innerHeight)
+      // console.log('vuetify', this.$vuetify.breakpoint.height)
+      return this.$vuetify.breakpoint.height / 2 + this.$vuetify.application.top
     }
   },
 }

@@ -6,7 +6,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   // mode: 'spa',
-  ssr: false,
+  // ssr: false,
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -59,6 +59,7 @@ export default {
   */
   buildModules: [
     '@nuxtjs/vuetify',
+    "@nuxtjs/sitemap",
   ],
   /*
   ** Nuxt.js modules
@@ -105,6 +106,9 @@ export default {
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
-  build: {
-  }
+  build: {},
+  sitemap: {
+    hostname: 'http://kovka-mo.ru/',
+  },
+
 }

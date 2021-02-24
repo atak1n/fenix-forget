@@ -3,7 +3,7 @@ const products = {
   annotate: 'Основной каталог изделий нашей компании',
   products: [
     {
-      title: 'Кованные ворота',
+      title: 'Кованые ворота',
       // поле slug будет в URL адресе прим.
       // https://fenix-sr.ru/product_category/product_type/product_id/ или
       // https://fenix-sr.ru/vorota/vorota_prostie/1/
@@ -13,18 +13,18 @@ const products = {
         original:'gallery/vorota/01_vorota_1000x750.jpg',
       },
 
-      text: 'Ворота - являются визитной карточкой вашего дома, которая определяет статус и вкус хозяина. Кованные ворота на фоне других выделяются высокой декоративностью и художественной ценностью',
+      text: 'Ворота - являются визитной карточкой вашего дома, которая определяет статус и вкус хозяина. Кованые ворота на фоне других выделяются высокой декоративностью и художественной ценностью',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованные ворота'},
-          { name: 'keywords', content: 'купить кованные ворота не дорого, кованные ворота своими руками, кованные ворота по своим чертежам, ковка, ковка мо, кованные ворота подбор'},
+          { hid:'description-contacts', name: 'description', content: 'Купить Кованые ворота'},
+          { name: 'keywords', content: 'купить Кованые ворота не дорого, Кованые ворота своими руками, Кованые ворота по своим чертежам, ковка, ковка мо, Кованые ворота подбор'},
         ],
-        title: 'Купить кованные ворота в Москве и МО, разработка индивидуального дизайна ковки –от компании Феникс Стальное Решение'
+        title: 'Купить Кованые ворота в Москве и МО, разработка индивидуального дизайна ковки –от компании Феникс Стальное Решение'
       },
 
       types: [
         {
-          title: 'Кованные ворота распашные',
+          title: 'Кованые ворота распашные',
           slug: 'vorota_prostie',
           img: {
             preview: 'gallery/vorota/02_vorota_400x300.jpg',
@@ -139,7 +139,7 @@ const products = {
           ],
         },
         {
-          title: 'Откатные кованные ворота',
+          title: 'Откатные Кованые ворота',
           slug: 'vorota_otkatnye',
           img: {
             preview: 'gallery/vorota/otkatnye/01_otkatnye_400x300.jpg',
@@ -248,23 +248,23 @@ const products = {
       ]
     },
     {
-      title: 'Кованные калитки',
+      title: 'Кованые калитки',
       slug: 'kalitki',
       img: {
         preview: 'gallery/kalitki/01_kalitki_400x300.jpg',
         original:'gallery/kalitki/01_kalitki_1000x750.jpg',
       },
-      text: 'Кованные калитки являются украшением входной зоны, придают забору и ограждению завершенный вид, облогараживают пространство. Кованные ворота отличаются отовсех других своей прочностью, стойкостью к механическим повреждениям и погодным явлениям.',
+      text: 'Кованые калитки являются украшением входной зоны, придают забору и ограждению завершенный вид, облогараживают пространство. Кованые ворота отличаются отовсех других своей прочностью, стойкостью к механическим повреждениям и погодным явлениям.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованные калитки'},
+          { hid:'description-contacts', name: 'description', content: 'Купить Кованые калитки'},
           { name: 'keywords', content: 'купить калитки не дорого, калитки своими руками, калитки по своим чертежам, kovka-mo,калитки,калитки одинцово'},
         ],
-        title: 'Купить кованные калитки в Москве и МО – ковка –от компании Феникс Стальное Решение'
+        title: 'Купить Кованые калитки в Москве и МО – ковка –от компании Феникс Стальное Решение'
       },
       types: [
         {
-          title: 'Кованные калитки',
+          title: 'Кованые калитки',
           slug: 'kalitki_prostie',
           img: {
             preview: 'gallery/kalitki/01_kalitki_400x300.jpg',
@@ -373,7 +373,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные калитки в доме',
+          title: 'Кованые калитки в доме',
           slug: 'kalitki_dom',
           img: {
             preview: 'gallery/kalitki/kalitkivdome/01_kalitkivdome_400x300.jpg',
@@ -395,25 +395,25 @@ const products = {
       ]
     },
     {
-      title: 'Кованные перила',
+      title: 'Кованые перила',
       slug: 'perila',
       img: {
         preview: 'gallery/perila/01_perila_400x300.jpg',
         original:'gallery/perila/01_perila_1000x750.jpg',
       },
       text: 'Перила являются неотъемлемым атрибутом любого здания. Они встречаются у входа в дом, крепятся на лестницы.' +
-             ' По внешнему виду кованные перила могут быть красивее резных деревянных,' +
+             ' По внешнему виду Кованые перила могут быть красивее резных деревянных,' +
              ' благодаря технологиям художественной ковки позволяющим создавать уникальные фигуры.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованные перила в Москве'},
-          { name: 'keywords', content: 'купить кованные перила не дорого, кованные перила  своими руками, кованные перила по своим чертежам, kovka-mo,кованные перила,перила одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить Кованые перила в Москве'},
+          { name: 'keywords', content: 'купить Кованые перила не дорого, Кованые перила  своими руками, Кованые перила по своим чертежам, kovka-mo,Кованые перила,перила одинцово'},
         ],
-        title: 'Купить кованные перила  в Москве и МО – ковка –от компании Феникс Стальное Решение'
+        title: 'Купить Кованые перила  в Москве и МО – ковка –от компании Феникс Стальное Решение'
       },
       types: [
         {
-          title: 'Кованные перила в стиле Барокко',
+          title: 'Кованые перила в стиле Барокко',
           slug: 'perila_barokko',
           img: {
             preview: 'gallery/perila/baroko/01_perila_barokko_400x300.jpg',
@@ -422,8 +422,8 @@ const products = {
           products: [
             {
               id: 32,
-              title: 'Кованные перила в стиле Барокко',
-              text: 'Кованные перила в стиле Барокко №1',
+              title: 'Кованые перила в стиле Барокко',
+              text: 'Кованые перила в стиле Барокко №1',
               img: {
                 preview: 'gallery/perila/baroko/01_perila_barokko_400x300.jpg',
                 original:'gallery/perila/baroko/01_perila_barokko_1000x750.jpg',
@@ -432,8 +432,8 @@ const products = {
 
             {
               id: 33,
-              title: 'Кованные перила в стиле Барокко',
-              text: 'Кованные перила в стиле Барокко №2',
+              title: 'Кованые перила в стиле Барокко',
+              text: 'Кованые перила в стиле Барокко №2',
               img: {
                 preview: 'gallery/perila/baroko/02_perila_barokko_400x300.jpg',
                 original:'gallery/perila/baroko/02_perila_barokko_1000x750.jpg',
@@ -441,8 +441,8 @@ const products = {
             },
             {
               id: 34,
-              title: 'Кованные перила в стиле Барокко',
-              text: 'Кованные перила в стиле Барокко №3',
+              title: 'Кованые перила в стиле Барокко',
+              text: 'Кованые перила в стиле Барокко №3',
               img: {
                 preview: 'gallery/perila/baroko/03_perila_barokko_400x300.jpg',
                 original:'gallery/perila/baroko/03_perila_barokko_1000x750.jpg',
@@ -451,8 +451,8 @@ const products = {
 
             {
               id: 35,
-              title: 'Кованные перила в стиле Барокко',
-              text: 'Кованные перила в стиле Барокко №4',
+              title: 'Кованые перила в стиле Барокко',
+              text: 'Кованые перила в стиле Барокко №4',
               img: {
                 preview: 'gallery/perila/baroko/04_perila_barokko_400x300.jpg',
                 original:'gallery/perila/baroko/04_perila_barokko_1000x750.jpg',
@@ -461,8 +461,8 @@ const products = {
 
             {
               id: 36,
-              title: 'Кованные перила в стиле Барокко',
-              text: 'Кованные перила в стиле Барокко №5',
+              title: 'Кованые перила в стиле Барокко',
+              text: 'Кованые перила в стиле Барокко №5',
               img: {
                 preview: 'gallery/perila/baroko/05_perila_barokko_400x300.jpg',
                 original:'gallery/perila/baroko/05_perila_barokko_1000x750.jpg',
@@ -471,8 +471,8 @@ const products = {
 
             {
               id: 37,
-              title: 'Кованные перила в стиле Барокко',
-              text: 'Кованные перила в стиле Барокко №6',
+              title: 'Кованые перила в стиле Барокко',
+              text: 'Кованые перила в стиле Барокко №6',
               img: {
                 preview: 'gallery/perila/baroko/06_perila_barokko_400x300.jpg',
                 original:'gallery/perila/baroko/06_perila_barokko_1000x750.jpg',
@@ -482,7 +482,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные перила в стиле Рококо',
+          title: 'Кованые перила в стиле Рококо',
           slug: 'perila_rokoko',
           img: {
             preview: 'gallery/perila/rokoko/01_perila_rokoko_400x300.jpg',
@@ -491,8 +491,8 @@ const products = {
           products: [
             {
               id: 38,
-              title: 'Кованные перила в стиле Рококо',
-              text: 'Кованные перила в стиле Рококо №1',
+              title: 'Кованые перила в стиле Рококо',
+              text: 'Кованые перила в стиле Рококо №1',
               img: {
                 preview: 'gallery/perila/rokoko/01_perila_rokoko_400x300.jpg',
                 original:'gallery/perila/rokoko/01_perila_rokoko_1000x750.jpg',
@@ -501,8 +501,8 @@ const products = {
 
             {
               id: 39,
-              title: 'Кованные перила в стиле Рококо',
-              text: 'Кованные перила в стиле Рококо №2',
+              title: 'Кованые перила в стиле Рококо',
+              text: 'Кованые перила в стиле Рококо №2',
               img: {
                 preview: 'gallery/perila/rokoko/02_perila_rokoko_400x300.jpg',
                 original:'gallery/perila/rokoko/02_perila_rokoko_1000x750.jpg',
@@ -510,8 +510,8 @@ const products = {
             },
             {
               id: 40,
-              title: 'Кованные перила в стиле Рококо',
-              text: 'Кованные перила в стиле Рококо №3',
+              title: 'Кованые перила в стиле Рококо',
+              text: 'Кованые перила в стиле Рококо №3',
               img: {
                 preview: 'gallery/perila/rokoko/03_perila_rokoko_400x300.jpg',
                 original:'gallery/perila/rokoko/03_perila_rokoko_1000x750.jpg',
@@ -519,8 +519,8 @@ const products = {
             },
             {
               id: 41,
-              title: 'Кованные перила в стиле Рококо',
-              text: 'Кованные перила в стиле Рококо №4',
+              title: 'Кованые перила в стиле Рококо',
+              text: 'Кованые перила в стиле Рококо №4',
               img: {
                 preview: 'gallery/perila/rokoko/04_perila_rokoko_400x300.jpg',
                 original:'gallery/perila/rokoko/04_perila_rokoko_1000x750.jpg',
@@ -528,8 +528,8 @@ const products = {
             },
             {
               id: 42,
-              title: 'Кованные перила в стиле Рококо',
-              text: 'Кованные перила в стиле Рококо №5',
+              title: 'Кованые перила в стиле Рококо',
+              text: 'Кованые перила в стиле Рококо №5',
               img: {
                 preview: 'gallery/perila/rokoko/05_perila_rokoko_400x300.jpg',
                 original:'gallery/perila/rokoko/05_perila_rokoko_1000x750.jpg',
@@ -538,7 +538,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные перила в классическом стиле',
+          title: 'Кованые перила в классическом стиле',
           slug: 'perila_klasik',
           img: {
             preview: 'gallery/perila/klasik/01_perila_klasik_400x300.jpg',
@@ -547,8 +547,8 @@ const products = {
           products: [
             {
               id: 43,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №1',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №1',
               img: {
                 preview: 'gallery/perila/klasik/01_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/01_perila_klasik_1000x750.jpg',
@@ -557,8 +557,8 @@ const products = {
 
             {
               id: 44,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №2',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №2',
               img: {
                 preview: 'gallery/perila/klasik/02_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/02_perila_klasik_1000x750.jpg',
@@ -566,8 +566,8 @@ const products = {
             },
             {
               id: 45,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №3',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №3',
               img: {
                 preview: 'gallery/perila/klasik/03_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/03_perila_klasik_1000x750.jpg',
@@ -575,8 +575,8 @@ const products = {
             },
             {
               id: 46,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №4',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №4',
               img: {
                 preview: 'gallery/perila/klasik/04_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/04_perila_klasik_1000x750.jpg',
@@ -586,8 +586,8 @@ const products = {
 
             {
               id: 47,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №5',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №5',
               img: {
                 preview: 'gallery/perila/klasik/05_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/05_perila_klasik_1000x750.jpg',
@@ -596,8 +596,8 @@ const products = {
 
             {
               id: 48,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №6',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №6',
               img: {
                 preview: 'gallery/perila/klasik/06_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/06_perila_klasik_1000x750.jpg',
@@ -606,8 +606,8 @@ const products = {
 
             {
               id: 49,
-              title: 'Кованные перила в классическом стиле',
-              text: 'Кованные перила в классическом стиле №7',
+              title: 'Кованые перила в классическом стиле',
+              text: 'Кованые перила в классическом стиле №7',
               img: {
                 preview: 'gallery/perila/klasik/07_perila_klasik_400x300.jpg',
                 original:'gallery/perila/klasik/07_perila_klasik_1000x750.jpg',
@@ -618,7 +618,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные перила в современном стиле',
+          title: 'Кованые перила в современном стиле',
           slug: 'perila_sovremen',
           img: {
             preview: 'gallery/perila/sovremen/01_perila_sovremen_400x300.jpg',
@@ -627,8 +627,8 @@ const products = {
           products: [
             {
               id: 50,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №1',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №1',
               img: {
                 preview: 'gallery/perila/sovremen/01_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/01_perila_sovremen_1000x750.jpg',
@@ -637,8 +637,8 @@ const products = {
 
             {
               id: 51,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №2',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №2',
               img: {
                 preview: 'gallery/perila/sovremen/02_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/02_perila_sovremen_1000x750.jpg',
@@ -646,8 +646,8 @@ const products = {
             },
             {
               id: 52,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №3',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №3',
               img: {
                 preview: 'gallery/perila/sovremen/03_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/03_perila_sovremen_1000x750.jpg',
@@ -655,8 +655,8 @@ const products = {
             },
             {
               id: 53,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №4',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №4',
               img: {
                 preview: 'gallery/perila/sovremen/04_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/04_perila_sovremen_1000x750.jpg',
@@ -664,8 +664,8 @@ const products = {
             },
             {
               id: 54,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №5',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №5',
               img: {
                 preview: 'gallery/perila/sovremen/05_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/05_perila_sovremen_1000x750.jpg',
@@ -673,8 +673,8 @@ const products = {
             },
             {
               id: 55,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №6',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №6',
               img: {
                 preview: 'gallery/perila/sovremen/06_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/06_perila_sovremen_1000x750.jpg',
@@ -683,8 +683,8 @@ const products = {
 
             {
               id: 56,
-              title: 'Кованные перила в современном стиле',
-              text: 'Кованные перила в современном стиле №7',
+              title: 'Кованые перила в современном стиле',
+              text: 'Кованые перила в современном стиле №7',
               img: {
                 preview: 'gallery/perila/sovremen/07_perila_sovremen_400x300.jpg',
                 original:'gallery/perila/sovremen/07_perila_sovremen_1000x750.jpg',
@@ -697,7 +697,7 @@ const products = {
       ]
     },
     {
-      title: 'Кованные балконы',
+      title: 'Кованые балконы',
       slug: 'balkoni',
       img: {
         preview: 'gallery/balkoni/01_balkoni_400x300.jpg',
@@ -716,7 +716,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные балконы с прямыеми перилами',
+          title: 'Кованые балконы с прямыеми перилами',
           slug: 'balkoni_prymper',
           img: {
             preview: 'gallery/balkoni/prymper/01_prymper_400x300.jpg',
@@ -725,8 +725,8 @@ const products = {
           products: [
             {
               id: 57,
-              title: 'Кованные балконы с прямыеми перилами',
-              text: 'Кованные балконы с прямыеми перилами №1',
+              title: 'Кованые балконы с прямыеми перилами',
+              text: 'Кованые балконы с прямыеми перилами №1',
               img: {
                 preview: 'gallery/balkoni/prymper/01_prymper_400x300.jpg',
                 original:'gallery/balkoni/prymper/01_prymper_1000x750.jpg',
@@ -735,8 +735,8 @@ const products = {
 
             {
               id: 58,
-              title: 'Кованные балконы с прямыеми перилами',
-              text: 'Кованные балконы с прямыеми перилами №2',
+              title: 'Кованые балконы с прямыеми перилами',
+              text: 'Кованые балконы с прямыеми перилами №2',
               img: {
                 preview: 'gallery/balkoni/prymper/02_prymper_400x300.jpg',
                 original:'gallery/balkoni/prymper/02_prymper_1000x750.jpg',
@@ -744,8 +744,8 @@ const products = {
             },
             {
               id: 59,
-              title: 'Кованные балконы с прямыеми перилами',
-              text: 'Кованные балконы с прямыеми перилами №3',
+              title: 'Кованые балконы с прямыеми перилами',
+              text: 'Кованые балконы с прямыеми перилами №3',
               img: {
                 preview: 'gallery/balkoni/prymper/03_prymper_400x300.jpg',
                 original:'gallery/balkoni/prymper/03_prymper_1000x750.jpg',
@@ -754,8 +754,8 @@ const products = {
 
             {
               id: 60,
-              title: 'Кованные балконы с прямыеми перилами',
-              text: 'Кованные балконы с прямыеми перилами №4',
+              title: 'Кованые балконы с прямыеми перилами',
+              text: 'Кованые балконы с прямыеми перилами №4',
               img: {
                 preview: 'gallery/balkoni/prymper/04_prymper_400x300.jpg',
                 original:'gallery/balkoni/prymper/04_prymper_1000x750.jpg',
@@ -764,8 +764,8 @@ const products = {
 
             {
               id: 61,
-              title: 'Кованные балконы с прямыеми перилами',
-              text: 'Кованные балконы с прямыеми перилами №5',
+              title: 'Кованые балконы с прямыеми перилами',
+              text: 'Кованые балконы с прямыеми перилами №5',
               img: {
                 preview: 'gallery/balkoni/prymper/05_prymper_400x300.jpg',
                 original:'gallery/balkoni/prymper/05_prymper_1000x750.jpg',
@@ -775,7 +775,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные балконы радиусные',
+          title: 'Кованые балконы радиусные',
           slug: 'balkoni_radius',
           img: {
             preview: 'gallery/balkoni/radius/01_radius_400x300.jpg',
@@ -784,8 +784,8 @@ const products = {
           products: [
             {
               id: 62,
-              title: 'Кованные балконы радиусные',
-              text: 'Кованные балконы радиусные №1',
+              title: 'Кованые балконы радиусные',
+              text: 'Кованые балконы радиусные №1',
               img: {
                 preview: 'gallery/balkoni/radius/01_radius_400x300.jpg',
                 original:'gallery/balkoni/radius/01_radius_1000x750.jpg',
@@ -794,8 +794,8 @@ const products = {
 
             {
               id: 63,
-              title: 'Кованные балконы радиусные',
-              text: 'Кованные балконы радиусные №2',
+              title: 'Кованые балконы радиусные',
+              text: 'Кованые балконы радиусные №2',
               img: {
                 preview: 'gallery/balkoni/radius/02_radius_400x300.jpg',
                 original:'gallery/balkoni/radius/02_radius_1000x750.jpg',
@@ -804,8 +804,8 @@ const products = {
 
             {
               id: 64,
-              title: 'Кованные балконы радиусные',
-              text: 'Кованные балконы радиусные №3',
+              title: 'Кованые балконы радиусные',
+              text: 'Кованые балконы радиусные №3',
               img: {
                 preview: 'gallery/balkoni/radius/03_radius_400x300.jpg',
                 original:'gallery/balkoni/radius/03_radius_1000x750.jpg',
@@ -813,8 +813,8 @@ const products = {
             },
             {
               id: 65,
-              title: 'Кованные балконы радиусные',
-              text: 'Кованные балконы радиусные №4',
+              title: 'Кованые балконы радиусные',
+              text: 'Кованые балконы радиусные №4',
               img: {
                 preview: 'gallery/balkoni/radius/04_radius_400x300.jpg',
                 original:'gallery/balkoni/radius/04_radius_1000x750.jpg',
@@ -822,8 +822,8 @@ const products = {
             },
             // {
             //   id: 66,
-            //   title: 'Кованные балконы радиусные',
-            //   text: 'Кованные балконы радиусные №5',
+            //   title: 'Кованые балконы радиусные',
+            //   text: 'Кованые балконы радиусные №5',
             //   img: {
             //     preview: 'gallery/balkoni/radius/05_radius_400x300.jpg',
             //     original:'gallery/balkoni/radius/05_radius_1000x750.jpg',
@@ -832,7 +832,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные балконы комбинированные',
+          title: 'Кованые балконы комбинированные',
           slug: 'balkoni_combo',
           img: {
             preview: 'gallery/balkoni/combo/01_combo_400x300.jpg',
@@ -841,8 +841,8 @@ const products = {
           products: [
             {
               id: 67,
-              title: 'Кованные балконы комбинированные',
-              text: 'Кованные балконы комбинированные №1',
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №1',
               img: {
                 preview: 'gallery/balkoni/combo/01_combo_400x300.jpg',
                 original:'gallery/balkoni/combo/01_combo_1000x750.jpg',
@@ -851,8 +851,8 @@ const products = {
 
             {
               id: 68,
-              title: 'Кованные балконы комбинированные',
-              text: 'Кованные балконы комбинированные №2',
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №2',
               img: {
                 preview: 'gallery/balkoni/combo/02_combo_400x300.jpg',
                 original:'gallery/balkoni/combo/02_combo_1000x750.jpg',
@@ -861,8 +861,8 @@ const products = {
 
             {
               id: 69,
-              title: 'Кованные балконы комбинированные',
-              text: 'Кованные балконы комбинированные №3',
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №3',
               img: {
                 preview: 'gallery/balkoni/combo/03_combo_400x300.jpg',
                 original:'gallery/balkoni/combo/03_combo_1000x750.jpg',
@@ -870,8 +870,8 @@ const products = {
             },
             {
               id: 70,
-              title: 'Кованные балконы комбинированные',
-              text: 'Кованные балконы комбинированные №4',
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №4',
               img: {
                 preview: 'gallery/balkoni/combo/04_combo_400x300.jpg',
                 original:'gallery/balkoni/combo/04_combo_1000x750.jpg',
@@ -879,8 +879,8 @@ const products = {
             },
             {
               id: 71,
-              title: 'Кованные балконы комбинированные',
-              text: 'Кованные балконы комбинированные №5',
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №5',
               img: {
                 preview: 'gallery/balkoni/combo/05_combo_400x300.jpg',
                 original:'gallery/balkoni/combo/05_combo_1000x750.jpg',
@@ -888,8 +888,8 @@ const products = {
             },
             {
               id: 72,
-              title: 'Кованные балконы комбинированные',
-              text: 'Кованные балконы комбинированные №6',
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №6',
               img: {
                 preview: 'gallery/balkoni/combo/06_combo_400x300.jpg',
                 original:'gallery/balkoni/combo/06_combo_1000x750.jpg',
@@ -900,7 +900,7 @@ const products = {
       ]
     },
     {
-      title: 'Кованные козырьки',
+      title: 'Кованые козырьки',
       slug: 'kozirky',
       img: {
         preview: 'gallery/kozirky/01_kozirky_400x300.jpg',
@@ -911,13 +911,13 @@ const products = {
       metaData: {
         meta: [
           { hid:'description-contacts', name: 'description', content: 'Купить кованые козырьки в Москве'},
-          { name: 'keywords', content: 'купить кованые козырьки не дорого, кованые козырьки  своими руками, кованые козырьки по своим чертежам, kovka-mo,кованный козырьки,козырьки одинцово'},
+          { name: 'keywords', content: 'купить кованые козырьки не дорого, кованые козырьки  своими руками, кованые козырьки по своим чертежам, kovka-mo,кованый козырьки,козырьки одинцово'},
         ],
         title: 'Купить кованые козырьки  в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
       types: [
         {
-          title: 'Кованные козырьки',
+          title: 'Кованые козырьки',
           slug: 'kozirky_1',
           img: {
             preview: 'gallery/kozirky/01_kozirky_400x300.jpg',
@@ -926,8 +926,8 @@ const products = {
           products: [
             {
               id: 73,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №1',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №1',
               img: {
                 preview: 'gallery/kozirky/01_kozirky_400x300.jpg',
                 original:'gallery/kozirky/01_kozirky_1000x750.jpg',
@@ -936,8 +936,8 @@ const products = {
 
             {
               id: 74,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №2',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №2',
               img: {
                 preview: 'gallery/kozirky/02_kozirky_400x300.jpg',
                 original:'gallery/kozirky/02_kozirky_1000x750.jpg',
@@ -945,8 +945,8 @@ const products = {
             },
             {
               id: 75,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №3',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №3',
               img: {
                 preview: 'gallery/kozirky/03_kozirky_400x300.jpg',
                 original:'gallery/kozirky/03_kozirky_1000x750.jpg',
@@ -955,8 +955,8 @@ const products = {
 
             {
               id: 76,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №4',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №4',
               img: {
                 preview: 'gallery/kozirky/04_kozirky_400x300.jpg',
                 original:'gallery/kozirky/04_kozirky_1000x750.jpg',
@@ -964,8 +964,8 @@ const products = {
             },
             {
               id: 77,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №5',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №5',
               img: {
                 preview: 'gallery/kozirky/05_kozirky_400x300.jpg',
                 original:'gallery/kozirky/05_kozirky_1000x750.jpg',
@@ -973,8 +973,8 @@ const products = {
             },
             {
               id: 78,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №6',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №6',
               img: {
                 preview: 'gallery/kozirky/06_kozirky_400x300.jpg',
                 original:'gallery/kozirky/06_kozirky_1000x750.jpg',
@@ -982,8 +982,8 @@ const products = {
             },
             {
               id: 79,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №7',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №7',
               img: {
                 preview: 'gallery/kozirky/07_kozirky_400x300.jpg',
                 original:'gallery/kozirky/07_kozirky_1000x750.jpg',
@@ -991,8 +991,8 @@ const products = {
             },
             {
               id: 80,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №8',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №8',
               img: {
                 preview: 'gallery/kozirky/08_kozirky_400x300.jpg',
                 original:'gallery/kozirky/08_kozirky_1000x750.jpg',
@@ -1000,8 +1000,8 @@ const products = {
             },
             {
               id: 81,
-              title: 'Кованные козырьки',
-              text: 'Кованные козырьки №8',
+              title: 'Кованые козырьки',
+              text: 'Кованые козырьки №8',
               img: {
                 preview: 'gallery/kozirky/09_kozirky_400x300.jpg',
                 original:'gallery/kozirky/09_kozirky_1000x750.jpg',
@@ -1013,13 +1013,13 @@ const products = {
       ]
     },
     {
-      title: 'Кованные заборы',
+      title: 'Кованые заборы',
       slug: 'zabory',
       img: {
         preview: 'gallery/zabor/zaborpk/1_zaborpk_400x300.jpg',
         original:'gallery/zabor/zaborpk/1_zaborpk_1000x750.jpg',
       },
-      text: 'Кованные заборы находят свое применение во многих местах. Такая ограда может быть вокруг территории частного дома или дачного участка. Ажурный металлический забор может украшать ' +
+      text: 'Кованые заборы находят свое применение во многих местах. Такая ограда может быть вокруг территории частного дома или дачного участка. Ажурный металлический забор может украшать ' +
             'и охранять пространство вокруг зданий, в которых располагаются различные государственные учреждения. Он становится естественным дополнением общественного или частного парка.',
       metaData: {
         meta: [
@@ -1030,7 +1030,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные заборы с поликарбонатом',
+          title: 'Кованые заборы с поликарбонатом',
           slug: 'zabory_pk',
           img: {
             preview: 'gallery/zabor/zaborpk/1_zaborpk_400x300.jpg',
@@ -1039,8 +1039,8 @@ const products = {
           products: [
             {
               id: 82,
-              title: 'Кованные заборы с поликарбонатом',
-              text: 'Кованные заборы с поликарбонатом №1',
+              title: 'Кованые заборы с поликарбонатом',
+              text: 'Кованые заборы с поликарбонатом №1',
               img: {
                 preview: 'gallery/zabor/zaborpk/1_zaborpk_400x300.jpg',
                 original:'gallery/zabor/zaborpk/1_zaborpk_1000x750.jpg',
@@ -1049,8 +1049,8 @@ const products = {
 
             {
               id: 83,
-              title: 'Кованные заборы с поликарбонатом',
-              text: 'Кованные заборы с поликарбонатом №2',
+              title: 'Кованые заборы с поликарбонатом',
+              text: 'Кованые заборы с поликарбонатом №2',
               img: {
                 preview: 'gallery/zabor/zaborpk/2_zaborpk_400x300.jpg',
                 original:'gallery/zabor/zaborpk/2_zaborpk_1000x750.jpg',
@@ -1058,8 +1058,8 @@ const products = {
             },
             {
               id: 84,
-              title: 'Кованные заборы с поликарбонатом',
-              text: 'Кованные заборы с поликарбонатом №3',
+              title: 'Кованые заборы с поликарбонатом',
+              text: 'Кованые заборы с поликарбонатом №3',
               img: {
                 preview: 'gallery/zabor/zaborpk/3_zaborpk_400x300.jpg',
                 original:'gallery/zabor/zaborpk/3_zaborpk_1000x750.jpg',
@@ -1068,8 +1068,8 @@ const products = {
 
             {
               id: 85,
-              title: 'Кованные заборы с поликарбонатом',
-              text: 'Кованные заборы с поликарбонатом №4',
+              title: 'Кованые заборы с поликарбонатом',
+              text: 'Кованые заборы с поликарбонатом №4',
               img: {
                 preview: 'gallery/zabor/zaborpk/4_zaborpk_400x300.jpg',
                 original:'gallery/zabor/zaborpk/4_zaborpk_1000x750.jpg',
@@ -1077,8 +1077,8 @@ const products = {
             },
             {
               id: 86,
-              title: 'Кованные заборы с поликарбонатом',
-              text: 'Кованные заборы с поликарбонатом №5',
+              title: 'Кованые заборы с поликарбонатом',
+              text: 'Кованые заборы с поликарбонатом №5',
               img: {
                 preview: 'gallery/zabor/zaborpk/5_zaborpk_400x300.jpg',
                 original:'gallery/zabor/zaborpk/5_zaborpk_1000x750.jpg',
@@ -1086,8 +1086,8 @@ const products = {
             },
             {
               id: 87,
-              title: 'Кованные заборы с поликарбонатом',
-              text: 'Кованные заборы с поликарбонатом №6',
+              title: 'Кованые заборы с поликарбонатом',
+              text: 'Кованые заборы с поликарбонатом №6',
               img: {
                 preview: 'gallery/zabor/zaborpk/6_zaborpk_400x300.jpg',
                 original:'gallery/zabor/zaborpk/6_zaborpk_1000x750.jpg',
@@ -1095,8 +1095,8 @@ const products = {
             },
             // {
             //   id: 88,
-            //   title: 'Кованные заборы с поликарбонатом',
-            //   text: 'Кованные заборы с поликарбонатом №7',
+            //   title: 'Кованые заборы с поликарбонатом',
+            //   text: 'Кованые заборы с поликарбонатом №7',
             //   img: {
             //     preview: 'gallery/zabor/zaborpk/7_zaborpk_400x300.jpg',
             //     original:'gallery/zabor/zaborpk/7_zaborpk_1000x750.jpg',
@@ -1105,7 +1105,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные заборы с железным листом',
+          title: 'Кованые заборы с железным листом',
           slug: 'zabory_stal',
           img: {
             preview: 'gallery/zabor/zaborstal/1_zaborstal_400x300.jpg',
@@ -1114,8 +1114,8 @@ const products = {
           products: [
             {
               id: 89,
-              title: 'Кованные заборы с железным листом',
-              text: 'Кованные заборы с железным листом №1',
+              title: 'Кованые заборы с железным листом',
+              text: 'Кованые заборы с железным листом №1',
               img: {
                 preview: 'gallery/zabor/zaborstal/1_zaborstal_400x300.jpg',
                 original:'gallery/zabor/zaborstal/1_zaborstal_1000x750.jpg',
@@ -1124,8 +1124,8 @@ const products = {
 
             {
               id: 90,
-              title: 'Кованные заборы с железным листом',
-              text: 'Кованные заборы с железным листом №2',
+              title: 'Кованые заборы с железным листом',
+              text: 'Кованые заборы с железным листом №2',
               img: {
                 preview: 'gallery/zabor/zaborstal/2_zaborstal_400x300.jpg',
                 original:'gallery/zabor/zaborstal/2_zaborstal_1000x750.jpg',
@@ -1133,8 +1133,8 @@ const products = {
             },
             {
               id: 91,
-              title: 'Кованные заборы с железным листом',
-              text: 'Кованные заборы с железным листом №3',
+              title: 'Кованые заборы с железным листом',
+              text: 'Кованые заборы с железным листом №3',
               img: {
                 preview: 'gallery/zabor/zaborstal/3_zaborstal_400x300.jpg',
                 original:'gallery/zabor/zaborstal/3_zaborstal_1000x750.jpg',
@@ -1142,8 +1142,8 @@ const products = {
             },
             {
               id: 92,
-              title: 'Кованные заборы с железным листом',
-              text: 'Кованные заборы с железным листом №4',
+              title: 'Кованые заборы с железным листом',
+              text: 'Кованые заборы с железным листом №4',
               img: {
                 preview: 'gallery/zabor/zaborstal/4_zaborstal_400x300.jpg',
                 original:'gallery/zabor/zaborstal/4_zaborstal_1000x750.jpg',
@@ -1151,8 +1151,8 @@ const products = {
             },
             {
               id: 93,
-              title: 'Кованные заборы с железным листом',
-              text: 'Кованные заборы с железным листом №5',
+              title: 'Кованые заборы с железным листом',
+              text: 'Кованые заборы с железным листом №5',
               img: {
                 preview: 'gallery/zabor/zaborstal/5_zaborstal_400x300.jpg',
                 original:'gallery/zabor/zaborstal/5_zaborstal_1000x750.jpg',
@@ -1161,7 +1161,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные заборы с профлистом',
+          title: 'Кованые заборы с профлистом',
           slug: 'zabory_stal',
           img: {
             preview: 'gallery/zabor/zaborstalprof/1_zaborstalprof_400x300.jpg',
@@ -1170,8 +1170,8 @@ const products = {
           products: [
             {
               id: 94,
-              title: 'Кованные заборы с профлистом',
-              text: 'Кованные заборы с профлистом №1',
+              title: 'Кованые заборы с профлистом',
+              text: 'Кованые заборы с профлистом №1',
               img: {
                 preview: 'gallery/zabor/zaborstalprof/1_zaborstalprof_400x300.jpg',
                 original:'gallery/zabor/zaborstalprof/1_zaborstalprof_1000x750.jpg',
@@ -1180,8 +1180,8 @@ const products = {
 
             {
               id: 95,
-              title: 'Кованные заборы с профлистом',
-              text: 'Кованные заборы с профлистом №2',
+              title: 'Кованые заборы с профлистом',
+              text: 'Кованые заборы с профлистом №2',
               img: {
                 preview: 'gallery/zabor/zaborstalprof/2_zaborstalprof_400x300.jpg',
                 original:'gallery/zabor/zaborstalprof/2_zaborstalprof_1000x750.jpg',
@@ -1189,8 +1189,8 @@ const products = {
             },
             {
               id: 96,
-              title: 'Кованные заборы с профлистом',
-              text: 'Кованные заборы с профлистом №3',
+              title: 'Кованые заборы с профлистом',
+              text: 'Кованые заборы с профлистом №3',
               img: {
                 preview: 'gallery/zabor/zaborstalprof/3_zaborstalprof_400x300.jpg',
                 original:'gallery/zabor/zaborstalprof/3_zaborstalprof_1000x750.jpg',
@@ -1198,8 +1198,8 @@ const products = {
             },
             {
               id: 97,
-              title: 'Кованные заборы с профлистом',
-              text: 'Кованные заборы с профлистом №4',
+              title: 'Кованые заборы с профлистом',
+              text: 'Кованые заборы с профлистом №4',
               img: {
                 preview: 'gallery/zabor/zaborstalprof/4_zaborstalprof_400x300.jpg',
                 original:'gallery/zabor/zaborstalprof/4_zaborstalprof_1000x750.jpg',
@@ -1207,8 +1207,8 @@ const products = {
             },
             {
               id: 98,
-              title: 'Кованные заборы с профлистом',
-              text: 'Кованные заборы с профлистом №5',
+              title: 'Кованые заборы с профлистом',
+              text: 'Кованые заборы с профлистом №5',
               img: {
                 preview: 'gallery/zabor/zaborstalprof/5_zaborstalprof_400x300.jpg',
                 original:'gallery/zabor/zaborstalprof/5_zaborstalprof_1000x750.jpg',
@@ -1217,7 +1217,7 @@ const products = {
           ],
         },
         {
-          title: 'Кованные заборы с кирпичом',
+          title: 'Кованые заборы с кирпичом',
           slug: 'zabory_stal',
           img: {
             preview: 'gallery/zabor/zaborkirp/1_zaborkirp_400x300.jpg',
@@ -1226,8 +1226,8 @@ const products = {
           products: [
             {
               id: 99,
-              title: 'Кованные заборы с кирпичом',
-              text: 'Кованные заборы с кирпичом №1',
+              title: 'Кованые заборы с кирпичом',
+              text: 'Кованые заборы с кирпичом №1',
               img: {
                 preview: 'gallery/zabor/zaborkirp/1_zaborkirp_400x300.jpg',
                 original:'gallery/zabor/zaborkirp/1_zaborkirp_1000x750.jpg',
@@ -1236,8 +1236,8 @@ const products = {
 
             {
               id: 100,
-              title: 'Кованные заборы с кирпичом',
-              text: 'Кованные заборы с кирпичом №2',
+              title: 'Кованые заборы с кирпичом',
+              text: 'Кованые заборы с кирпичом №2',
               img: {
                 preview: 'gallery/zabor/zaborkirp/2_zaborkirp_400x300.jpg',
                 original:'gallery/zabor/zaborkirp/2_zaborkirp_1000x750.jpg',
@@ -1245,8 +1245,8 @@ const products = {
             },
             {
               id: 101,
-              title: 'Кованные заборы с кирпичом',
-              text: 'Кованные заборы с кирпичом №3',
+              title: 'Кованые заборы с кирпичом',
+              text: 'Кованые заборы с кирпичом №3',
               img: {
                 preview: 'gallery/zabor/zaborkirp/3_zaborkirp_400x300.jpg',
                 original:'gallery/zabor/zaborkirp/3_zaborkirp_1000x750.jpg',
@@ -1254,8 +1254,8 @@ const products = {
             },
             {
               id: 102,
-              title: 'Кованные заборы с кирпичом',
-              text: 'Кованные заборы с кирпичом №4',
+              title: 'Кованые заборы с кирпичом',
+              text: 'Кованые заборы с кирпичом №4',
               img: {
                 preview: 'gallery/zabor/zaborkirp/4_zaborkirp_400x300.jpg',
                 original:'gallery/zabor/zaborkirp/4_zaborkirp_1000x750.jpg',
@@ -1267,13 +1267,13 @@ const products = {
       ]
     },
     {
-      title: 'Кованные навесы',
+      title: 'Кованые навесы',
       slug: 'navesi',
       img: {
         preview: 'gallery/naves/1_naves_400x300.jpg',
         original:'gallery/naves/1_naves_1000x750.jpg',
       },
-      text: 'Кованные навесы – роскошь, оригинальность, красота, изящество и особый шик архитектурного ансамбля. ' +
+      text: 'Кованые навесы – роскошь, оригинальность, красота, изящество и особый шик архитектурного ансамбля. ' +
             'Такие изделия становятся настоящим украшением парков, частных участков, фасадов жилых, административных, офисных зданий, коттеджей и маленьких дачных домиков.',
       metaData: {
         meta: [
@@ -1284,7 +1284,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные навесы',
+          title: 'Кованые навесы',
           slug: 'navesi_1',
           img: {
             preview: 'gallery/naves/1_naves_400x300.jpg',
@@ -1293,8 +1293,8 @@ const products = {
           products: [
             {
               id: 103,
-              title: 'Кованные навесы',
-              text: 'Кованные навесы №1',
+              title: 'Кованые навесы',
+              text: 'Кованые навесы №1',
               img: {
                 preview: 'gallery/naves/1_naves_400x300.jpg',
                 original:'gallery/naves/1_naves_1000x750.jpg',
@@ -1302,8 +1302,8 @@ const products = {
             },
             {
               id: 104,
-              title: 'Кованные навесы',
-              text: 'Кованные навесы №2',
+              title: 'Кованые навесы',
+              text: 'Кованые навесы №2',
               img: {
                 preview: 'gallery/naves/2_naves_400x300.jpg',
                 original:'gallery/naves/2_naves_1000x750.jpg',
@@ -1312,8 +1312,8 @@ const products = {
 
             {
               id: 105,
-              title: 'Кованные навесы',
-              text: 'Кованные навесы №3',
+              title: 'Кованые навесы',
+              text: 'Кованые навесы №3',
               img: {
                 preview: 'gallery/naves/3_naves_400x300.jpg',
                 original:'gallery/naves/3_naves_1000x750.jpg',
@@ -1321,8 +1321,8 @@ const products = {
             },
             {
               id: 106,
-              title: 'Кованные навесы',
-              text: 'Кованные навесы №4',
+              title: 'Кованые навесы',
+              text: 'Кованые навесы №4',
               img: {
                 preview: 'gallery/naves/4_naves_400x300.jpg',
                 original:'gallery/naves/4_naves_1000x750.jpg',
@@ -1331,8 +1331,8 @@ const products = {
 
             {
               id: 107,
-              title: 'Кованные навесы',
-              text: 'Кованные навесы №5',
+              title: 'Кованые навесы',
+              text: 'Кованые навесы №5',
               img: {
                 preview: 'gallery/naves/5_naves_400x300.jpg',
                 original:'gallery/naves/5_naves_1000x750.jpg',
@@ -1345,7 +1345,7 @@ const products = {
       ]
     },
     {
-      title: 'Кованные беседки',
+      title: 'Кованые беседки',
       slug: 'besedki',
       img: {
         preview: 'gallery/besedki/1_besedki_400x300.jpg',
@@ -1362,7 +1362,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные беседки',
+          title: 'Кованые беседки',
           slug: 'besedki_1',
           img: {
             preview: 'gallery/besedki/1_besedki_400x300.jpg',
@@ -1371,8 +1371,8 @@ const products = {
           products: [
             {
               id: 108,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №1',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №1',
               img: {
                 preview: 'gallery/besedki/1_besedki_400x300.jpg',
                 original:'gallery/besedki/1_besedki_1000x750.jpg',
@@ -1380,8 +1380,8 @@ const products = {
             },
             {
               id: 109,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №2',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №2',
               img: {
                 preview: 'gallery/besedki/2_besedki_400x300.jpg',
                 original:'gallery/besedki/2_besedki_1000x750.jpg',
@@ -1390,8 +1390,8 @@ const products = {
 
             {
               id: 110,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №3',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №3',
               img: {
                 preview: 'gallery/besedki/3_besedki_400x300.jpg',
                 original:'gallery/besedki/3_besedki_1000x750.jpg',
@@ -1399,8 +1399,8 @@ const products = {
             },
             {
               id: 111,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №4',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №4',
               img: {
                 preview: 'gallery/besedki/4_besedki_400x300.jpg',
                 original:'gallery/besedki/4_besedki_1000x750.jpg',
@@ -1409,8 +1409,8 @@ const products = {
 
             {
               id: 112,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №5',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №5',
               img: {
                 preview: 'gallery/besedki/5_besedki_400x300.jpg',
                 original:'gallery/besedki/5_besedki_1000x750.jpg',
@@ -1418,8 +1418,8 @@ const products = {
             },
             {
               id: 113,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №6',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №6',
               img: {
                 preview: 'gallery/besedki/6_besedki_400x300.jpg',
                 original:'gallery/besedki/6_besedki_1000x750.jpg',
@@ -1427,8 +1427,8 @@ const products = {
             },
             {
               id: 114,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №7',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №7',
               img: {
                 preview: 'gallery/besedki/7_besedki_400x300.jpg',
                 original:'gallery/besedki/7_besedki_1000x750.jpg',
@@ -1436,8 +1436,8 @@ const products = {
             },
             {
               id: 115,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №8',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №8',
               img: {
                 preview: 'gallery/besedki/8_besedki_400x300.jpg',
                 original:'gallery/besedki/8_besedki_1000x750.jpg',
@@ -1445,8 +1445,8 @@ const products = {
             },
             {
               id: 116,
-              title: 'Кованные беседки',
-              text: 'Кованные беседки №9',
+              title: 'Кованые беседки',
+              text: 'Кованые беседки №9',
               img: {
                 preview: 'gallery/besedki/9_besedki_400x300.jpg',
                 original:'gallery/besedki/9_besedki_1000x750.jpg',
@@ -1459,7 +1459,7 @@ const products = {
       ]
     },
     {
-      title: 'Кованные ограды',
+      title: 'Кованые ограды',
       slug: 'ograda',
       img: {
         preview: 'gallery/ograda/1_ograda_400x300.jpg',
@@ -1476,7 +1476,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные ограды',
+          title: 'Кованые ограды',
           slug: 'ograda_1',
           img: {
             preview: 'gallery/ograda/1_ograda_400x300.jpg',
@@ -1485,8 +1485,8 @@ const products = {
           products: [
             {
               id: 117,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №1',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №1',
               img: {
                 preview: 'gallery/ograda/1_ograda_400x300.jpg',
                 original:'gallery/ograda/1_ograda_1000x750.jpg',
@@ -1494,8 +1494,8 @@ const products = {
             },
             {
               id: 118,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №2',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №2',
               img: {
                 preview: 'gallery/ograda/2_ograda_400x300.jpg',
                 original:'gallery/ograda/2_ograda_1000x750.jpg',
@@ -1504,8 +1504,8 @@ const products = {
 
             {
               id: 119,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №3',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №3',
               img: {
                 preview: 'gallery/ograda/3_ograda_400x300.jpg',
                 original:'gallery/ograda/3_ograda_1000x750.jpg',
@@ -1513,8 +1513,8 @@ const products = {
             },
             {
               id: 120,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №4',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №4',
               img: {
                 preview: 'gallery/ograda/4_ograda_400x300.jpg',
                 original:'gallery/ograda/4_ograda_1000x750.jpg',
@@ -1523,8 +1523,8 @@ const products = {
 
             {
               id: 121,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №5',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №5',
               img: {
                 preview: 'gallery/ograda/5_ograda_400x300.jpg',
                 original:'gallery/ograda/5_ograda_1000x750.jpg',
@@ -1532,8 +1532,8 @@ const products = {
             },
             {
               id: 122,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №3',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №3',
               img: {
                 preview: 'gallery/ograda/6_ograda_400x300.jpg',
                 original:'gallery/ograda/6_ograda_1000x750.jpg',
@@ -1541,8 +1541,8 @@ const products = {
             },
             {
               id: 123,
-              title: 'Кованные ограды',
-              text: 'Кованные ограды №7',
+              title: 'Кованые ограды',
+              text: 'Кованые ограды №7',
               img: {
                 preview: 'gallery/ograda/7_ograda_400x300.jpg',
                 original:'gallery/ograda/7_ograda_1000x750.jpg',
@@ -1550,8 +1550,8 @@ const products = {
             },
             // {
             //   id: 124,
-            //   title: 'Кованные ограды',
-            //   text: 'Кованные ограды №8',
+            //   title: 'Кованые ограды',
+            //   text: 'Кованые ограды №8',
             //   img: {
             //     preview: 'gallery/ograda/8_ograda_400x300.jpg',
             //     original:'gallery/ograda/8_ograda_1000x750.jpg',
@@ -1565,13 +1565,13 @@ const products = {
       ]
     },
     {
-      title: 'Кованные решетки',
+      title: 'Кованые решетки',
       slug: 'reshetki',
       img: {
         preview: 'gallery/reshetki/1_reshetki_400x300.jpg',
         original:'gallery/reshetki/1_reshetki_1000x750.jpg',
       },
-      text: 'Кованные решетки отличаются самой разной формой, что позволяет выбирать изделия под любую конфигурацию проема окна и в зависимости от глубины его утопания в фасаде.',
+      text: 'Кованые решетки отличаются самой разной формой, что позволяет выбирать изделия под любую конфигурацию проема окна и в зависимости от глубины его утопания в фасаде.',
       metaData: {
         meta: [
           { hid:'description-contacts', name: 'description', content: 'Купить кованые решетки в Москве и Московской области'},
@@ -1581,7 +1581,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные решетки',
+          title: 'Кованые решетки',
           slug: 'reshetki_1',
           img: {
             preview: 'gallery/reshetki/1_reshetki_400x300.jpg',
@@ -1590,8 +1590,8 @@ const products = {
           products: [
             {
               id: 125,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №1',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №1',
               img: {
                 preview: 'gallery/reshetki/1_reshetki_400x300.jpg',
                 original:'gallery/reshetki/1_reshetki_1000x750.jpg',
@@ -1599,8 +1599,8 @@ const products = {
             },
             {
               id: 126,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №2',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №2',
               img: {
                 preview: 'gallery/reshetki/2_reshetki_400x300.jpg',
                 original:'gallery/reshetki/2_reshetki_1000x750.jpg',
@@ -1609,8 +1609,8 @@ const products = {
 
             {
               id: 127,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №3',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №3',
               img: {
                 preview: 'gallery/reshetki/3_reshetki_400x300.jpg',
                 original:'gallery/reshetki/3_reshetki_1000x750.jpg',
@@ -1618,8 +1618,8 @@ const products = {
             },
             {
               id: 128,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №4',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №4',
               img: {
                 preview: 'gallery/reshetki/4_reshetki_400x300.jpg',
                 original:'gallery/reshetki/4_reshetki_1000x750.jpg',
@@ -1628,8 +1628,8 @@ const products = {
 
             {
               id: 129,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №5',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №5',
               img: {
                 preview: 'gallery/reshetki/5_reshetki_400x300.jpg',
                 original:'gallery/reshetki/5_reshetki_1000x750.jpg',
@@ -1637,8 +1637,8 @@ const products = {
             },
             {
               id: 130,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №6',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №6',
               img: {
                 preview: 'gallery/reshetki/6_reshetki_400x300.jpg',
                 original:'gallery/reshetki/6_reshetki_1000x750.jpg',
@@ -1646,8 +1646,8 @@ const products = {
             },
             {
               id: 131,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №7',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №7',
               img: {
                 preview: 'gallery/reshetki/7_reshetki_400x300.jpg',
                 original:'gallery/reshetki/7_reshetki_1000x750.jpg',
@@ -1655,8 +1655,8 @@ const products = {
             },
             {
               id: 132,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №8',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №8',
               img: {
                 preview: 'gallery/reshetki/8_reshetki_400x300.jpg',
                 original:'gallery/reshetki/8_reshetki_1000x750.jpg',
@@ -1664,8 +1664,8 @@ const products = {
             },
             {
               id: 133,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №9',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №9',
               img: {
                 preview: 'gallery/reshetki/9_reshetki_400x300.jpg',
                 original:'gallery/reshetki/9_reshetki_1000x750.jpg',
@@ -1673,8 +1673,8 @@ const products = {
             },
             {
               id: 134,
-              title: 'Кованные решетки',
-              text: 'Кованные решетки №10',
+              title: 'Кованые решетки',
+              text: 'Кованые решетки №10',
               img: {
                 preview: 'gallery/reshetki/10_reshetki_400x300.jpg',
                 original:'gallery/reshetki/10_reshetki_1000x750.jpg',
@@ -1686,13 +1686,13 @@ const products = {
       ]
     },
     {
-      title: 'Кованные вывески',
+      title: 'Кованые вывески',
       slug: 'viveski',
       img: {
         preview: 'gallery/viveski/1_viveski_400x300.jpg',
         original:'gallery/viveski/1_viveski_1000x750.jpg',
       },
-      text: 'Кованные вывески один из самых древних, изящных и оригинальных видов наружной рекламы. Европейская цивилизация веками пользуется этими источниками информации, а они служат верой и правдой до наших дней. Как и раньше,' +
+      text: 'Кованые вывески один из самых древних, изящных и оригинальных видов наружной рекламы. Европейская цивилизация веками пользуется этими источниками информации, а они служат верой и правдой до наших дней. Как и раньше,' +
             ' они выполняют две основные функции являются оригинальным фасадным украшением и доступным средством информирования.',
       metaData: {
         meta: [
@@ -1703,7 +1703,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные вывески',
+          title: 'Кованые вывески',
           slug: 'viveski_1',
           img: {
             preview: 'gallery/viveski/1_viveski_400x300.jpg',
@@ -1712,8 +1712,8 @@ const products = {
           products: [
             {
               id: 135,
-              title: 'Кованные вывески',
-              text: 'Кованные вывески №1',
+              title: 'Кованые вывески',
+              text: 'Кованые вывески №1',
               img: {
                 preview: 'gallery/viveski/1_viveski_400x300.jpg',
                 original:'gallery/viveski/1_viveski_1000x750.jpg',
@@ -1721,8 +1721,8 @@ const products = {
             },
             {
               id: 136,
-              title: 'Кованные вывески',
-              text: 'Кованные вывески №2',
+              title: 'Кованые вывески',
+              text: 'Кованые вывески №2',
               img: {
                 preview: 'gallery/viveski/2_viveski_400x300.jpg',
                 original:'gallery/viveski/2_viveski_1000x750.jpg',
@@ -1731,8 +1731,8 @@ const products = {
 
             {
               id: 137,
-              title: 'Кованные вывески',
-              text: 'Кованные вывески №3',
+              title: 'Кованые вывески',
+              text: 'Кованые вывески №3',
               img: {
                 preview: 'gallery/viveski/3_viveski_400x300.jpg',
                 original:'gallery/viveski/3_viveski_1000x750.jpg',
@@ -1740,8 +1740,8 @@ const products = {
             },
             {
               id: 138,
-              title: 'Кованные вывески',
-              text: 'Кованные вывески №4',
+              title: 'Кованые вывески',
+              text: 'Кованые вывески №4',
               img: {
                 preview: 'gallery/viveski/4_viveski_400x300.jpg',
                 original:'gallery/viveski/4_viveski_1000x750.jpg',
@@ -1754,7 +1754,7 @@ const products = {
       ]
     },
     {
-      title: 'Кованные мангалы',
+      title: 'Кованые мангалы',
       slug: 'mangal',
       img: {
         preview: 'gallery/mangal/1_mangal_400x300.jpg',
@@ -1771,7 +1771,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные мангалы',
+          title: 'Кованые мангалы',
           slug: 'mangal_1',
           img: {
             preview: 'gallery/mangal/1_mangal_400x300.jpg',
@@ -1780,8 +1780,8 @@ const products = {
           products: [
             {
               id: 139,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №1',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №1',
               img: {
                 preview: 'gallery/mangal/1_mangal_400x300.jpg',
                 original:'gallery/mangal/1_mangal_1000x750.jpg',
@@ -1789,8 +1789,8 @@ const products = {
             },
             {
               id: 140,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №2',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №2',
               img: {
                 preview: 'gallery/mangal/2_mangal_400x300.jpg',
                 original:'gallery/mangal/2_mangal_1000x750.jpg',
@@ -1799,8 +1799,8 @@ const products = {
 
             {
               id: 141,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №3',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №3',
               img: {
                 preview: 'gallery/mangal/3_mangal_400x300.jpg',
                 original:'gallery/mangal/3_mangal_1000x750.jpg',
@@ -1808,8 +1808,8 @@ const products = {
             },
             {
               id: 142,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №4',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №4',
               img: {
                 preview: 'gallery/mangal/4_mangal_400x300.jpg',
                 original:'gallery/mangal/4_mangal_1000x750.jpg',
@@ -1817,8 +1817,8 @@ const products = {
             },
             {
               id: 143,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №5',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №5',
               img: {
                 preview: 'gallery/mangal/5_mangal_400x300.jpg',
                 original:'gallery/mangal/5_mangal_1000x750.jpg',
@@ -1826,8 +1826,8 @@ const products = {
             },
             {
               id: 144,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №6',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №6',
               img: {
                 preview: 'gallery/mangal/6_mangal_400x300.jpg',
                 original:'gallery/mangal/6_mangal_1000x750.jpg',
@@ -1835,8 +1835,8 @@ const products = {
             },
             {
               id: 145,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №7',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №7',
               img: {
                 preview: 'gallery/mangal/7_mangal_400x300.jpg',
                 original:'gallery/mangal/7_mangal_1000x750.jpg',
@@ -1844,8 +1844,8 @@ const products = {
             },
             {
               id: 146,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №8',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №8',
               img: {
                 preview: 'gallery/mangal/8_mangal_400x300.jpg',
                 original:'gallery/mangal/8_mangal_1000x750.jpg',
@@ -1853,8 +1853,8 @@ const products = {
             },
             {
               id: 147,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №9',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №9',
               img: {
                 preview: 'gallery/mangal/9_mangal_400x300.jpg',
                 original:'gallery/mangal/9_mangal_1000x750.jpg',
@@ -1862,8 +1862,8 @@ const products = {
             },
             {
               id: 148,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №10',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №10',
               img: {
                 preview: 'gallery/mangal/10_mangal_400x300.jpg',
                 original:'gallery/mangal/10_mangal_1000x750.jpg',
@@ -1871,8 +1871,8 @@ const products = {
             },
             {
               id: 149,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №11',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №11',
               img: {
                 preview: 'gallery/mangal/11_mangal_400x300.jpg',
                 original:'gallery/mangal/11_mangal_1000x750.jpg',
@@ -1880,8 +1880,8 @@ const products = {
             },
             {
               id: 150,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №12',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №12',
               img: {
                 preview: 'gallery/mangal/12_mangal_400x300.jpg',
                 original:'gallery/mangal/12_mangal_1000x750.jpg',
@@ -1889,8 +1889,8 @@ const products = {
             },
             {
               id: 151,
-              title: 'Кованные мангалы',
-              text: 'Кованные мангалы №13',
+              title: 'Кованые мангалы',
+              text: 'Кованые мангалы №13',
               img: {
                 preview: 'gallery/mangal/13_mangal_400x300.jpg',
                 original:'gallery/mangal/13_mangal_1000x750.jpg',
@@ -1902,13 +1902,13 @@ const products = {
       ]
     },
     {
-      title: 'Кованные люстры',
+      title: 'Кованые люстры',
       slug: 'lustra',
       img: {
         preview: 'gallery/lustra/1_lustra_400x300.jpg',
         original:'gallery/lustra/1_lustra_1000x750.jpg',
       },
-      text: 'Кованные люстры — классика в мире интерьерного и уличного освещения. Они применяются уже несколько веков, такие светильники со свечами украшали средневековые замки.' +
+      text: 'Кованые люстры — классика в мире интерьерного и уличного освещения. Они применяются уже несколько веков, такие светильники со свечами украшали средневековые замки.' +
             ' Современные кованые люстры с разнообразными источниками света также популярны. Они сочетаются со многими стилями оформления, придавая помещению или улице особый шарм',
       metaData: {
         meta: [
@@ -1919,7 +1919,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные люстры',
+          title: 'Кованые люстры',
           slug: 'lustra_1',
           img: {
             preview: 'gallery/lustra/1_lustra_400x300.jpg',
@@ -1928,8 +1928,8 @@ const products = {
           products: [
             {
               id: 152,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №1',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №1',
               img: {
                 preview: 'gallery/lustra/1_lustra_400x300.jpg',
                 original:'gallery/lustra/1_lustra_1000x750.jpg',
@@ -1937,8 +1937,8 @@ const products = {
             },
             {
               id: 153,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №2',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №2',
               img: {
                 preview: 'gallery/lustra/2_lustra_400x300.jpg',
                 original:'gallery/lustra/2_lustra_1000x750.jpg',
@@ -1947,8 +1947,8 @@ const products = {
 
             {
               id: 154,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №3',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №3',
               img: {
                 preview: 'gallery/lustra/3_lustra_400x300.jpg',
                 original:'gallery/lustra/3_lustra_1000x750.jpg',
@@ -1956,8 +1956,8 @@ const products = {
             },
             {
               id: 155,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №4',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №4',
               img: {
                 preview: 'gallery/lustra/4_lustra_400x300.jpg',
                 original:'gallery/lustra/4_lustra_1000x750.jpg',
@@ -1965,8 +1965,8 @@ const products = {
             },
             {
               id: 156,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №5',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №5',
               img: {
                 preview: 'gallery/lustra/5_lustra_400x300.jpg',
                 original:'gallery/lustra/5_lustra_1000x750.jpg',
@@ -1974,8 +1974,8 @@ const products = {
             },
             {
               id: 157,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №6',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №6',
               img: {
                 preview: 'gallery/lustra/1_lustra_400x300.jpg',
                 original:'gallery/lustra/1_lustra_1000x750.jpg',
@@ -1983,8 +1983,8 @@ const products = {
             },
             {
               id: 158,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №7',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №7',
               img: {
                 preview: 'gallery/lustra/7_lustra_400x300.jpg',
                 original:'gallery/lustra/7_lustra_1000x750.jpg',
@@ -1992,8 +1992,8 @@ const products = {
             },
             {
               id: 159,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №8',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №8',
               img: {
                 preview: 'gallery/lustra/8_lustra_400x300.jpg',
                 original:'gallery/lustra/8_lustra_1000x750.jpg',
@@ -2001,8 +2001,8 @@ const products = {
             },
             {
               id: 160,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №9',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №9',
               img: {
                 preview: 'gallery/lustra/9_lustra_400x300.jpg',
                 original:'gallery/lustra/9_lustra_1000x750.jpg',
@@ -2010,8 +2010,8 @@ const products = {
             },
             {
               id: 161,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №10',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №10',
               img: {
                 preview: 'gallery/lustra/10_lustra_400x300.jpg',
                 original:'gallery/lustra/10_lustra_1000x750.jpg',
@@ -2019,8 +2019,8 @@ const products = {
             },
             {
               id: 162,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №11',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №11',
               img: {
                 preview: 'gallery/lustra/11_lustra_400x300.jpg',
                 original:'gallery/lustra/11_lustra_1000x750.jpg',
@@ -2028,8 +2028,8 @@ const products = {
             },
             {
               id: 163,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №12',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №12',
               img: {
                 preview: 'gallery/lustra/12_lustra_400x300.jpg',
                 original:'gallery/lustra/12_lustra_1000x750.jpg',
@@ -2037,8 +2037,8 @@ const products = {
             },
             {
               id: 164,
-              title: 'Кованные люстры',
-              text: 'Кованные люстры №13',
+              title: 'Кованые люстры',
+              text: 'Кованые люстры №13',
               img: {
                 preview: 'gallery/lustra/13_lustra_400x300.jpg',
                 original:'gallery/lustra/13_lustra_1000x750.jpg',
@@ -2050,14 +2050,14 @@ const products = {
       ]
     },
     {
-      title: 'Кованные бра',
+      title: 'Кованые бра',
       slug: 'bra',
       img: {
         preview: 'gallery/bra/1_bra_400x300.jpg',
         original:'gallery/bra/1_bra_1000x750.jpg',
       },
-      text: 'Кованные бра на стену могут быть как интерьерными, так и уличными. В помещении бра используется чаще всего в качестве дополнительного локального освещения. ' +
-            'С его помощью можно визуально разделить пространство комнаты. Кованные бра часто повторяют дизайн люстры или же подбираются в одном стиле с ней',
+      text: 'Кованые бра на стену могут быть как интерьерными, так и уличными. В помещении бра используется чаще всего в качестве дополнительного локального освещения. ' +
+            'С его помощью можно визуально разделить пространство комнаты. Кованые бра часто повторяют дизайн люстры или же подбираются в одном стиле с ней',
       metaData: {
         meta: [
           { hid:'description-contacts', name: 'description', content: 'Купить кованые бра в Москве и Московской области'},
@@ -2067,7 +2067,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные бра',
+          title: 'Кованые бра',
           slug: 'bra_1',
           img: {
             preview: 'gallery/bra/1_bra_400x300.jpg',
@@ -2076,8 +2076,8 @@ const products = {
           products: [
             {
               id: 165,
-              title: 'Кованные бра',
-              text: 'Кованные бра №1',
+              title: 'Кованые бра',
+              text: 'Кованые бра №1',
               img: {
                 preview: 'gallery/bra/1_bra_400x300.jpg',
                 original:'gallery/bra/1_bra_1000x750.jpg',
@@ -2085,8 +2085,8 @@ const products = {
             },
             {
               id: 166,
-              title: 'Кованные бра',
-              text: 'Кованные бра №2',
+              title: 'Кованые бра',
+              text: 'Кованые бра №2',
               img: {
                 preview: 'gallery/bra/2_bra_400x300.jpg',
                 original:'gallery/bra/2_bra_1000x750.jpg',
@@ -2095,8 +2095,8 @@ const products = {
 
             {
               id: 167,
-              title: 'Кованные бра',
-              text: 'Кованные бра №3',
+              title: 'Кованые бра',
+              text: 'Кованые бра №3',
               img: {
                 preview: 'gallery/bra/3_bra_400x300.jpg',
                 original:'gallery/bra/3_bra_1000x750.jpg',
@@ -2104,8 +2104,8 @@ const products = {
             },
             {
               id: 168,
-              title: 'Кованные бра',
-              text: 'Кованные бра №4',
+              title: 'Кованые бра',
+              text: 'Кованые бра №4',
               img: {
                 preview: 'gallery/bra/4_bra_400x300.jpg',
                 original:'gallery/bra/4_bra_1000x750.jpg',
@@ -2113,8 +2113,8 @@ const products = {
             },
             {
               id: 169,
-              title: 'Кованные бра',
-              text: 'Кованные бра №5',
+              title: 'Кованые бра',
+              text: 'Кованые бра №5',
               img: {
                 preview: 'gallery/bra/5_bra_400x300.jpg',
                 original:'gallery/bra/5_bra_1000x750.jpg',
@@ -2122,8 +2122,8 @@ const products = {
             },
             {
               id: 170,
-              title: 'Кованные бра',
-              text: 'Кованные бра №6',
+              title: 'Кованые бра',
+              text: 'Кованые бра №6',
               img: {
                 preview: 'gallery/bra/6_bra_400x300.jpg',
                 original:'gallery/bra/6_bra_1000x750.jpg',
@@ -2131,8 +2131,8 @@ const products = {
             },
             {
               id: 171,
-              title: 'Кованные бра',
-              text: 'Кованные бра №7',
+              title: 'Кованые бра',
+              text: 'Кованые бра №7',
               img: {
                 preview: 'gallery/bra/7_bra_400x300.jpg',
                 original:'gallery/bra/7_bra_1000x750.jpg',
@@ -2140,8 +2140,8 @@ const products = {
             },
             {
               id: 172,
-              title: 'Кованные бра',
-              text: 'Кованные бра №8',
+              title: 'Кованые бра',
+              text: 'Кованые бра №8',
               img: {
                 preview: 'gallery/bra/8_bra_400x300.jpg',
                 original:'gallery/bra/8_bra_1000x750.jpg',
@@ -2149,8 +2149,8 @@ const products = {
             },
             {
               id: 173,
-              title: 'Кованные бра',
-              text: 'Кованные бра №9',
+              title: 'Кованые бра',
+              text: 'Кованые бра №9',
               img: {
                 preview: 'gallery/bra/9_bra_400x300.jpg',
                 original:'gallery/bra/9_bra_1000x750.jpg',
@@ -2163,13 +2163,13 @@ const products = {
       ]
     },
     {
-      title: 'Кованные торшеры',
+      title: 'Кованые торшеры',
       slug: 'torsher',
       img: {
         preview: 'gallery/torsher/1_torsher_400x300.jpg',
         original:'gallery/torsher/1_torsher_1000x750.jpg',
       },
-      text: 'Кованные торшеры благодаря своей уникальной конструкции имеют оригинальный дизайн. Всем, кому нравится атмосфера средневековых замков и кто имеет желание перенести ее в свой дом, ' +
+      text: 'Кованые торшеры благодаря своей уникальной конструкции имеют оригинальный дизайн. Всем, кому нравится атмосфера средневековых замков и кто имеет желание перенести ее в свой дом, ' +
              'отлично подойдет такой вариант светильников. Этот элемент декора замечательно вписывается в любой интерьер и гармонично сочетается с современной мебелью.',
       metaData: {
         meta: [
@@ -2180,7 +2180,7 @@ const products = {
       },
       types: [
         {
-          title: 'Кованные торшеры',
+          title: 'Кованые торшеры',
           slug: 'torsher_1',
           img: {
             preview: 'gallery/torsher/1_torsher_400x300.jpg',
@@ -2189,8 +2189,8 @@ const products = {
           products: [
             {
               id: 174,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №1',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №1',
               img: {
                 preview: 'gallery/torsher/1_torsher_400x300.jpg',
                 original:'gallery/torsher/1_torsher_1000x750.jpg',
@@ -2198,8 +2198,8 @@ const products = {
             },
             {
               id: 175,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №2',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №2',
               img: {
                 preview: 'gallery/torsher/2_torsher_400x300.jpg',
                 original:'gallery/torsher/2_torsher_1000x750.jpg',
@@ -2208,8 +2208,8 @@ const products = {
 
             {
               id: 176,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №3',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №3',
               img: {
                 preview: 'gallery/torsher/3_torsher_400x300.jpg',
                 original:'gallery/torsher/3_torsher_1000x750.jpg',
@@ -2217,8 +2217,8 @@ const products = {
             },
             {
               id: 177,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №4',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №4',
               img: {
                 preview: 'gallery/torsher/4_torsher_400x300.jpg',
                 original:'gallery/torsher/4_torsher_1000x750.jpg',
@@ -2226,8 +2226,8 @@ const products = {
             },
             {
               id: 178,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №5',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №5',
               img: {
                 preview: 'gallery/torsher/5_torsher_400x300.jpg',
                 original:'gallery/torsher/5_torsher_1000x750.jpg',
@@ -2235,8 +2235,8 @@ const products = {
             },
             {
               id: 179,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №6',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №6',
               img: {
                 preview: 'gallery/torsher/6_torsher_400x300.jpg',
                 original:'gallery/torsher/6_torsher_1000x750.jpg',
@@ -2244,8 +2244,8 @@ const products = {
             },
             {
               id: 180,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №7',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №7',
               img: {
                 preview: 'gallery/torsher/7_torsher_400x300.jpg',
                 original:'gallery/torsher/7_torsher_1000x750.jpg',
@@ -2253,8 +2253,8 @@ const products = {
             },
             {
               id: 181,
-              title: 'Кованные торшеры',
-              text: 'Кованные торшеры №8',
+              title: 'Кованые торшеры',
+              text: 'Кованые торшеры №8',
               img: {
                 preview: 'gallery/torsher/8_torsher_400x300.jpg',
                 original:'gallery/torsher/8_torsher_1000x750.jpg',
