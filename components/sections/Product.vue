@@ -35,7 +35,6 @@
           </v-row>
         </v-item-group>
 
-
         <transition name="fade" mode="out-in">
           <v-row v-if="activeType !== undefined" :dense="mobile">
 
