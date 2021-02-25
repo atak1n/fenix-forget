@@ -40,11 +40,7 @@
       // Products: () => import('~/components/sections/Products')
     },
 
-    created() {
-      console.log(this.$vuetify.application)
-    },
-
-    // scrollToTop: true,
+    scrollToTop: true,
 
     head: { ...pagesMeta.home }
   }
