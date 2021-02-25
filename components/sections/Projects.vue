@@ -26,11 +26,9 @@
             v-model="dialog"
             max-width="1000"
             max-height="750"
-            :fullscreen="mobile"
           >
             <!--            v-model="activeCard"-->
             <v-carousel
-              :class="mobile ? 'mt-16' : ''"
               hide-delimiters
             >
               <v-carousel-item

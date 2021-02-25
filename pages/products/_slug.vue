@@ -16,7 +16,9 @@ export default {
   name: "ProductDetail",
   components: {
     Product: () => import('~/components/sections/Product')
-  }
+  },
+
+  scrollToTop: true,
 }
 </script>
 

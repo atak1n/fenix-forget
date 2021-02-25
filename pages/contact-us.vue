@@ -25,6 +25,7 @@
       Maps: () => import('~/components/sections/Map.vue'),
     },
 
+    scrollToTop: true,
 
     head: { ...pagesMeta.contacts }
   }
