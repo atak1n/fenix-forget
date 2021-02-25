@@ -2,8 +2,8 @@
   <v-theme-provider dark>
     <section id="hero">
       <v-img
-        :height="heroHeight"
-        :src="require('@/assets/home_hero_2.jpg')"
+        :height="minHeight"
+        :src="require('~/assets/home_hero_2.jpg')"
         class="white--text"
         gradient="180deg, rgba(2,0,36,1) 0%, rgba(255,192,0,0.6334733722590599) 0%, rgba(244,81,30,1) 100%, rgba(55,55,145,1) 100%"
       >
@@ -55,17 +55,15 @@ export default {
   },
   computed: {
     minHeight () {
-      const height = this.$vuetify.breakpoint.mdAndUp ? '100vh' : '50vh'
+      const height = this.$vuetify.breakpoint.mdAndUp ? '50vh' : '50vh'
 
-      return `calc(${height} - ${this.$vuetify.application.top}px)`
+      return `calc(${height} + ${this.$vuetify.application.top}px)`
     },
 
-    heroHeight() {
-      // console.log('innerHeight', window.innerHeight)
-      // console.log('window: ',window.innerHeight)
-      // console.log('vuetify', this.$vuetify.breakpoint.height)
-      return this.$vuetify.breakpoint.height / 2 + this.$vuetify.application.top
-    }
+    // heroHeight() {
+    //
+    //   return this.$vuetify.breakpoint.height / 2 + this.$vuetify.application.top
+    // }
   },
 }
 </script>

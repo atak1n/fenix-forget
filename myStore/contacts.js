@@ -6,7 +6,7 @@ const contacts = {
       '8(977) 353 67 66',
     ],
     icon: 'mdi-cellphone',
-    main: '+7(499) 964 66 67',
+    main: '+7(977) 353 67 66',
     href: 'tel:',
   },
   email: {

@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-import getRoutes from "./utils/getRoutes";
+// import getRoutes from "./utils/getRoutes";
 
 
 export default {

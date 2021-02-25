@@ -1,7 +1,7 @@
 <template>
   <v-app>
 
-    <home-app-bar />
+    <HomeAppBar />
 
     <ProductsBar />
 
@@ -25,7 +25,9 @@ export default {
     HomeFooter: () => import('~/components/core/Footer'),
     ProductsBar: () => import('~/components/core/AppProductsBar'),
     GoToTopBtn: () => import('~/components/core/GoToTopBtn')
-  }
+  },
+
+  scrollToTop: true,
 }
 </script>
 

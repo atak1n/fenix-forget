@@ -22,7 +22,7 @@
       </v-toolbar-title>
       <v-spacer />
 
-      <BtnSocialList v-if="!$vuetify.breakpoint.mobile"/>
+      <BtnSocialList v-show="!isMobile"/>
 
       <v-spacer />
 
@@ -53,9 +53,9 @@
         @click="drawer = !drawer"
       />
 
-      <template v-if="$vuetify.breakpoint.mobile" v-slot:extension>
+      <template v-if="isMobile" v-slot:extension>
 
-        <BtnSocialList/>
+        <BtnSocialList />
 
       </template>
 
@@ -70,7 +70,7 @@
 
 <script>
 import store from "@/myStore"
-import BtnSocialList from "@/components/BtnSocialList"
+import BtnSocialList from "~/components/BtnSocialList"
 
 
 
@@ -111,8 +111,12 @@ export default {
     ],
     companyName: store.company.name,
     phone: store.contacts.phoneNumbers.main,
-
   }),
+  computed: {
+    isMobile() {
+      return this.$vuetify.breakpoint.mobile
+    },
+  }
 }
 </script>
 

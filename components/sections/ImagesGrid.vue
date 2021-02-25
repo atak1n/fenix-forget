@@ -130,6 +130,8 @@ export default {
         items.types.forEach( product => products.push(...product.products) )
       }
 
+      this.pageNumber = 1
+
       this.activeGroupItems = products
     },
 
