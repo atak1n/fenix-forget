@@ -1,26 +1,27 @@
 <template>
   <section id="home">
     <v-row no-gutters>
+
       <v-col cols="12">
         <hero />
       </v-col>
 
-<!--      <v-col cols="12">-->
-<!--        <Products/>-->
-<!--      </v-col>-->
-
       <v-col cols="12">
         <projects />
       </v-col>
+
       <v-col cols="12">
         <ContactUs />
       </v-col>
+
       <v-col cols="12">
         <services />
       </v-col>
+
       <v-col cols="12">
         <info />
       </v-col>
+
     </v-row>
   </section>
 </template>
@@ -40,7 +41,7 @@
       // Products: () => import('~/components/sections/Products')
     },
 
-    scrollToTop: true,
+    // scrollToTop: true,
 
     head: { ...pagesMeta.home }
   }

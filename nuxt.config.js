@@ -8,7 +8,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   // mode: 'spa',
-  ssr: false,
+  // ssr: false,
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -69,15 +69,19 @@ export default {
   */
 
   modules: [
-    // ['vue-yandex-maps/nuxt',
-    //   {
-    //     // apiKey: store.contacts.map.apiKey,
-    //     apiKey: '5d8955cd-bd38-47e1-b600-49f9bc950a36',
-    //     lang: 'ru_RU',
-    //     coordorder: 'latlong',
-    //     version: '2.1',
-    //   }
-    // ]
+
+    [
+      '@naumstory/nuxtjs-yandex-metrika',
+      {
+        id: 68280775,
+        webvisor: true,
+        // clickmap:true,
+        // useCDN:false,
+        // trackLinks:true,
+        // accurateTrackBounce:true,
+      }
+    ]
+
   ],
   /*
   ** vuetify module configuration

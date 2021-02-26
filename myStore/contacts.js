@@ -11,7 +11,7 @@ const contacts = {
   },
   email: {
     title: 'Эл. почта',
-    link: 'feniks-sr@yandex.ru',
+    link: 'kovka@feniks-sr.ru',
     icon: 'mdi-email',
     href: 'mailto:'
   },

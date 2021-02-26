@@ -7,7 +7,7 @@
         class="white--text"
         gradient="180deg, rgba(2,0,36,1) 0%, rgba(255,192,0,0.6334733722590599) 0%, rgba(244,81,30,1) 100%, rgba(55,55,145,1) 100%"
       >
-        <v-container class="fill-height px-4 py-6">
+        <v-container class="fill-height px-4 py-auto">
           <v-responsive
             class="d-flex align-center"
             height="100%"
@@ -21,7 +21,7 @@
             </base-heading>
 
             <base-heading space="1">
-              <p class="base-body body-1 light--text  text-left mb-10">{{ company.about }}</p>
+              <p class="base-body body-1 light--text  text-left">{{ company.about }}</p>
             </base-heading>
 
 

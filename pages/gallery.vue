@@ -17,7 +17,7 @@
       ImagesGrid: () => import('~/components/sections/ImagesGrid.vue'),
     },
 
-    scrollToTop: true,
+    // scrollToTop: true,
 
     head: { ...pagesMeta.gallery }
   }
