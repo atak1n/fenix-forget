@@ -1,6 +1,9 @@
+
+
+
 const products = {
   title: 'Каталог',
-  annotate: 'Основной каталог изделий нашей компании',
+  annotate: '',
   products: [
     {
       title: 'Кованые ворота',
@@ -13,18 +16,18 @@ const products = {
         original:'gallery/vorota/01_vorota_1000x750.jpg',
       },
 
-      text: 'Ворота - являются визитной карточкой вашего дома, которая определяет статус и вкус хозяина. Кованые ворота на фоне других выделяются высокой декоративностью и художественной ценностью',
+      text: 'Ворота - являются визитной карточкой вашего дома, которая определяет статус и вкус хозяина. Кованные ворота на фоне других выделяются высокой декоративностью и художественной ценностью',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить Кованые ворота'},
-          { name: 'keywords', content: 'купить Кованые ворота не дорого, Кованые ворота своими руками, Кованые ворота по своим чертежам, ковка, ковка мо, Кованые ворота подбор'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые металлические ворота для дома, ворота для забора на заказ'},
+          { name: 'keywords', content: 'купить кованные ворота не дорого, ковка, художественная, кованые, ворота, цена, стоимость, забор, дом'},
         ],
-        title: 'Купить Кованые ворота в Москве и МО, разработка индивидуального дизайна ковки –от компании Феникс Стальное Решение'
+        title: 'Купить кованные ворота в Москве и МО, разработка индивидуального дизайна ковки –от компании Феникс Стальное Решение'
       },
-
+      price: 7000,
       types: [
         {
-          title: 'Кованые ворота распашные',
+          title: 'Кованные ворота распашные',
           slug: 'vorota_prostie',
           img: {
             preview: 'gallery/vorota/02_vorota_400x300.jpg',
@@ -34,7 +37,7 @@ const products = {
             {
               id: 1,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №1',
+              text: 'Распашные №1',
               img: {
                 preview: 'gallery/vorota/01_vorota_400x300.jpg',
                 original: 'gallery/vorota/01_vorota_1000x750.jpg',
@@ -43,7 +46,7 @@ const products = {
             {
               id: 2,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №2',
+              text: 'Распашные №2',
               img: {
                 preview: 'gallery/vorota/02_vorota_400x300.jpg',
                 original: 'gallery/vorota/02_vorota_1000x750.jpg',
@@ -52,7 +55,7 @@ const products = {
             {
               id: 3,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №3',
+              text: 'Распашные №3',
               img: {
                 preview: 'gallery/vorota/03_vorota_400x300.jpg',
                 original: 'gallery/vorota/03_vorota_1000x750.jpg',
@@ -62,7 +65,7 @@ const products = {
             {
               id: 4,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №4',
+              text: 'Распашные №4',
               img: {
                 preview: 'gallery/vorota/04_vorota_400x300.jpg',
                 original: 'gallery/vorota/04_vorota_1000x750.jpg',
@@ -73,7 +76,7 @@ const products = {
             {
               id: 5,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №5',
+              text: 'Распашные №5',
               img: {
                 preview: 'gallery/vorota/05_vorota_400x300.jpg',
                 original: 'gallery/vorota/05_vorota_1000x750.jpg',
@@ -84,7 +87,7 @@ const products = {
             {
               id: 6,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №6',
+              text: 'Распашные №6',
               img: {
                 preview: 'gallery/vorota/06_vorota_400x300.jpg',
                 original: 'gallery/vorota/06_vorota_1000x750.jpg',
@@ -95,7 +98,7 @@ const products = {
             {
               id: 7,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №7',
+              text: 'Распашные №7',
               img: {
                 preview: 'gallery/vorota/07_vorota_400x300.jpg',
                 original: 'gallery/vorota/07_vorota_1000x750.jpg',
@@ -106,7 +109,7 @@ const products = {
             {
               id: 8,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №8',
+              text: 'Распашные №8',
               img: {
                 preview: 'gallery/vorota/08_vorota_400x300.jpg',
                 original: 'gallery/vorota/08_vorota_1000x750.jpg',
@@ -117,7 +120,7 @@ const products = {
             {
               id: 9,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №9',
+              text: 'Распашные №9',
               img: {
                 preview: 'gallery/vorota/09_vorota_400x300.jpg',
                 original: 'gallery/vorota/09_vorota_1000x750.jpg',
@@ -128,7 +131,7 @@ const products = {
             {
               id: 10,
               title: 'Распашные кованые ворота',
-              text: 'Пример ворот №10',
+              text: 'Распашные №10',
               img: {
                 preview: 'gallery/vorota/10_vorota_400x300.jpg',
                 original: 'gallery/vorota/10_vorota_1000x750.jpg',
@@ -139,7 +142,7 @@ const products = {
           ],
         },
         {
-          title: 'Откатные Кованые ворота',
+          title: 'Откатные кованные ворота',
           slug: 'vorota_otkatnye',
           img: {
             preview: 'gallery/vorota/otkatnye/01_otkatnye_400x300.jpg',
@@ -149,7 +152,7 @@ const products = {
             {
               id: 11,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №11',
+              text: 'Откатные №1',
               img: {
                 preview: 'gallery/vorota/otkatnye/01_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/01_otkatnye_1000x750.jpg',
@@ -159,7 +162,7 @@ const products = {
             {
               id: 12,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №12',
+              text: 'Откатные №2',
               img: {
                 preview: 'gallery/vorota/otkatnye/02_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/02_otkatnye_1000x750.jpg',
@@ -169,7 +172,7 @@ const products = {
             {
               id: 13,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №13',
+              text: 'Откатные 3',
               img: {
                 preview: 'gallery/vorota/otkatnye/03_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/03_otkatnye_1000x750.jpg',
@@ -179,7 +182,7 @@ const products = {
             {
               id: 14,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №14',
+              text: 'Откатные №4',
               img: {
                 preview: 'gallery/vorota/otkatnye/04_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/04_otkatnye_1000x750.jpg',
@@ -189,7 +192,7 @@ const products = {
             {
               id: 15,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №15',
+              text: 'Откатные №5',
               img: {
                 preview: 'gallery/vorota/otkatnye/05_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/05_otkatnye_1000x750.jpg',
@@ -199,7 +202,7 @@ const products = {
             {
               id: 16,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №16',
+              text: 'Откатные №6',
               img: {
                 preview: 'gallery/vorota/otkatnye/06_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/06_otkatnye_1000x750.jpg',
@@ -209,7 +212,7 @@ const products = {
             {
               id: 17,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №17',
+              text: 'Откатные №7',
               img: {
                 preview: 'gallery/vorota/otkatnye/07_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/07_otkatnye_1000x750.jpg',
@@ -218,7 +221,7 @@ const products = {
             {
               id: 18,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №18',
+              text: 'Откатные №8',
               img: {
                 preview: 'gallery/vorota/otkatnye/08_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/08_otkatnye_1000x750.jpg',
@@ -227,7 +230,7 @@ const products = {
             {
               id: 19,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №19',
+              text: 'Откатные №9',
               img: {
                 preview: 'gallery/vorota/otkatnye/09_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/09_otkatnye_1000x750.jpg',
@@ -236,7 +239,7 @@ const products = {
             {
               id: 20,
               title: 'Откатные кованые ворота',
-              text: 'Пример ворот №20',
+              text: 'Откатные №10',
               img: {
                 preview: 'gallery/vorota/otkatnye/10_otkatnye_400x300.jpg',
                 original: 'gallery/vorota/otkatnye/10_otkatnye_1000x750.jpg',
@@ -254,14 +257,15 @@ const products = {
         preview: 'gallery/kalitki/01_kalitki_400x300.jpg',
         original:'gallery/kalitki/01_kalitki_1000x750.jpg',
       },
-      text: 'Кованые калитки являются украшением входной зоны, придают забору и ограждению завершенный вид, облогараживают пространство. Кованые ворота отличаются отовсех других своей прочностью, стойкостью к механическим повреждениям и погодным явлениям.',
+      text: 'Кованные калитки являются украшением входной зоны, придают забору и ограждению завершенный вид, облогараживают пространство. Кованные ворота отличаются отовсех других своей прочностью, стойкостью к механическим повреждениям и погодным явлениям.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить Кованые калитки'},
-          { name: 'keywords', content: 'купить калитки не дорого, калитки своими руками, калитки по своим чертежам, kovka-mo,калитки,калитки одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованные калитки, заказать калитку с установкой - Москва и Московская область  '},
+          { name: 'keywords', content: 'купить калитки не дорого, ковка, художественная, кованые, заборы, ворота, калитки, цена, стоимость, kovka-mo,калитки одинцово'},
         ],
-        title: 'Купить Кованые калитки в Москве и МО – ковка –от компании Феникс Стальное Решение'
+        title: 'Купить кованные калитки - фото и цены в Москве и МО – ковка –от компании Феникс Стальное Решение'
       },
+      price: 9000,
       types: [
         {
           title: 'Кованые калитки',
@@ -274,7 +278,7 @@ const products = {
             {
               id: 21,
               title: 'Калитки уличные',
-              text: 'Пример калиток №1',
+              text: 'Калитки №1',
               img: {
                 preview: 'gallery/kalitki/01_kalitki_400x300.jpg',
                 original:'gallery/kalitki/01_kalitki_1000x750.jpg',
@@ -284,7 +288,7 @@ const products = {
             {
               id: 22,
               title: 'Калитки уличные',
-              text: 'Пример калиток №2',
+              text: 'Калитки №2',
               img: {
                 preview: 'gallery/kalitki/02_kalitki_400x300.jpg',
                 original:'gallery/kalitki/02_kalitki_1000x750.jpg',
@@ -293,7 +297,7 @@ const products = {
             {
               id: 23,
               title: 'Калитки уличные',
-              text: 'Пример калиток №3',
+              text: 'Калитки №3',
               img: {
                 preview: 'gallery/kalitki/03_kalitki_400x300.jpg',
                 original:'gallery/kalitki/03_kalitki_1000x750.jpg',
@@ -303,7 +307,7 @@ const products = {
             {
               id: 24,
               title: 'Калитки уличные',
-              text: 'Пример калиток №4',
+              text: 'Калитки №4',
               img: {
                 preview: 'gallery/kalitki/04_kalitki_400x300.jpg',
                 original:'gallery/kalitki/04_kalitki_1000x750.jpg',
@@ -313,7 +317,7 @@ const products = {
             {
               id: 25,
               title: 'Калитки уличные',
-              text: 'Пример калиток №5',
+              text: 'Калитки №5',
               img: {
                 preview: 'gallery/kalitki/05_kalitki_400x300.jpg',
                 original:'gallery/kalitki/05_kalitki_1000x750.jpg',
@@ -323,7 +327,7 @@ const products = {
             {
               id: 26,
               title: 'Калитки уличные',
-              text: 'Пример калиток №6',
+              text: 'Калитки №6',
               img: {
                 preview: 'gallery/kalitki/06_kalitki_400x300.jpg',
                 original:'gallery/kalitki/06_kalitki_1000x750.jpg',
@@ -333,7 +337,7 @@ const products = {
             {
               id: 27,
               title: 'Калитки уличные',
-              text: 'Пример калиток №7',
+              text: 'Калитки №7',
               img: {
                 preview: 'gallery/kalitki/07_kalitki_400x300.jpg',
                 original:'gallery/kalitki/07_kalitki_1000x750.jpg',
@@ -343,7 +347,7 @@ const products = {
             {
               id: 28,
               title: 'Калиткиуличные',
-              text: 'Пример калиток №8',
+              text: 'Калитки №8',
               img: {
                 preview: 'gallery/kalitki/08_kalitki_400x300.jpg',
                 original:'gallery/kalitki/08_kalitki_1000x750.jpg',
@@ -353,7 +357,7 @@ const products = {
             {
               id: 29,
               title: 'Калитки уличные',
-              text: 'Пример калиток №9',
+              text: 'Калитки №9',
               img: {
                 preview: 'gallery/kalitki/09_kalitki_400x300.jpg',
                 original:'gallery/kalitki/09_kalitki_1000x750.jpg',
@@ -363,7 +367,7 @@ const products = {
             {
               id: 30,
               title: 'Калитки уличные',
-              text: 'Пример калиток №10',
+              text: 'Калитки №10',
               img: {
                 preview: 'gallery/kalitki/10_kalitki_400x300.jpg',
                 original:'gallery/kalitki/10_kalitki_1000x750.jpg',
@@ -383,7 +387,7 @@ const products = {
             {
               id: 31,
               title: 'Калитка в помещении',
-              text: 'Пример калиток в помещении №1',
+              text: 'Калитки в помещении №1',
               img: {
                 preview: 'gallery/kalitki/kalitkivdome/01_kalitkivdome_400x300.jpg',
                 original:'gallery/kalitki/kalitkivdome/01_kalitkivdome_1000x750.jpg',
@@ -402,15 +406,16 @@ const products = {
         original:'gallery/perila/01_perila_1000x750.jpg',
       },
       text: 'Перила являются неотъемлемым атрибутом любого здания. Они встречаются у входа в дом, крепятся на лестницы.' +
-             ' По внешнему виду Кованые перила могут быть красивее резных деревянных,' +
-             ' благодаря технологиям художественной ковки позволяющим создавать уникальные фигуры.',
+        ' По внешнему виду кованные перила могут быть красивее резных деревянных,' +
+        ' благодаря технологиям художественной ковки позволяющим создавать уникальные фигуры.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить Кованые перила в Москве'},
-          { name: 'keywords', content: 'купить Кованые перила не дорого, Кованые перила  своими руками, Кованые перила по своим чертежам, kovka-mo,Кованые перила,перила одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованные перила в Москве по фото, эскизу, на заказ с доставкой и установкой в Москве и Московской области.'},
+          { name: 'keywords', content: 'купить кованные перила не дорого, фото, ковка, художественная, кованые, перила, ограждения, лестниц, цена, стоимость, kovka-mo,кованные перила,перила одинцово'},
         ],
-        title: 'Купить Кованые перила  в Москве и МО – ковка –от компании Феникс Стальное Решение'
+        title: 'Купить кованные перила  в Москве и МО - цена и фото, изготовление на заказ – ковка –от компании Феникс Стальное Решение'
       },
+      price: 8000,
       types: [
         {
           title: 'Кованые перила в стиле Барокко',
@@ -704,16 +709,17 @@ const products = {
         original:'gallery/balkoni/01_balkoni_1000x750.jpg',
       },
       text: 'При постройке дома балкон является обязательным элементом. Он не только удобен и уютен, ' +
-            'но и придает дому большую эстетичность. А если сделать кованое ограждение балкона, он будет ' +
-            'смотреться особо изящно и притягивать к себе взгляды. Кроме красоты, кованые перила на балконе ' +
-            'отличаются особой надежностью и стойкостью, поэтому будут радовать вас долгие годы.',
+        'но и придает дому большую эстетичность. А если сделать кованое ограждение балкона, он будет ' +
+        'смотреться особо изящно и притягивать к себе взгляды. Кроме красоты, кованые перила на балконе ' +
+        'отличаются особой надежностью и стойкостью, поэтому будут радовать вас долгие годы.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованый балкон в Москве'},
-          { name: 'keywords', content: 'купить кованый балкон не дорого, кованый балкон  своими руками, кованый балкон по своим чертежам, kovka-mo,кованый балкон,балкон одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованый балкон по фото, эскизу, на заказ с доставкой и установкой в Москве и Московской области.'},
+          { name: 'keywords', content: 'купить кованый балкон не дорого, ограждение, балкон, парапет, цена, стоимость, ковка, художественная, изделие, кованые, французские, перила, kovka-mo,кованый балкон,балкон одинцово'},
         ],
-        title: 'Купить кованый балкон  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованый балкон - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 4000,
       types: [
         {
           title: 'Кованые балконы с прямыеми перилами',
@@ -907,14 +913,15 @@ const products = {
         original:'gallery/kozirky/01_kozirky_1000x750.jpg',
       },
       text: 'Кованый козырек является функциональной и практичной конструкцией, отличающейся надежностью, презентабельным и оригинальным дизайном.' +
-            ' Существует множество видов данных изделий. В качестве критерия для деления на группы выступает форма, технология изготовления, место расположения.',
+        ' Существует множество видов данных изделий. В качестве критерия для деления на группы выступает форма, технология изготовления, место расположения.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые козырьки в Москве'},
-          { name: 'keywords', content: 'купить кованые козырьки не дорого, кованые козырьки  своими руками, кованые козырьки по своим чертежам, kovka-mo,кованый козырьки,козырьки одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые козырьки в Москве и Московской области. Фотографии с ценами.'},
+          { name: 'keywords', content: 'купить кованые козырьки не дорого, ковка, художественная, кованые, козырьки, цена, стоимость, вход, дверь, установка, kovka-mo,кованный козырьки,козырьки одинцово'},
         ],
-        title: 'Купить кованые козырьки  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые козырьки - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 13000,
       types: [
         {
           title: 'Кованые козырьки',
@@ -1020,14 +1027,15 @@ const products = {
         original:'gallery/zabor/zaborpk/1_zaborpk_1000x750.jpg',
       },
       text: 'Кованые заборы находят свое применение во многих местах. Такая ограда может быть вокруг территории частного дома или дачного участка. Ажурный металлический забор может украшать ' +
-            'и охранять пространство вокруг зданий, в которых располагаются различные государственные учреждения. Он становится естественным дополнением общественного или частного парка.',
+        'и охранять пространство вокруг зданий, в которых располагаются различные государственные учреждения. Он становится естественным дополнением общественного или частного парка.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые заборы в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые заборы не дорого, кованые заборы  своими руками, кованые заборы по своим чертежам, kovka-mo,кованые заборы,заборы одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые заборы по эскизу и на заказ в Москве и Московской области'},
+          { name: 'keywords', content: 'купить кованые заборы не дорого, ковка, художественная, кованые, заборы, ограды, цена, стоимость, kovka-mo,кованые заборы,заборы одинцово'},
         ],
-        title: 'Купить кованые заборы  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые заборы - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 3000,
       types: [
         {
           title: 'Кованые заборы с поликарбонатом',
@@ -1274,14 +1282,15 @@ const products = {
         original:'gallery/naves/1_naves_1000x750.jpg',
       },
       text: 'Кованые навесы – роскошь, оригинальность, красота, изящество и особый шик архитектурного ансамбля. ' +
-            'Такие изделия становятся настоящим украшением парков, частных участков, фасадов жилых, административных, офисных зданий, коттеджей и маленьких дачных домиков.',
+        'Такие изделия становятся настоящим украшением парков, частных участков, фасадов жилых, административных, офисных зданий, коттеджей и маленьких дачных домиков.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые навесы в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые навесы не дорого, кованые навесы  своими руками, кованые навесы по своим чертежам, kovka-mo,кованые навесы,навесы одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые навесы изготовления на заказ с доставкой и установкой в Москве и Московской области. Фотографии и эскизы кованых навесов.'},
+          { name: 'keywords', content: 'купить кованые навесы не дорого, ковка, художественная, кованые, навесы, крыльцо, сад, бассейн, арочные, поликарбонат, беседка, крыльцо, цена, стоимость, kovka-mo,кованые навесы,навесы одинцово'},
         ],
-        title: 'Купить кованые навесы  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые навесы - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 16000,
       types: [
         {
           title: 'Кованые навесы',
@@ -1338,10 +1347,319 @@ const products = {
                 original:'gallery/naves/5_naves_1000x750.jpg',
               },
             },
-
           ],
         },
 
+
+        /////////////////////////Навесы////////////////////////////////////
+        {
+          title: 'Кованые навесы арочные',
+          slug: 'navesi_2',
+          img: {
+            preview: 'gallery/naves/arch/01_arched_400x300.jpg',
+            original:'gallery/naves/arch/01_arched_1000x750.jpg',
+          },
+          products: [
+            {
+              id: 1030,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №1',
+              img: {
+                preview: 'gallery/naves/arch/01_arched_400x300.jpg',
+                original:'gallery/naves/arch/01_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1031,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №2',
+              img: {
+                preview: 'gallery/naves/arch/02_arched_400x300.jpg',
+                original:'gallery/naves/arch/02_arched_1000x750.jpg',
+              },
+            },
+
+            {
+              id: 1032,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №3',
+              img: {
+                preview: 'gallery/naves/arch/03_arched_400x300.jpg',
+                original:'gallery/naves/arch/03_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1033,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №4',
+              img: {
+                preview: 'gallery/naves/arch/04_arched_400x300.jpg',
+                original:'gallery/naves/arch/04_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1034,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №4',
+              img: {
+                preview: 'gallery/naves/arch/05_arched_400x300.jpg',
+                original:'gallery/naves/arch/05_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1035,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №6',
+              img: {
+                preview: 'gallery/naves/arch/06_arched_400x300.jpg',
+                original:'gallery/naves/arch/06_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1036,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №7',
+              img: {
+                preview: 'gallery/naves/arch/07_arched_400x300.jpg',
+                original:'gallery/naves/arch/07_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1037,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №8',
+              img: {
+                preview: 'gallery/naves/arch/08_arched_400x300.jpg',
+                original:'gallery/naves/arch/08_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1038,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №9',
+              img: {
+                preview: 'gallery/naves/arch/09_arched_400x300.jpg',
+                original:'gallery/naves/arch/09_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1039,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №10',
+              img: {
+                preview: 'gallery/naves/arch/10_arched_400x300.jpg',
+                original:'gallery/naves/arch/10_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1040,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №11',
+              img: {
+                preview: 'gallery/naves/arch/11_arched_400x300.jpg',
+                original:'gallery/naves/arch/11_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1041,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №12',
+              img: {
+                preview: 'gallery/naves/arch/12_arched_400x300.jpg',
+                original:'gallery/naves/arch/12_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1042,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №13',
+              img: {
+                preview: 'gallery/naves/arch/13_arched_400x300.jpg',
+                original:'gallery/naves/arch/13_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1043,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №14',
+              img: {
+                preview: 'gallery/naves/arch/14_arched_400x300.jpg',
+                original:'gallery/naves/arch/14_arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1044,
+              title: 'Кованые навесы арочные',
+              text: 'Кованые навесы  арочные №15',
+              img: {
+                preview: 'gallery/naves/arch/15_arched_400x300.jpg',
+                original:'gallery/naves/arch/15_arched_1000x750.jpg',
+              },
+            },
+
+          ],
+        },
+        //////////////////////////////////////////////////////////////////
+        {
+          title: 'Кованые навесы каскадные',
+          slug: 'navesi_3',
+          img: {
+            preview: 'gallery/naves/cascade/01_cascade_400x300.jpg',
+            original:'gallery/naves/cascade/01_cascade_1000x750.jpg',
+          },
+          products: [
+            {
+              id: 1045,
+              title: 'Кованые навесы каскадные',
+              text: 'Кованые навесы  каскадные №1',
+              img: {
+                preview: 'gallery/naves/cascade/01_cascade_400x300.jpg',
+                original:'gallery/naves/cascade/01_cascade_1000x750.jpg',
+              },
+            },
+            {
+              id: 1046,
+              title: 'Кованые навесы каскадные',
+              text: 'Кованые навесы  каскадные №2',
+              img: {
+                preview: 'gallery/naves/cascade/02_cascade_400x300.jpg',
+                original:'gallery/naves/cascade/02_cascade_1000x750.jpg',
+              },
+            },
+            {
+              id: 1047,
+              title: 'Кованые навесы каскадные',
+              text: 'Кованые навесы  каскадные №3',
+              img: {
+                preview: 'gallery/naves/cascade/03_cascade_400x300.jpg',
+                original:'gallery/naves/cascade/03_cascade_1000x750.jpg',
+              },
+            },
+
+
+          ],
+        },
+        //////////////////////////////////////////////////////////////////
+        {
+          title: 'Кованые навесы односкатные',
+          slug: 'navesi_3',
+          img: {
+            preview: 'gallery/naves/oneskat/01_single_400x300.jpg',
+            original:'gallery/naves/oneskat/01_single_1000x750.jpg',
+          },
+          products: [
+            {
+              id: 1048,
+              title: 'Кованые навесы односкатные',
+              text: 'Кованые навесы  односкатные №1',
+              img: {
+                preview: 'gallery/naves/oneskat/01_single_400x300.jpg',
+                original:'gallery/naves/oneskat/01_single_1000x750.jpg',
+              },
+            },
+            {
+              id: 1049,
+              title: 'Кованые навесы односкатные',
+              text: 'Кованые навесы  односкатные №2',
+              img: {
+                preview: 'gallery/naves/oneskat/02_single_400x300.jpg',
+                original:'gallery/naves/oneskat/02_single_1000x750.jpg',
+              },
+            },
+            {
+              id: 1050,
+              title: 'Кованые навесы односкатные',
+              text: 'Кованые навесы  односкатные №3',
+              img: {
+                preview: 'gallery/naves/oneskat/03_single_400x300.jpg',
+                original:'gallery/naves/oneskat/03_single_1000x750.jpg',
+              },
+            },
+            {
+              id: 1051,
+              title: 'Кованые навесы односкатные',
+              text: 'Кованые навесы  односкатные №4',
+              img: {
+                preview: 'gallery/naves/oneskat/04_single_400x300.jpg',
+                original:'gallery/naves/oneskat/04_single_1000x750.jpg',
+              },
+            },
+            {
+              id: 1052,
+              title: 'Кованые навесы односкатные',
+              text: 'Кованые навесы  односкатные №5',
+              img: {
+                preview: 'gallery/naves/oneskat/05_single_400x300.jpg',
+                original:'gallery/naves/oneskat/05_single_1000x750.jpg',
+              },
+            },
+          ],
+        },
+        /////////////////////////////////////////////////////////////////
+        {
+          title: 'Кованые навесы полуарочные',
+          slug: 'navesi_4',
+          img: {
+            preview: 'gallery/naves/semiarch/01_semi-arched_400x300.jpg',
+            original:'gallery/naves/semiarch/01_semi-arched_1000x750.jpg',
+          },
+          products: [
+            {
+              id: 1053,
+              title: 'Кованые навесы полуарочные',
+              text: 'Кованые навесы  полуарочные №1',
+              img: {
+                preview: 'gallery/naves/semiarch/01_semi-arched_400x300.jpg',
+                original:'gallery/naves/semiarch/01_semi-arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1054,
+              title: 'Кованые навесы полуарочные',
+              text: 'Кованые навесы  полуарочные №2',
+              img: {
+                preview: 'gallery/naves/semiarch/02_semi-arched_400x300.jpg',
+                original:'gallery/naves/semiarch/02_semi-arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1055,
+              title: 'Кованые навесы полуарочные',
+              text: 'Кованые навесы  полуарочные №3',
+              img: {
+                preview: 'gallery/naves/semiarch/03_semi-arched_400x300.jpg',
+                original:'gallery/naves/semiarch/03_semi-arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1056,
+              title: 'Кованые навесы полуарочные',
+              text: 'Кованые навесы  полуарочные №4',
+              img: {
+                preview: 'gallery/naves/semiarch/04_semi-arched_400x300.jpg',
+                original:'gallery/naves/semiarch/04_semi-arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1057,
+              title: 'Кованые навесы полуарочные',
+              text: 'Кованые навесы  полуарочные №5',
+              img: {
+                preview: 'gallery/naves/semiarch/05_semi-arched_400x300.jpg',
+                original:'gallery/naves/semiarch/05_semi-arched_1000x750.jpg',
+              },
+            },
+            {
+              id: 1058,
+              title: 'Кованые навесы полуарочные',
+              text: 'Кованые навесы  полуарочные №6',
+              img: {
+                preview: 'gallery/naves/semiarch/06_semi-arched_400x300.jpg',
+                original:'gallery/naves/semiarch/06_semi-arched_1000x750.jpg',
+              },
+            },
+          ],
+        },
       ]
     },
     {
@@ -1352,14 +1670,15 @@ const products = {
         original:'gallery/besedki/1_besedki_1000x750.jpg',
       },
       text: 'Кованая беседка — настоящее украшение дачного участка. А кроме своей декоративной функции постройка имеет еще и немалое практическое значение: в беседке можно устраивать семейные вечера, проводить вечеринки, веселые дружеские встречи.' +
-            ' Наличие рядом мангала сделает пребывание в беседке не только приятным с эстетической точки зрения, но еще и с гастрономической.',
+        ' Наличие рядом мангала сделает пребывание в беседке не только приятным с эстетической точки зрения, но еще и с гастрономической.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые беседки в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые беседки не дорого, кованые беседки  своими руками, кованые беседки по своим чертежам, kovka-mo,кованые беседки,беседки одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые беседки в Москве и Московской области. Фотографии работ. Цены, расчет стоимости по фото, эскизу.'},
+          { name: 'keywords', content: 'купить кованые беседки не дорого, ковка, художественная, кованые, беседки, цена, стоимость, kovka-mo,кованые беседки,беседки одинцово'},
         ],
-        title: 'Купить кованые беседки  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые беседки - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 13000,
       types: [
         {
           title: 'Кованые беседки',
@@ -1466,14 +1785,15 @@ const products = {
         original:'gallery/ograda/1_ograda_1000x750.jpg',
       },
       text: 'Кованая ограда не боится перепадов температуры воздуха, не подвергается воздействию погодных явлений,' +
-            ' не требует специального ухода и особого внимания, что является преимуществами этого вида над другими моделями.',
+        ' не требует специального ухода и особого внимания, что является преимуществами этого вида над другими моделями.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые ограды в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые ограды не дорого, кованые ограды  своими руками, кованые ограды по своим чертежам, kovka-mo,кованые ограды,ограды одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые ограды в Москве и Московской области с коваными элементами - от недорогих и бюджетных до премиум, выполненных вручную на заказ. '},
+          { name: 'keywords', content: 'купить кованые ограды не дорого, заказ, ковка, художественная, кованые, ограждения, цена, стоимость, купить, москва, kovka-mo,кованые ограды,ограды одинцово'},
         ],
-        title: 'Купить кованые ограды  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые ограды - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 8000,
       types: [
         {
           title: 'Кованые ограды',
@@ -1574,11 +1894,12 @@ const products = {
       text: 'Кованые решетки отличаются самой разной формой, что позволяет выбирать изделия под любую конфигурацию проема окна и в зависимости от глубины его утопания в фасаде.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые решетки в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые решетки не дорого, кованые решетки  своими руками, кованые решетки по своим чертежам, kovka-mo,кованые решетки,решетки одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые решетки по фото, эскизу, на заказ с доставкой и установкой в Москве и Московской области.'},
+          { name: 'keywords', content: 'купить кованые решетки не дорого, ковка, художественная, кованые, решетки, окна, цена, стоимость, kovka-mo,кованые решетки,решетки одинцово'},
         ],
-        title: 'Купить кованые решетки  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые решетки - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 6000,
       types: [
         {
           title: 'Кованые решетки',
@@ -1693,14 +2014,15 @@ const products = {
         original:'gallery/viveski/1_viveski_1000x750.jpg',
       },
       text: 'Кованые вывески один из самых древних, изящных и оригинальных видов наружной рекламы. Европейская цивилизация веками пользуется этими источниками информации, а они служат верой и правдой до наших дней. Как и раньше,' +
-            ' они выполняют две основные функции являются оригинальным фасадным украшением и доступным средством информирования.',
+        ' они выполняют две основные функции являются оригинальным фасадным украшением и доступным средством информирования.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые вывески в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые вывески не дорого, кованые вывески  своими руками, кованые вывески по своим чертежам, kovka-mo,кованые вывески,вывески одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые вывески в Москве и Московской области. Фотографии и эскизы кованых вывесок.'},
+          { name: 'keywords', content: 'купить кованые вывески не дорого, ковка, художественная, кованые, решетки, вывески, цена, стоимость, kovka-mo,кованые вывески,вывески одинцово'},
         ],
-        title: 'Купить кованые вывески  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые вывески - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 10000,
       types: [
         {
           title: 'Кованые вывески',
@@ -1761,14 +2083,15 @@ const products = {
         original:'gallery/mangal/1_mangal_1000x750.jpg',
       },
       text: 'Кованый мангал – это удивительное украшение участка, которое сразу привлекает взгляд и делает пространство гораздо уютнее. Удобство и безопасность.' +
-            ' Легко ухаживать и чистить. Мясо на таком мангале прожаривается равномерно, не пересыхает, всегда получается сочным и вкусным.',
+        ' Легко ухаживать и чистить. Мясо на таком мангале прожаривается равномерно, не пересыхает, всегда получается сочным и вкусным.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованый мангал в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые мангалы не дорого, кованые мангалы  своими руками, кованые мангалы по своим чертежам, kovka-mo,кованые мангалы,мангалы одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованый мангал в Москве и Московской области. Фотографии кованых мангалов. Расчет цен'},
+          { name: 'keywords', content: 'купить кованые мангалы не дорого, ковка, художественная, кованые, мангалы, цена, стоимость, kovka-mo,кованые мангалы,мангалы одинцово'},
         ],
-        title: 'Купить кованые мангалы  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые мангалы - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 6000,
       types: [
         {
           title: 'Кованые мангалы',
@@ -1909,14 +2232,15 @@ const products = {
         original:'gallery/lustra/1_lustra_1000x750.jpg',
       },
       text: 'Кованые люстры — классика в мире интерьерного и уличного освещения. Они применяются уже несколько веков, такие светильники со свечами украшали средневековые замки.' +
-            ' Современные кованые люстры с разнообразными источниками света также популярны. Они сочетаются со многими стилями оформления, придавая помещению или улице особый шарм',
+        ' Современные кованые люстры с разнообразными источниками света также популярны. Они сочетаются со многими стилями оформления, придавая помещению или улице особый шарм',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые люстры в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые люстры не дорого, кованые люстры  своими руками, кованые люстры по своим чертежам, kovka-mo,кованые люстры,люстры одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые люстры в Москве и Московской области, Фотографии с ценами.'},
+          { name: 'keywords', content: 'купить кованые люстры не дорого,  ковка, художественная, кованые, люстры, цена, стоимость, kovka-mo,кованые люстры,люстры одинцово'},
         ],
-        title: 'Купить кованые люстры  в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые люстры - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 16000,
       types: [
         {
           title: 'Кованые люстры',
@@ -2057,14 +2381,15 @@ const products = {
         original:'gallery/bra/1_bra_1000x750.jpg',
       },
       text: 'Кованые бра на стену могут быть как интерьерными, так и уличными. В помещении бра используется чаще всего в качестве дополнительного локального освещения. ' +
-            'С его помощью можно визуально разделить пространство комнаты. Кованые бра часто повторяют дизайн люстры или же подбираются в одном стиле с ней',
+        'С его помощью можно визуально разделить пространство комнаты. Кованые бра часто повторяют дизайн люстры или же подбираются в одном стиле с ней',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые бра в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые бра не дорого, кованые люстры  своими руками, кованые бра по своим чертежам, kovka-mo,кованые бра,бра одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые бра в Москве и Московской области, Фотографии с ценами.'},
+          { name: 'keywords', content: 'купить кованые бра не дорого,  ковка, художественная, кованые, бра, цена, стоимость, kovka-mo,кованые бра,бра одинцово'},
         ],
-        title: 'Купить кованые бра в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые бра - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 7000,
       types: [
         {
           title: 'Кованые бра',
@@ -2170,14 +2495,15 @@ const products = {
         original:'gallery/torsher/1_torsher_1000x750.jpg',
       },
       text: 'Кованые торшеры благодаря своей уникальной конструкции имеют оригинальный дизайн. Всем, кому нравится атмосфера средневековых замков и кто имеет желание перенести ее в свой дом, ' +
-             'отлично подойдет такой вариант светильников. Этот элемент декора замечательно вписывается в любой интерьер и гармонично сочетается с современной мебелью.',
+        'отлично подойдет такой вариант светильников. Этот элемент декора замечательно вписывается в любой интерьер и гармонично сочетается с современной мебелью.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Купить кованые бра в Москве и Московской области'},
-          { name: 'keywords', content: 'купить кованые торшеры не дорого, кованые торшеры  своими руками, кованые торшеры по своим чертежам, kovka-mo,кованые торшеры,торшеры одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Купить кованые бра в Москве и Московской области, Фотографии с ценами.'},
+          { name: 'keywords', content: 'купить кованые торшеры не дорого,  ковка, художественная, кованые, торшеры, цена, стоимость, kovka-mo,кованые торшеры,торшеры одинцово'},
         ],
-        title: 'Купить кованые торшеры в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Купить кованые торшеры - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 6000,
       types: [
         {
           title: 'Кованые торшеры',
@@ -2275,15 +2601,16 @@ const products = {
         original:'gallery/loft/1_loft_1000x750.jpg',
       },
       text: 'Лофт — грубый фон (кирпичные или бетонные стены) высокие потолки, открытые коммуникации. Стиль, ' +
-            'в котором можно встретить сочетание металла и натуральной кожи, стекла и пластика, плакатов и живописи маслом. ' +
-            'Лофт — это волшебство простора и естественного света, соединение старого и нового, а также уникальная возможность реализовать свои самые смелые фантазии.',
+        'в котором можно встретить сочетание металла и натуральной кожи, стекла и пластика, плакатов и живописи маслом. ' +
+        'Лофт — это волшебство простора и естественного света, соединение старого и нового, а также уникальная возможность реализовать свои самые смелые фантазии.',
       metaData: {
         meta: [
-          { hid:'description-contacts', name: 'description', content: 'Интерьер в стиле лофт заказать в Москве и Московской области'},
-          { name: 'keywords', content: 'купить  лофт не дорого, лофт  своими руками,лофт по своим чертежам, kovka-mo,кованые лофт,лофт одинцово'},
+          { hid:'description-contacts', name: 'description', content: 'Интерьер в стиле лофт заказать в Москве и Московской области, Фотографии с ценами.'},
+          { name: 'keywords', content: 'купить  лофт не дорого, ковка, художественная, кованые, лофт, стиль лофт, цена, стоимость, kovka-mo,кованые лофт,лофт одинцово'},
         ],
-        title: 'Сделать интерьер в стиле лофт в Москве и МО – ковка – от компании Феникс Стальное Решение'
+        title: 'Сделать интерьер в стиле лофт - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
+      price: 3000,
       types: [
         {
           title: 'Ковка в стиле лофт',
@@ -2481,5 +2808,6 @@ const products = {
     },
   ]
 }
+
 
 export default products
