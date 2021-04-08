@@ -1292,23 +1292,6 @@ const products = {
       },
       price: 16000,
       types: [
-        // {
-         // title: 'Кованые навесы',
-         // slug: 'navesi_1',
-        //  img: {
-        //    preview: 'gallery/naves/1_naves_400x300.jpg',
-         //   original:'gallery/naves/1_naves_1000x750.jpg',
-         // },
-         // products: [
-
-
-
-
-
-         // ],
-        //},
-
-
         /////////////////////////Навесы////////////////////////////////////
         {
           title: 'Кованые навесы арочные',
@@ -1454,7 +1437,7 @@ const products = {
                 original:'gallery/naves/arch/15_arched_1000x750.jpg',
               },
             },
-              {
+            {
               id: 103,
               title: 'Кованые навесы арочные',
               text: 'Кованые навесы №16',
@@ -1463,7 +1446,7 @@ const products = {
                 original:'gallery/naves/1_naves_1000x750.jpg',
               },
             },
-              {
+            {
               id: 105,
               title: 'Кованые навесы арочные',
               text: 'Кованые навесы арочные №17',
@@ -1472,7 +1455,7 @@ const products = {
                 original:'gallery/naves/3_naves_1000x750.jpg',
               },
             },
-              {
+            {
               id: 106,
               title: 'Кованые навесы арочные',
               text: 'Кованые навесы арочные №18',
@@ -1589,7 +1572,7 @@ const products = {
                 original:'gallery/naves/oneskat/05_single_1000x750.jpg',
               },
             },
-              {
+            {
               id: 104,
               title: 'Кованые навесы односкатные',
               text: 'Кованые навесы односкатные №6',
