@@ -19,7 +19,6 @@
               v-bind="project"
               :width="mobile ? 400 : 300"
               @click="openCard(project)"
-              subtitle
             >
               <template v-slot:subtitle>
                 цена от {{ project.price }}р за м&#178;

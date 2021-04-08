@@ -40,7 +40,7 @@
 
             <v-col cols="12">
               <base-title v-if="product.types.length > 1">{{ activeType.title }}</base-title>
-              <BaseProductPrice :price="product.price"/>
+<!--              <BaseProductPrice :price="product.price"/>-->
             </v-col>
 
             <v-col
@@ -101,12 +101,15 @@
 <script>
 import products from "@/myStore/products";
 import BaseSubtitle from "~/components/base/Subtitle";
-import BaseProductPrice from "~/components/base/ProductPrice"
+// import BaseProductPrice from "~/components/base/ProductPrice"
 
 
 export default {
   name: "Product",
-  components: {BaseSubtitle, BaseProductPrice},
+  components: {
+    BaseSubtitle,
+    // BaseProductPrice
+  },
 
   data: () => ({
     title: products.title,

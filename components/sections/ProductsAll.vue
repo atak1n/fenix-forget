@@ -20,7 +20,7 @@
                 cols="12"
               >
                 <base-title> {{ product.title }}</base-title>
-                <BaseProductPrice :price="product.price"/>
+<!--                <BaseProductPrice :price="product.price"/>-->
               </v-col>
 
               <v-col
@@ -52,12 +52,14 @@
 <script>
 
 import products from "@/myStore/products";
-import BaseProductPrice from "~/components/base/ProductPrice"
+// import BaseProductPrice from "~/components/base/ProductPrice"
 
 
 export default {
   name: "Products",
-  components: { BaseProductPrice },
+  components: {
+    // BaseProductPrice
+  },
   data: () => ({
     title: products.title,
     annotate: products.annotate,
