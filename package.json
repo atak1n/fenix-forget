@@ -10,14 +10,14 @@
   },
   "dependencies": {
     "@naumstory/nuxtjs-yandex-metrika": "^1.0.5",
-    "@nuxt/content": "^1.13.1",
+    "@nuxt/content": "^1.14.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "core-js": "^3.9.0",
-    "nuxt": "^2.15.2",
+    "core-js": "^3.10.1",
+    "nuxt": "^2.15.4",
     "vue-yandex-maps": "^0.10.9"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.2",
+    "@nuxt/types": "^2.15.4",
     "@nuxtjs/vuetify": "^1.11.3"
   }
 }

@@ -1,12 +1,14 @@
 <template>
-  <Products/>
+  <ProductsAll/>
 </template>
 
 <script>
+import Products from "../../components/sections/ProductsGrid";
 export default {
   name: "IndexProducts",
   components: {
-    Products: () => import('@/components/sections/ProductsAll')
+    Products,
+    ProductsAll: () => import('@/components/sections/ProductsAll')
   },
 
   scrollToTop: true,

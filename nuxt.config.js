@@ -7,9 +7,9 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  // раскоментить сдесь для сборки
-  // mode: 'spa',
-  // ssr: false,
+  // раскоментить сдесь для разработки
+  mode: 'spa',
+  ssr: false,
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target

@@ -38,11 +38,16 @@
         <transition name="fade" mode="out-in">
           <v-row v-if="activeType !== undefined" :dense="mobile">
 
-            <v-col
-              cols="12"
-              v-if="product.types.length > 1"
-            >
-              <base-title > {{ activeType.title }}</base-title>
+            <v-col cols="12">
+              <base-title v-if="product.types.length > 1">{{ activeType.title }}</base-title>
+<!--              <base-subtitle-->
+<!--                class="text&#45;&#45;primary"-->
+<!--                size="body-1"-->
+<!--              >-->
+<!--                <v-icon color="primary">mdi-currency-rub</v-icon>-->
+<!--                цена от {{ product.price }} за м&#178;-->
+<!--              </base-subtitle>-->
+              <BaseProductPrice :price="product.price"/>
             </v-col>
 
             <v-col
@@ -102,15 +107,14 @@
 
 <script>
 import products from "@/myStore/products";
+import BaseSubtitle from "~/components/base/Subtitle";
+import BaseProductPrice from "~/components/base/ProductPrice"
 
 
 export default {
   name: "Product",
-  // props: {
-  //   slug: {
-  //     type: String,
-  //   }
-  // },
+  components: {BaseSubtitle, BaseProductPrice},
+
   data: () => ({
     title: products.title,
     annotate: products.annotate,

@@ -8,19 +8,22 @@
     v-on="$listeners"
   >
     <v-img v-if="img.preview"
-      :src="require(`@/assets/${img.preview}`)"
-      height="100%"
-      gradient="rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)"
-      class="align-end"
+           :src="require(`@/assets/${img.preview}`)"
+           height="100%"
+           gradient="rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)"
+           class="align-end"
     >
-        <v-card-title class="text-right" v-if="title">
-          {{ title }}
-        </v-card-title>
+      <v-card-title class="text-right" v-if="title">
+        {{ title }}
+      </v-card-title>
     </v-img>
 
-    <v-card-subtitle class="" v-if="subtitle">
-      {{ subtitle }}
+    <v-card-subtitle v-if="subtitle">
+      <slot name="subtitle">
+        {{ subtitle }}
+      </slot>
     </v-card-subtitle>
+
   </v-card>
 </template>
 
