@@ -40,13 +40,6 @@
 
             <v-col cols="12">
               <base-title v-if="product.types.length > 1">{{ activeType.title }}</base-title>
-<!--              <base-subtitle-->
-<!--                class="text&#45;&#45;primary"-->
-<!--                size="body-1"-->
-<!--              >-->
-<!--                <v-icon color="primary">mdi-currency-rub</v-icon>-->
-<!--                цена от {{ product.price }} за м&#178;-->
-<!--              </base-subtitle>-->
               <BaseProductPrice :price="product.price"/>
             </v-col>
 

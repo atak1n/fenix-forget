@@ -8,8 +8,8 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   // раскоментить сдесь для разработки
-  mode: 'spa',
-  ssr: false,
+  // mode: 'spa',
+  // ssr: false,
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
