@@ -24,7 +24,7 @@ const products = {
         ],
         title: 'Купить кованые ворота в Москве и МО, разработка индивидуального дизайна ковки –от компании Феникс Стальное Решение'
       },
-      price: 7000,
+      price: 'от 8000р м' ,
       types: [
         {
           title: 'Кованые ворота распашные',
@@ -247,6 +247,464 @@ const products = {
             },
 
           ],
+        },
+        {
+          title: 'Ворота из профнастила',
+          slug: 'vorota_prof',
+          img: {
+            preview: 'gallery/vorota/prof/6_vorota_prof_400x300.jpg',
+            original: 'gallery/vorota/prof/6_vorota_prof_1000x750.jpg',
+          },
+          products: [
+            {
+              id: 11000,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №1',
+              img: {
+                preview: 'gallery/vorota/prof/1_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/1_vorota_prof_1000x750.jpg',
+              },
+            },
+
+             {
+              id: 11001,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №2',
+              img: {
+                preview: 'gallery/vorota/prof/2_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/2_vorota_prof_1000x750.jpg',
+              },
+            },
+
+             {
+              id: 11002,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №3',
+              img: {
+                preview: 'gallery/vorota/prof/3_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/3_vorota_prof_1000x750.jpg',
+              },
+            },
+
+             {
+              id: 11003,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №4',
+              img: {
+                preview: 'gallery/vorota/prof/4_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/4_vorota_prof_1000x750.jpg',
+              },
+            },
+
+             {
+              id: 11004,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №5',
+              img: {
+                preview: 'gallery/vorota/prof/5_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/5_vorota_prof_1000x750.jpg',
+              },
+            },
+
+             {
+              id: 11005,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №6',
+              img: {
+                preview: 'gallery/vorota/prof/6_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/6_vorota_prof_1000x750.jpg',
+              },
+            },
+
+             {
+              id: 11006,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №7',
+              img: {
+                preview: 'gallery/vorota/prof/7_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/7_vorota_prof_1000x750.jpg',
+              },
+            },
+             {
+              id: 11007,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №8',
+              img: {
+                preview: 'gallery/vorota/prof/8_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/8_vorota_prof_1000x750.jpg',
+              },
+            },
+             {
+              id: 11008,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №9',
+              img: {
+                preview: 'gallery/vorota/prof/9_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/9_vorota_prof_1000x750.jpg',
+              },
+            },
+             {
+              id: 11009,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №10',
+              img: {
+                preview: 'gallery/vorota/prof/10_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/10_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11010,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №11',
+              img: {
+                preview: 'gallery/vorota/prof/11_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/11_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11011,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №112',
+              img: {
+                preview: 'gallery/vorota/prof/12_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/12_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11012,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №113',
+              img: {
+                preview: 'gallery/vorota/prof/13_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/13_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11013,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №14',
+              img: {
+                preview: 'gallery/vorota/prof/14_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/14_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11014,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №15',
+              img: {
+                preview: 'gallery/vorota/prof/15_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/15_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11015,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №16',
+              img: {
+                preview: 'gallery/vorota/prof/16_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/16_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11016,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №17',
+              img: {
+                preview: 'gallery/vorota/prof/17_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/17_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11017,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №18',
+              img: {
+                preview: 'gallery/vorota/prof/18_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/18_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11018,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №19',
+              img: {
+                preview: 'gallery/vorota/prof/19_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/19_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11019,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №20',
+              img: {
+                preview: 'gallery/vorota/prof/20_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/20_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11020,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №21',
+              img: {
+                preview: 'gallery/vorota/prof/21_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/21_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11021,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №22',
+              img: {
+                preview: 'gallery/vorota/prof/22_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/22_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11022,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №23',
+              img: {
+                preview: 'gallery/vorota/prof/23_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/23_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11023,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №24',
+              img: {
+                preview: 'gallery/vorota/prof/24_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/24_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11024,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №25',
+              img: {
+                preview: 'gallery/vorota/prof/25_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/25_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11026,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №26',
+              img: {
+                preview: 'gallery/vorota/prof/26_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/26_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11027,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №27',
+              img: {
+                preview: 'gallery/vorota/prof/27_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/27_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11028,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №28',
+              img: {
+                preview: 'gallery/vorota/prof/28_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/28_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11029,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №29',
+              img: {
+                preview: 'gallery/vorota/prof/29_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/29_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11030,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №30',
+              img: {
+                preview: 'gallery/vorota/prof/30_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/30_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11031,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №31',
+              img: {
+                preview: 'gallery/vorota/prof/31_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/31_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11032,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №32',
+              img: {
+                preview: 'gallery/vorota/prof/32_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/32_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11033,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №10',
+              img: {
+                preview: 'gallery/vorota/prof/33_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/33_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11034,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №34',
+              img: {
+                preview: 'gallery/vorota/prof/34_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/34_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11035,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №35',
+              img: {
+                preview: 'gallery/vorota/prof/35_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/35_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11036,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №10',
+              img: {
+                preview: 'gallery/vorota/prof/36_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/36_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11037,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №10',
+              img: {
+                preview: 'gallery/vorota/prof/37_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/37_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11038,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №38',
+              img: {
+                preview: 'gallery/vorota/prof/38_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/38_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11039,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №39',
+              img: {
+                preview: 'gallery/vorota/prof/39_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/39_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11040,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №40',
+              img: {
+                preview: 'gallery/vorota/prof/40_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/40_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11041,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №41',
+              img: {
+                preview: 'gallery/vorota/prof/41_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/41_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11042,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №42',
+              img: {
+                preview: 'gallery/vorota/prof/42_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/42_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11043,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №43',
+              img: {
+                preview: 'gallery/vorota/prof/43_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/43_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11044,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №44',
+              img: {
+                preview: 'gallery/vorota/prof/44_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/44_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11045,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №45',
+              img: {
+                preview: 'gallery/vorota/prof/45_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/45_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11046,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №46',
+              img: {
+                preview: 'gallery/vorota/prof/46_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/46_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11047,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №47',
+              img: {
+                preview: 'gallery/vorota/prof/47_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/47_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11048,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №48',
+              img: {
+                preview: 'gallery/vorota/prof/48_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/48_vorota_prof_1000x750.jpg',
+              },
+            },
+              {
+              id: 11049,
+              title: 'Ворота из профнастила',
+              text: 'Из профнастила №49',
+              img: {
+                preview: 'gallery/vorota/prof/43_vorota_prof_400x300.jpg',
+                original: 'gallery/vorota/prof/43_vorota_prof_1000x750.jpg',
+              },
+            },
+
+          ],
         }
       ]
     },
@@ -265,7 +723,7 @@ const products = {
         ],
         title: 'Купить кованые калитки - фото и цены в Москве и МО – ковка –от компании Феникс Стальное Решение'
       },
-      price: 9000,
+      price: 'от 7000р м',
       types: [
         {
           title: 'Кованые калитки',
@@ -415,7 +873,7 @@ const products = {
         ],
         title: 'Купить кованые перила  в Москве и МО - цена и фото, изготовление на заказ – ковка –от компании Феникс Стальное Решение'
       },
-      price: 8000,
+      price: 'от 5000р м',
       types: [
         {
           title: 'Кованые перила в стиле Барокко',
@@ -719,7 +1177,7 @@ const products = {
         ],
         title: 'Купить кованый балкон - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 4000,
+      price: 'от 5000р м',
       types: [
         {
           title: 'Кованые балконы с прямыеми перилами',
@@ -901,6 +1359,816 @@ const products = {
                 original:'gallery/balkoni/combo/06_combo_1000x750.jpg',
               },
             },
+              {
+              id: 110007,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №7',
+              img: {
+                preview: 'gallery/balkoni/combo/7_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/7_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 110008,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №8',
+              img: {
+                preview: 'gallery/balkoni/combo/8_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/8_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 110009,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №9',
+              img: {
+                preview: 'gallery/balkoni/combo/9_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/9_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 110010,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №10',
+              img: {
+                preview: 'gallery/balkoni/combo/10_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/10_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100011,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №11',
+              img: {
+                preview: 'gallery/balkoni/combo/11_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/11_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100012,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №12',
+              img: {
+                preview: 'gallery/balkoni/combo/12_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/12_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100013,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №13',
+              img: {
+                preview: 'gallery/balkoni/combo/13_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/13_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100014,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №14',
+              img: {
+                preview: 'gallery/balkoni/combo/14_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/14_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100015,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №15',
+              img: {
+                preview: 'gallery/balkoni/combo/15_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/15_combo_1000x750.jpg',
+              },
+            },
+             {
+              id: 1100016,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №16',
+              img: {
+                preview: 'gallery/balkoni/combo/16_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/16_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100017,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №17',
+              img: {
+                preview: 'gallery/balkoni/combo/17_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/17_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100018,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №11',
+              img: {
+                preview: 'gallery/balkoni/combo/18_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/18_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100019,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №19',
+              img: {
+                preview: 'gallery/balkoni/combo/19_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/19_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100020,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №20',
+              img: {
+                preview: 'gallery/balkoni/combo/20_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/20_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100021,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №21',
+              img: {
+                preview: 'gallery/balkoni/combo/21_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/21_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100022,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №22',
+              img: {
+                preview: 'gallery/balkoni/combo/22_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/22_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100023,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №23',
+              img: {
+                preview: 'gallery/balkoni/combo/23_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/23_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100024,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №24',
+              img: {
+                preview: 'gallery/balkoni/combo/24_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/24_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100025,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №25',
+              img: {
+                preview: 'gallery/balkoni/combo/25_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/25_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100026,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №26',
+              img: {
+                preview: 'gallery/balkoni/combo/26_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/26_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100011,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №27',
+              img: {
+                preview: 'gallery/balkoni/combo/27_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/27_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100028,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №28',
+              img: {
+                preview: 'gallery/balkoni/combo/28_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/28_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100029,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №29',
+              img: {
+                preview: 'gallery/balkoni/combo/29_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/29_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100030,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №30',
+              img: {
+                preview: 'gallery/balkoni/combo/30_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/30_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100031,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №31',
+              img: {
+                preview: 'gallery/balkoni/combo/31_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/31_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100032,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №32',
+              img: {
+                preview: 'gallery/balkoni/combo/32_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/32_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100033,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №33',
+              img: {
+                preview: 'gallery/balkoni/combo/33_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/33_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100034,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №34',
+              img: {
+                preview: 'gallery/balkoni/combo/34_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/34_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100035,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №35',
+              img: {
+                preview: 'gallery/balkoni/combo/35_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/35_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100036,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №36',
+              img: {
+                preview: 'gallery/balkoni/combo/36_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/36_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100037,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №37',
+              img: {
+                preview: 'gallery/balkoni/combo/37_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/37_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100038,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №38',
+              img: {
+                preview: 'gallery/balkoni/combo/38_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/38_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100039,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №39',
+              img: {
+                preview: 'gallery/balkoni/combo/39_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/39_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100040,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №40',
+              img: {
+                preview: 'gallery/balkoni/combo/40_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/40_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100041,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №41',
+              img: {
+                preview: 'gallery/balkoni/combo/41_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/41_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100042,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №42',
+              img: {
+                preview: 'gallery/balkoni/combo/42_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/42_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100043,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №43',
+              img: {
+                preview: 'gallery/balkoni/combo/43_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/43_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100044,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №44',
+              img: {
+                preview: 'gallery/balkoni/combo/44_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/44_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100045,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №45',
+              img: {
+                preview: 'gallery/balkoni/combo/45_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/45_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100046,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №46',
+              img: {
+                preview: 'gallery/balkoni/combo/46_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/46_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100047,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №47',
+              img: {
+                preview: 'gallery/balkoni/combo/47_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/47_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100048,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №48',
+              img: {
+                preview: 'gallery/balkoni/combo/48_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/48_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100049,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №49',
+              img: {
+                preview: 'gallery/balkoni/combo/49_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/49_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100050,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №50',
+              img: {
+                preview: 'gallery/balkoni/combo/50_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/50_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100051,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №51',
+              img: {
+                preview: 'gallery/balkoni/combo/51_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/51_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100052,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №52',
+              img: {
+                preview: 'gallery/balkoni/combo/52_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/52_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100053,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №53',
+              img: {
+                preview: 'gallery/balkoni/combo/53_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/53_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100054,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №54',
+              img: {
+                preview: 'gallery/balkoni/combo/54_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/54_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100055,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №55',
+              img: {
+                preview: 'gallery/balkoni/combo/55_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/55_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100056,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №56',
+              img: {
+                preview: 'gallery/balkoni/combo/56_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/56_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100057,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №57',
+              img: {
+                preview: 'gallery/balkoni/combo/57_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/57_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100058,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №58',
+              img: {
+                preview: 'gallery/balkoni/combo/58_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/58_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100059,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №59',
+              img: {
+                preview: 'gallery/balkoni/combo/59_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/59_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100060,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №60',
+              img: {
+                preview: 'gallery/balkoni/combo/60_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/60_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100061,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №61',
+              img: {
+                preview: 'gallery/balkoni/combo/61_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/61_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100011,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №62',
+              img: {
+                preview: 'gallery/balkoni/combo/62_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/62_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100011,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №63',
+              img: {
+                preview: 'gallery/balkoni/combo/63_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/63_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100011,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №64',
+              img: {
+                preview: 'gallery/balkoni/combo/64_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/64_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100065,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №65',
+              img: {
+                preview: 'gallery/balkoni/combo/65_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/65_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100066,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №66',
+              img: {
+                preview: 'gallery/balkoni/combo/66_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/66_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100067,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №67',
+              img: {
+                preview: 'gallery/balkoni/combo/67_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/67_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100068,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №68',
+              img: {
+                preview: 'gallery/balkoni/combo/68_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/68_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100069,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №69',
+              img: {
+                preview: 'gallery/balkoni/combo/69_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/69_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100070,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №70',
+              img: {
+                preview: 'gallery/balkoni/combo/70_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/70_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100071,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №71',
+              img: {
+                preview: 'gallery/balkoni/combo/71_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/71_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100072,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №72',
+              img: {
+                preview: 'gallery/balkoni/combo/72_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/72_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100073,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №73',
+              img: {
+                preview: 'gallery/balkoni/combo/73_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/73_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100074,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №74',
+              img: {
+                preview: 'gallery/balkoni/combo/74_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/74_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100075,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №75',
+              img: {
+                preview: 'gallery/balkoni/combo/75_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/75_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100076,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №76',
+              img: {
+                preview: 'gallery/balkoni/combo/76_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/76_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100077,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №77',
+              img: {
+                preview: 'gallery/balkoni/combo/77_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/77_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100078,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №78',
+              img: {
+                preview: 'gallery/balkoni/combo/78_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/78_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100079,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №79',
+              img: {
+                preview: 'gallery/balkoni/combo/79_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/79_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100080,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №80',
+              img: {
+                preview: 'gallery/balkoni/combo/80_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/80_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100081,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №81',
+              img: {
+                preview: 'gallery/balkoni/combo/81_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/81_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100082,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №82',
+              img: {
+                preview: 'gallery/balkoni/combo/82_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/82_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100083,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №83',
+              img: {
+                preview: 'gallery/balkoni/combo/83_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/83_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100084,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №84',
+              img: {
+                preview: 'gallery/balkoni/combo/84_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/84_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100085,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №85',
+              img: {
+                preview: 'gallery/balkoni/combo/85_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/85_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100086,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №86',
+              img: {
+                preview: 'gallery/balkoni/combo/86_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/86_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100087,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №87',
+              img: {
+                preview: 'gallery/balkoni/combo/87_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/87_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100088,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №88',
+              img: {
+                preview: 'gallery/balkoni/combo/88_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/88_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100089,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №89',
+              img: {
+                preview: 'gallery/balkoni/combo/89_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/89_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100090,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №90',
+              img: {
+                preview: 'gallery/balkoni/combo/90_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/90_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100091,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №91',
+              img: {
+                preview: 'gallery/balkoni/combo/91_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/91_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100092,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №92',
+              img: {
+                preview: 'gallery/balkoni/combo/92_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/92_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100093,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №93',
+              img: {
+                preview: 'gallery/balkoni/combo/93_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/93_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100094,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №94',
+              img: {
+                preview: 'gallery/balkoni/combo/94_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/94_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100095,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №95',
+              img: {
+                preview: 'gallery/balkoni/combo/95_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/95_combo_1000x750.jpg',
+              },
+            },
+              {
+              id: 1100096,
+              title: 'Кованые балконы комбинированные',
+              text: 'Кованые балконы комбинированные №96',
+              img: {
+                preview: 'gallery/balkoni/combo/96_combo_400x300.jpg',
+                original:'gallery/balkoni/combo/96_combo_1000x750.jpg',
+              },
+            },
           ],
         }
       ]
@@ -921,7 +2189,7 @@ const products = {
         ],
         title: 'Купить кованые козырьки - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 13000,
+      price: 'от 10000р м',
       types: [
         {
           title: 'Кованые козырьки',
@@ -1035,7 +2303,7 @@ const products = {
         ],
         title: 'Купить кованые заборы - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 3000,
+      price: 'от 5000р м',
       types: [
         {
           title: 'Кованые заборы с поликарбонатом',
@@ -1290,7 +2558,7 @@ const products = {
         ],
         title: 'Купить кованые навесы - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 16000,
+      price: 'от '&& 3500 && 'р м',
       types: [
         /////////////////////////Навесы////////////////////////////////////
         {
@@ -1666,7 +2934,7 @@ const products = {
         ],
         title: 'Купить кованые беседки - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 13000,
+      price: 'от '&& 15000 && 'р м',
       types: [
         {
           title: 'Кованые беседки',
@@ -1781,7 +3049,7 @@ const products = {
         ],
         title: 'Купить кованые ограды - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 8000,
+      price: 'от '&& 3000 && 'р м',
       types: [
         {
           title: 'Кованые ограды',
@@ -1887,7 +3155,7 @@ const products = {
         ],
         title: 'Купить кованые решетки - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 6000,
+      price: 'от '&& 3500 && 'р м',
       types: [
         {
           title: 'Кованые решетки',
@@ -2010,7 +3278,7 @@ const products = {
         ],
         title: 'Купить кованые вывески - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 10000,
+      price: 'от '&& 10000 && 'шт',
       types: [
         {
           title: 'Кованые вывески',
@@ -2079,7 +3347,7 @@ const products = {
         ],
         title: 'Купить кованые мангалы - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 6000,
+      price: 'от '&& 15000 && 'шт',
       types: [
         {
           title: 'Кованые мангалы',
@@ -2228,7 +3496,7 @@ const products = {
         ],
         title: 'Купить кованые люстры - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 16000,
+      price: 'от '&& 20000 && 'шт',
       types: [
         {
           title: 'Кованые люстры',
@@ -2377,7 +3645,7 @@ const products = {
         ],
         title: 'Купить кованые бра - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 7000,
+      price: 'от '&& 7000 && 'шт',
       types: [
         {
           title: 'Кованые бра',
@@ -2491,7 +3759,7 @@ const products = {
         ],
         title: 'Купить кованые торшеры - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 6000,
+      price: 'от '&& 15000 && 'шт',
       types: [
         {
           title: 'Кованые торшеры',
@@ -2598,7 +3866,7 @@ const products = {
         ],
         title: 'Сделать интерьер в стиле лофт - цена и фото, изготовление на заказ в Москве и МО – ковка – от компании Феникс Стальное Решение'
       },
-      price: 3000,
+      price: 'от '&& 5000 && 'шт',
       types: [
         {
           title: 'Ковка в стиле лофт',

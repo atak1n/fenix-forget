@@ -40,7 +40,7 @@
 
             <v-col cols="12">
               <base-title v-if="product.types.length > 1">{{ activeType.title }}</base-title>
-<!--              <BaseProductPrice :price="product.price"/>-->
+              <!--              <BaseProductPrice :price="product.price"/>-->
             </v-col>
 
             <v-col
@@ -62,9 +62,9 @@
         <!--        </transition>-->
         <v-dialog
           v-model="dialog"
-          max-width="1000"
-          max-height="750"
-          :fullscreen="mobile"
+          overlay-opacity="0.6"
+          width="auto"
+          fullscreen
         >
           <v-carousel
             v-show="activeType"
@@ -72,6 +72,11 @@
             hide-delimiters
             :class="mobile ? 'mt-16' : ''"
           >
+
+            <v-overlay opacity="0.9">
+
+
+
             <v-carousel-item
               v-for="(product,i) in activeType.products"
               :key="i"
@@ -90,6 +95,9 @@
                 <v-icon large>mdi-close-circle-outline</v-icon>
               </v-btn>
             </v-carousel-item>
+
+              </v-overlay>
+
           </v-carousel>
         </v-dialog>
       </v-container>
@@ -99,8 +107,8 @@
 </template>
 
 <script>
-import products from "@/myStore/products";
-import BaseSubtitle from "~/components/base/Subtitle";
+import products from "@/myStore/products"
+import BaseSubtitle from "~/components/base/Subtitle"
 // import BaseProductPrice from "~/components/base/ProductPrice"
 
 
@@ -108,7 +116,7 @@ export default {
   name: "Product",
   components: {
     BaseSubtitle,
-    // BaseProductPrice
+    // BaseProductPrice,
   },
 
   data: () => ({
