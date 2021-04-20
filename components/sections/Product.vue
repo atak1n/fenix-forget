@@ -62,43 +62,47 @@
         <!--        </transition>-->
         <v-dialog
           v-model="dialog"
-          overlay-opacity="0.6"
-          width="auto"
-          fullscreen
+          overlay-opacity="0.9"
         >
-          <v-carousel
-            v-show="activeType"
-            v-model="activeCard"
-            hide-delimiters
-            :class="mobile ? 'mt-16' : ''"
-          >
 
-            <v-overlay opacity="0.9">
+<!--          <v-container >-->
+<!--            <v-row no-gutters dense>-->
+<!--              <v-col cols="auto" class="mx-auto">-->
 
 
+                <v-carousel
+                  v-show="activeType"
+                  v-model="activeCard"
+                  hide-delimiters
+                >
 
-            <v-carousel-item
-              v-for="(product,i) in activeType.products"
-              :key="i"
-              :src="require(`@/assets/${product.img.original}`)"
-              contain
-            >
-              <v-btn
-                fab
-                absolute
-                text
-                right
-                small
-                class="primary--text"
-                @click="dialog = false"
-              >
-                <v-icon large>mdi-close-circle-outline</v-icon>
-              </v-btn>
-            </v-carousel-item>
+                  <v-carousel-item
+                    v-for="(product,i) in activeType.products"
+                    :key="i"
+                    :src="require(`@/assets/${product.img.original}`)"
+                    contain
+                  >
+                    <v-btn
+                      fab
+                      absolute
+                      text
+                      right
+                      small
+                      class="primary--text"
+                      @click="dialog = false"
+                    >
+                      <v-icon large>mdi-close-circle-outline</v-icon>
+                    </v-btn>
+                  </v-carousel-item>
 
-              </v-overlay>
+                </v-carousel>
 
-          </v-carousel>
+
+<!--              </v-col>-->
+<!--            </v-row>-->
+<!--          </v-container>-->
+
+
         </v-dialog>
       </v-container>
 
@@ -151,6 +155,8 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="sass" scoped>
+@import '~vuetify/src/components/VDialog/_variables'
+.v-dialog--active
+  $dialog-elevation: none
 </style>

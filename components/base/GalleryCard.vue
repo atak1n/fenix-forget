@@ -7,11 +7,13 @@
     v-bind="$attrs"
     v-on="$listeners"
   >
-    <v-img v-if="img.preview"
-           :src="require(`@/assets/${img.preview}`)"
-           height="100%"
-           gradient="rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)"
-           class="align-end"
+    <v-img
+      v-if="img.preview"
+      :src="require(`@/assets/${img.preview}`)"
+      height="100%"
+      gradient="rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)"
+      class="align-end"
+      contain
     >
       <v-card-title class="text-right" v-if="title">
         {{ title }}
