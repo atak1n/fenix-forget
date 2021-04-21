@@ -96,11 +96,11 @@ export default {
         name: 'products',
         alias: 'продукция'
       },
-      {
-        path: '/gallery',
-        name: 'gallery',
-        alias: 'наши работы'
-      },
+      // {
+      //   path: '/gallery',
+      //   name: 'gallery',
+      //   alias: 'наши работы'
+      // },
 
       {
         path: '/contact-us',

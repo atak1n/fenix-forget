@@ -20,7 +20,7 @@
                 cols="12"
               >
                 <base-title> {{ product.title }}</base-title>
-<!--                <BaseProductPrice :price="product.price"/>-->
+                <BaseProductPrice :price="product.price"/>
               </v-col>
 
               <v-col
