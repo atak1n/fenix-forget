@@ -5,7 +5,7 @@
     size="body-1"
   >
     <v-icon color="primary">mdi-currency-rub</v-icon>
-    <strong>цена от {{ price }}р за м&#178;</strong>
+    <strong>{{ price }}</strong>
   </base-subtitle>
 </template>
 

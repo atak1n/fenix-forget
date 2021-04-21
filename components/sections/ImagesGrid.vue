@@ -50,6 +50,7 @@
                 v-model="pageNumber"
                 :length="pageCount"
                 :total-visible="7"
+                @input="$vuetify.goTo(0)"
               />
             </v-col>
           </v-row>

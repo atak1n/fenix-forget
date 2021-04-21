@@ -40,7 +40,7 @@
 
             <v-col cols="12">
               <base-title v-if="product.types.length > 1">{{ activeType.title }}</base-title>
-              <!--              <BaseProductPrice :price="product.price"/>-->
+                            <BaseProductPrice :price="product.price"/>
             </v-col>
 
             <v-col
