@@ -75,7 +75,7 @@
 </template>
 
 <script>
-  // import axios from 'axios'
+  import axios from 'axios'
   import store from "~/myStore";
   // import contacts from "@/store/contacts";
 
@@ -156,10 +156,11 @@
         console.log(message)
         const path = `https://api.telegram.org/bot${this.contacts.telegramBot.token}/sendMessage`
         const formData = {
-          chat_id: contacts.telegramBot.chId,
+          chat_id: this.contacts.telegramBot.chId,
           text: message,
           parse_mode: 'html'
         }
+
         console.log(path, formData)
         axios.post(path, formData)
           .then(() => this.snackbarSuccess())

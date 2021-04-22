@@ -59,7 +59,7 @@
         </v-row>
         <v-row justify="center" >
           <v-col class="flex-grow-0">
-            <base-btn outlined nuxt :to="{ name: 'gallery' }">больше фото в галерее</base-btn>
+            <base-btn outlined nuxt :to="{ name: 'products' }">каталог работ</base-btn>
           </v-col>
         </v-row>
 

@@ -80,7 +80,8 @@ export default {
         // useCDN:false,
         // trackLinks:true,
         // accurateTrackBounce:true,
-      }
+      },
+      '@nuxtjs/axios',
     ]
 
   ],
